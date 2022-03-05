@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+body {
+    font-family: 'Klee One', serif;
+    line-height: 1.8;
+    background-color: #dbccac;
+}
+
+h1{
+    text-align: center;
+}
+
+.legenda {
+    padding: 20px;
+    display: inline-block;
+}
+
+.metadatiAudio{
+    padding: 20px;
+    display: inline-block;
+}
+
+#trascrizioneAudio{
+    padding: 15px;
+}
+
+p{
+    border:2px solid grey;
+    padding:5px;
+}
+
+footer {
+    border-top: 0.5px black solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 3.5em;
+    font-family: 'Klee One', serif;
+}
