@@ -10,7 +10,7 @@ h1{
     text-align: center;
 }
 
-.legenda {
+.legenda, .legenda {
     padding: 20px;
     display: inline-block;
 }
@@ -22,6 +22,17 @@ h1{
 
 #trascrizioneAudio{
     padding: 15px;
+    width:60%;
+}
+
+#timelineAudio {
+    width:35%;
+    padding-left: 25px;
+    position: absolute;
+}
+
+.testi{
+    display: inline-block;
 }
 
 p{
