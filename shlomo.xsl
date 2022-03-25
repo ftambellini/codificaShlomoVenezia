@@ -47,7 +47,7 @@
 					<span class="riferimentoPersone" style="border:2px solid blue">Riferimenti a persone</span>
 					<br/>
 					<br/>
-					<a href="trascrizioneVenezia.txt" download="trascrizione.txt" target="_blank">Scarica la trascrizione</a>
+					<a href="trascrizioneVenezia.txt" download="trascrizione.txt" target="_blank"><button type="button">Scarica la trascrizione</button></a>
 				</article>
 
                 <!--applico il template alle utterance-->
