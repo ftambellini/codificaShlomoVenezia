@@ -59,7 +59,7 @@
 				</div>
 				<div id="timelineAudio" class="testi">
 					<h2>Timeline (minutaggio assoluto):</h2>
-					<xsl:apply-templates select="//tei:timeline/tei:when"/>
+					<xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when"/>
 				</div>
                 <footer>
 				<xsl:value-of select="//tei:editionStmt/tei:edition"/><br/>
@@ -77,7 +77,7 @@
 		<br />
     </xsl:template>
 	<!-- template per output in riga della timeline-->
-    <xsl:template match="//tei:timeline/tei:when">
+    <xsl:template match="//tei:timeline[@origin='1']/tei:when">
 		<span class="minutaggio">
 		<xsl:text>--> </xsl:text>
 		<xsl:value-of select="substring-after(@absolute, '')"/>

@@ -212,7 +212,7 @@
             <when xml:id="TL1MA-w2" absolute="1:10:32.0"/>
         </timeline>
     <!--timeline relativa ai cambi di parlante-->
-        <timeline xml:id="TL-1CP" unit="ms"> 
+        <timeline origin="1" xml:id="TL-1CP" unit="ms"> 
             <when xml:id="TC1" synch="#S1" absolute="0:00:00.0"/>
             <when xml:id="TC2" synch="#V1" absolute="0:00:08.0"/>
             <when xml:id="TC3" synch="#S2" absolute="0:00:09.0"/>
@@ -341,7 +341,7 @@
             <when xml:id="TC126" synch="#V59" absolute="1:35:20.5"/>
         </timeline>
         <!--timeline relativa ai cambi di parlante nel secondo file audio-->
-        <timeline xml:id="TL-2CP" unit="ms"> 
+        <timeline origin="1" xml:id="TL-2CP" unit="ms"> 
             <when xml:id="TC-201" synch="#V60" absolute="0:00:00.0"/>
             <when xml:id="TC-202" synch="#S54" absolute="0:00:56.0"/>
             <when xml:id="TC-203" synch="#V61" absolute="0:00:57.0"/>
