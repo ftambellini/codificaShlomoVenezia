@@ -11,7 +11,7 @@
 		exclude-result-prefixes="h ixsl js saxon xs"
 		>
     <xsl:output method="html" encoding="UTF-8" indent="yes" />
-	<xsl:template match="/" >
+	<xsl:template name="main" match="/" >
         <html>
             <head>
                 <!--titolo della pagina-->
@@ -47,7 +47,7 @@
 					<span class="riferimentoPersone" style="border:2px solid blue">Riferimenti a persone</span>
 					<br/>
 					<br/>
-					<a href="trascrizioneVenezia.txt" download="trascrizione.txt" target="_blank"><button type="button">Scarica la trascrizione</button></a>
+					<a href="trascrizioneVenezia.txt" id="btn" download="trascrizione.txt" target="_blank"><button type="button">Scarica la trascrizione</button></a>
 				</article>
 
                 <!--applico il template alle utterance-->
@@ -71,24 +71,28 @@
     </xsl:template>
     <!-- template per output in riga-->
     <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">
+		<span class="frasi">
+		<xsl:attribute name="idF">
+        	<xsl:value-of select="@xml:id"/>
+    	</xsl:attribute>
 		<xsl:value-of select="substring-after(@who, '#')"/>
 		<xsl:text>: </xsl:text>
 		<xsl:apply-templates/>
+		</span>
 		<br />
     </xsl:template>
 	<!-- template per output in riga della timeline-->
     <xsl:template match="//tei:timeline[@origin='1']/tei:when">
 		<span class="minutaggio">
+		<xsl:attribute name="idM">
+        	<xsl:value-of select="substring-after(@synch, '#')"/>
+    	</xsl:attribute>
 		<xsl:text>--> </xsl:text>
 		<xsl:value-of select="substring-after(@absolute, '')"/>
 		<xsl:apply-templates/>
 		</span>
 		<br />
     </xsl:template>
-	<!--tasto download-->
-	<xsl:template match="somethingthatgeneratesalink">
-  		<a href="http://google.com/">This is a link to example.com</a>
-	</xsl:template>
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
 	    <span class="gapRegistrazione"></span>
@@ -113,9 +117,9 @@
     </xsl:template>
 	<!--template che prende i riferimenti a luoghi/persone nel discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:rs[@type='place']">
-    	<span class="riferimentoPosti" style="border:2px solid red"><xsl:value-of select="."/></span>
+    	<span style="border:2px solid red"><xsl:value-of select="."/></span>
     </xsl:template>
 	<xsl:template match="//tei:rs[@type='person']">
-    	<span class="riferimentoPersone" style="border:2px solid blue"><xsl:value-of select="."/></span>
+    	<span style="border:2px solid blue"><xsl:value-of select="."/></span>
     </xsl:template>
 </xsl:stylesheet>
