@@ -14,23 +14,23 @@
 		</span>
 		<br />
     </xsl:template>
-    <!--template che prende i gap nella registrazione e le mette nella relativa classe-->
+    <!--template che prende i gap nella registrazione -->
     <xsl:template match="//tei:gap">
 		[...]
     </xsl:template>
-	<!--template che prende le pause nella registrazione e le mette nella relativa classe-->
+	<!--template che prende le pause nella registrazione -->
     <xsl:template match="//tei:pause">
 		//
     </xsl:template>
-	<!--template che prende le interruzioni del discorso nella registrazione e le mette nella relativa classe-->
+	<!--template che prende le interruzioni del discorso nella registrazione -->
     <xsl:template match="//tei:del">
 	    --<xsl:value-of select="."/>--
     </xsl:template>
-	<!--template che prende i fenomeni vocali del discorso nella registrazione e le mette nella relativa classe-->
+	<!--template che prende i fenomeni vocali del discorso nella registrazione -->
     <xsl:template match="//tei:vocal">
 	    *<xsl:value-of select="."/>*
     </xsl:template>
-	<!--template che prende i movimenti del parlante nel discorso nella registrazione e le mette nella relativa classe-->
+	<!--template che prende i movimenti del parlante nel discorso nella registrazione -->
     <xsl:template match="//tei:kinesic">
     	*<xsl:value-of select="."/>*
     </xsl:template>
