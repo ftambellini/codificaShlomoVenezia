@@ -3,7 +3,66 @@ var scambio;
 var count;
 var nodoMinuti;
 var nodoFrasi;
+var loc= window.location.href;
+var url= new URL(loc);
+var xmlid= url.searchParams.get("xmlid");
+var obj = { "get":"https://memoriarchivio.org/getfilexml/",
+        "put": "https://memoriarchivio.org/settestotxt/",
+        "aut": "francesco"
+};
+var req = new XMLHttpRequest();
 
+req.overrideMimeType('text/xml');
+
+req.onreadystatechange = function(){
+    if (req.readyState == 4) {
+        if(req.status==200) {
+            xmlDoc = req.responseXML; 
+            token = req.getResponseHeader("token");
+            testoid = req.getResponseHeader("testoid");
+            user = req.getResponseHeader("userad");
+            Transformation();
+            }   
+        }
+    }
+req.open('GET', obj["get"]+xmlid, true); 
+req.send();
+
+function Transformation(){    
+  
+    SaxonJS.transform({
+        stylesheetLocation: "shlomo.sef.json",
+        sourceNode: xmlDoc,
+        initialTemplate: "main",
+    }, "async")
+};
+
+function send(){
+    if(user=="admin"){
+      SaxonJS.transform({
+          stylesheetLocation: "shlomoDownload.sef.json",
+          sourceNode: xmlDoc,
+          destination: "serialized"
+      },"async")
+      .then(output => {
+        var result = output.principalResult;
+        var xhr = new XMLHttpRequest();
+        xhr.open("PUT",obj["put"] + testoid +'/' + token + obj["aut"], true);
+        xhr.setRequestHeader('Content-type','text/plain; charset=utf-8');
+        xhr.onload = function () {
+          if (xhr.readyState == 4 && xhr.status == "202") {
+            alert ("File inserito correttamente!");
+          } else {
+            console.log("File not found");
+          }
+        }
+        xhr.send(result);
+        });
+    }else{
+        alert("funzione abilitata solo per l'amministratore");
+    }
+   
+}
 function gestoreLoad() {
     try {
         count = 1;
@@ -22,29 +81,6 @@ function gestoreLoad() {
         alert("gestoreLoad" + e);
     }
 }
-function Transformation(){    
-  
-    SaxonJS.transform({
-        stylesheetLocation: "shlomo.sef.json",
-        sourceNode: xmlDoc,
-        initialTemplate: "main"
-    }, "async")
-};
-//associazione minuti a frasi
-function gestoreAssocia(a) {
-    try {
-        var frase = document.getElementById(a);
-        frase.style.backgroundColor = "green";
-        for (var i = 0; i < nodoMinuti.length; i++) {
-            nodoMinuti[i].setAttribute('id', [i + "a"]);
-        }
-        var identificatore = a + "a";
-        var minuto = document.getElementById(identificatore);
-        minuto.style.backgroundColor = "green";
-    } catch (e) {
-        alert("gestoreAssocia" + e);
-    }
-}
 //associazione frasi a minuti
 function gestoreAssocia1(a) {
     try {
@@ -54,7 +90,6 @@ function gestoreAssocia1(a) {
             nodoFrasi[i].setAttribute('id', [i]);
         }
         len = a.length;
-        // dal parametro a, composto da uno o più numeri e una o più lettere, tolgo le lettere tramite substring
         identificatore = a.substring(0, len - 1);
         var frase = document.getElementById(identificatore);
         frase.style.backgroundColor = "green";
