@@ -26,7 +26,7 @@ req.onreadystatechange = function(){
         }
     }
 req.open('GET', obj["get"]+xmlid, true); 
-req.send();
+
 
 function Transformation(){    
   
@@ -36,7 +36,7 @@ function Transformation(){
         initialTemplate: "main",
     }, "async")
 };
-
+req.send();
 function send(){
     if(user=="admin"){
       SaxonJS.transform({
