@@ -20,11 +20,11 @@
         </xsl:result-document>
         <xsl:result-document href="#trascrizioneAudio">
             <br /> <br />
-            <xsl:apply-templates select="//tei:text" />
+            <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
         </xsl:result-document>
         <xsl:result-document href="#timelineAudio">
             <br /> <br />
-            <xsl:apply-templates select="//tei:text" />
+            <xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when" />
         </xsl:result-document>
         </body>
         </html>
