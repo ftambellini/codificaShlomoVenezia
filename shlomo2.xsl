@@ -14,7 +14,7 @@
         <html>
         <head></head>
         <body> 
-        <xsl:result-document href="#metadati">   
+        <xsl:result-document href="#metadatiAudio">   
             <xsl:apply-templates select="//tei:fileDesc" />
             <xsl:apply-templates select="//tei:profileDesc" />
         </xsl:result-document>
