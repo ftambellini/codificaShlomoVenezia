@@ -8,8 +8,8 @@
 		xmlns:saxon="http://saxon.sf.net/"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns="http://www.w3.org/1999/xhtml"
-		exclude-result-prefixes="h ixsl js saxon xs"
-		>
+		exclude-result-prefixes="h ixsl js saxon xs">
+
         <xsl:template name="main" match="/">
         <html>
         <head></head>
@@ -21,10 +21,6 @@
         <xsl:result-document href="#trascrizioneAudio">
             <br /> <br />
             <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
-        </xsl:result-document>
-        <xsl:result-document href="#timelineAudio">
-            <br /> <br />
-            <xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when" />
         </xsl:result-document>
         </body>
         </html>
@@ -103,13 +99,15 @@
     </xsl:template>
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
-	    <span class="gapRegistrazione"></span>
+	    <span class="gapRegistrazione">
 		[...]
+    </span>
     </xsl:template>
 	<!--template che prende le pause nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:pause">
-	    <span class="pauseDiscorso"></span>
+	    <span class="pauseDiscorso">
 		//
+        </span>
     </xsl:template>
 	<!--template che prende le interruzioni del discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:del">
@@ -119,6 +117,10 @@
     <xsl:template match="//tei:vocal">
 	    <span class="fenomenoVocale">*<xsl:value-of select="."/>*</span>
     </xsl:template>
+    <!--template che prende i rumori della registrazione e li mette nella relativa classe-->
+	<xsl:template match="//tei:incident">
+	    <span class="rumori">*<xsl:value-of select="."/>*</span>
+	</xsl:template>
 	<!--template che prende i movimenti del parlante nel discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:kinesic">
     	<span class="movimenti">*<xsl:value-of select="."/>*</span>
