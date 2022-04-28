@@ -3,10 +3,21 @@
 <head>
   <title>prova</title>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" href="shlomo.css">
+  <link rel="stylesheet" href="shlomo2.css">
   <script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script>
   <script type="text/javascript" src="shlomo.js"></script>
+  <script>
+    window.onload = function() {
+    SaxonJS.transform({
+       stylesheetLocation: "shlomo2.sef.json",
+       sourceLocation: "shlomo.xml"
+    }, "async");
+}
+  </script>
 </head>
-<body id="body">
+<body>
+  <div id="metadatiAudio"></div>
+  <div id="trascrizioneAudio" class="testi"></div>
+  <div id="timelineAudio" class="testi"></div>
 </body>
 </html>

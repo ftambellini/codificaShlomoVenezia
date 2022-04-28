@@ -18,7 +18,6 @@
             <!--documento css-->
             <link rel="stylesheet" href="shlomo.css"/>
             <script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script><script type="text/javascript" src="shlomo.js"></script>
-            
         </head>
         <body> 
         <xsl:result-document href="#metadatiAudio">   
@@ -29,6 +28,10 @@
             <br /> <br />
             <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
         </xsl:result-document>
+        <xsl:result-document href="#timelineAudio">
+            <br /> <br />
+            <xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when" />
+        </xsl:result-document>
         </body>
         </html>
     </xsl:template>
@@ -38,7 +41,7 @@
     </h1>
 <table> 
     <tr>
-        <th><xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:respStmt/tei:resp" /> :</th> <td> <xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:respStmt/tei:name" /> </td>
+        <th><xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:recording/tei:respStmt/tei:resp" /> :</th> <td> <xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:recording/tei:respStmt/tei:name" /> </td>
     </tr>
     <tr>
         <th><xsl:text>Edition:</xsl:text></th> <td><xsl:value-of select="//tei:edition" /></td>
@@ -61,6 +64,30 @@
             </xsl:for-each>
             </td>
         </tr>
+        <tr><th>LEGENDA:</th></tr>
+        <tr>
+            <th>Gap inaudibili nella registrazione</th>
+                <td>[...]</td> 
+        </tr>
+        <tr>
+            <th>Pause del parlante</th>
+                <td>//</td>
+        </tr>
+        <tr>
+            <th>--Interruzioni del discorso (ripetizioni e/o false partenze)--</th>
+        </tr>
+        <tr>
+            <th>*Fenomeni vocali/non verbali e movimenti dei parlanti*</th>
+        </tr>
+        <tr>
+            <th><span class="riferimentoPosti" style="border:2px solid red">Riferimenti a luoghi</span></th>
+        </tr>
+        <tr>
+            <th><span class="riferimentoPersone" style="border:2px solid blue">Riferimenti a persone</span></th>
+        </tr>
+        <br/>
+        <br/>
+        <a href="trascrizioneVenezia.txt" download="Trascrizione.txt" target="_blank"><button type="button" id="btn">Scarica la trascrizione</button></a>
     </table>
 </xsl:template>
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
