@@ -7,8 +7,8 @@ var loc= window.location.href;
 var url= new URL(loc);
 var xmlid= url.searchParams.get("xmlid");
 var obj = { "get":"https://memoriarchivio.org/getfilexml/",
-        "put": "https://memoriarchivio.org/settestotxt/",
-        "aut": "francesco"
+              "put": "https://memoriarchivio.org/settestotxt/",
+              "aut": "francesco"
 };
 var req = new XMLHttpRequest();
 
@@ -25,6 +25,32 @@ req.onreadystatechange = function(){
             }   
         }
     }
+    req.send();
+    function send(){
+        if(user=="admin"){
+          SaxonJS.transform({
+              stylesheetLocation: "shlomoDownload.sef.json",
+              sourceNode: xmlDoc,
+              destination: "serialized"
+          },"async")
+          .then(output => {
+            var result = output.principalResult;
+            var xhr = new XMLHttpRequest();
+            xhr.open("PUT",obj["put"] + testoid +'/' + token + obj["aut"], true);
+            xhr.setRequestHeader('Content-type','text/plain; charset=utf-8');
+            xhr.onload = function () {
+              if (xhr.readyState == 4 && xhr.status == "202") {
+                alert ("File inserito correttamente!");
+              } else {
+                console.log("File not found");
+              }
+            }
+            xhr.send(result);
+            });
+        }else{
+            alert("funzione abilitata solo per l'amministratore");
+        }
+    }
 req.open('GET', obj["get"]+xmlid, true); 
 
 
@@ -36,33 +62,7 @@ function Transformation(){
         initialTemplate: "main",
     }, "async")
 };
-req.send();
-function send(){
-    if(user=="admin"){
-      SaxonJS.transform({
-          stylesheetLocation: "shlomoDownload.sef.json",
-          sourceNode: xmlDoc,
-          destination: "serialized"
-      },"async")
-      .then(output => {
-        var result = output.principalResult;
-        var xhr = new XMLHttpRequest();
-        xhr.open("PUT",obj["put"] + testoid +'/' + token + obj["aut"], true);
-        xhr.setRequestHeader('Content-type','text/plain; charset=utf-8');
-        xhr.onload = function () {
-          if (xhr.readyState == 4 && xhr.status == "202") {
-            alert ("File inserito correttamente!");
-          } else {
-            console.log("File not found");
-          }
-        }
-        xhr.send(result);
-        });
-    }else{
-        alert("funzione abilitata solo per l'amministratore");
-    }
-   
-}
+
 function gestoreLoad() {
     try {
         count = 1;

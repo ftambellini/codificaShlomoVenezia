@@ -12,7 +12,14 @@
 
         <xsl:template name="main" match="/">
         <html>
-        <head></head>
+        <head>
+            <!--titolo della pagina-->
+            <title><xsl:value-of select="//tei:title"/></title>
+            <!--documento css-->
+            <link rel="stylesheet" href="shlomo.css"/>
+            <script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script><script type="text/javascript" src="shlomo.js"></script>
+            
+        </head>
         <body> 
         <xsl:result-document href="#metadatiAudio">   
             <xsl:apply-templates select="//tei:fileDesc" />

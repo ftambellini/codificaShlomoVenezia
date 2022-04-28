@@ -111,6 +111,10 @@
     <xsl:template match="//tei:vocal">
 	    <span class="fenomenoVocale">*<xsl:value-of select="."/>*</span>
     </xsl:template>
+	<!--template che prende i rumori della registrazione e li mette nella relativa classe-->
+	<xsl:template match="//tei:incident">
+		<span class="rumori">*<xsl:value-of select="."/>*</span>
+	</xsl:template>
 	<!--template che prende i movimenti del parlante nel discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:kinesic">
     	<span class="movimenti">*<xsl:value-of select="."/>*</span>

@@ -34,6 +34,10 @@
     <xsl:template match="//tei:vocal">
 	    *<xsl:value-of select="."/>*
     </xsl:template>
+    <!--template che prende i rumori della registrazione -->
+	<xsl:template match="//tei:incident">
+	    *<xsl:value-of select="."/>*
+	</xsl:template>
 	<!--template che prende i movimenti del parlante nel discorso nella registrazione -->
     <xsl:template match="//tei:kinesic">
     	*<xsl:value-of select="."/>*
