@@ -15,9 +15,6 @@
         <head>
             <!--titolo della pagina-->
             <title><xsl:value-of select="//tei:title"/></title>
-            <!--documento css-->
-            <link rel="stylesheet" href="shlomo.css"/>
-            <script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script><script type="text/javascript" src="shlomo.js"></script>
         </head>
         <body> 
         <xsl:result-document href="#metadatiAudio">   
@@ -91,20 +88,7 @@
     </table>
 </xsl:template>
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
-        <table>
-            <tr>
-                <th><xsl:text> Trascrizione:</xsl:text></th>
-            </tr>
-            <td>
                 <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u"/>
-            </td>
-            <br /> <br /> <br />
-            <tr> 
-            <td>
-            <button onclick="send()"> send </button>
-            </td>
-            </tr>
-        </table>
     </xsl:template>
 
     <!-- template per output in riga-->
