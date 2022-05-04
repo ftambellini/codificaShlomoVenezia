@@ -25,6 +25,7 @@ table {
 #trascrizioneAudio{
     padding: 15px;
     width:60%;
+    line-height: 1.4;
 }
 
 #timelineAudio {

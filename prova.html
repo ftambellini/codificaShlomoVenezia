@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="shlomo2.css">
-  <script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script>
-  <script type="text/javascript" src="shlomo.js"></script>
-  <script>
-    SaxonJS.transform({
-    stylesheetLocation: "shlomo2.sef.json",
-    sourceLocation: "shlomo.xml"
-    }, "async"); 
-  </script>
-</head>
+  <head>
+    <title>Shlomo Venezia</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="shlomo2.css">
+    <script type="text/javascript" src="saxon-js/SaxonJS2.js"></script>
+    <script type="text/javascript" src="shlomo.js"></script>
+    <script>
+      SaxonJS.transform({
+        stylesheetLocation: "shlomo2.sef.json",
+        sourceLocation: "shlomo.xml"
+        }, "async");
+    </script>
+  </head>
 <body>
   <div id="metadatiAudio"></div>
   <div id="trascrizioneAudio" class="testi"></div>

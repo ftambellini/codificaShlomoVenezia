@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" 
+<xsl:stylesheet version="2.0" 
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 		xmlns:tei="http://www.tei-c.org/ns/1.0"
 		xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"  
@@ -8,9 +8,10 @@
 		xmlns:saxon="http://saxon.sf.net/"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns="http://www.w3.org/1999/xhtml"
-		exclude-result-prefixes="h ixsl js saxon xs">
+		exclude-result-prefixes="h ixsl js saxon xs"
+        >
 
-        <xsl:template name="main" match="/">
+    <xsl:template name="main" match="/">
         <html>
         <head>
             <!--titolo della pagina-->
@@ -39,6 +40,9 @@
 <table> 
     <tr>
         <th><xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:recording/tei:respStmt/tei:resp" /> :</th> <td> <xsl:value-of select="tei:sourceDesc/tei:recordingStmt/tei:recording/tei:respStmt/tei:name" /> </td>
+    </tr>
+    <tr>
+        <th><xsl:text>Equipment:</xsl:text></th> <td><xsl:value-of select="//tei:equipment" /></td>
     </tr>
     <tr>
         <th><xsl:text>Edition:</xsl:text></th> <td><xsl:value-of select="//tei:edition" /></td>
@@ -88,8 +92,8 @@
     </table>
 </xsl:template>
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
-                <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u"/>
-    </xsl:template>
+    <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u"/>
+</xsl:template>
 
     <!-- template per output in riga-->
     <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">

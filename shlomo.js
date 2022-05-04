@@ -50,5 +50,4 @@ function gestoreDecolora1() {
     }
 }
 
-window.onload = gestoreLoad;     
- 
+window.onload = gestoreLoad;
