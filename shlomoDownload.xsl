@@ -3,9 +3,12 @@
     <xsl:output method="text" encoding="UTF-8" indent="yes" />
 	<xsl:template match="tei:teiHeader" />
 
-    <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">
-        <xsl:apply-templates />
-    </xsl:template>
+	<xsl:template name="main" match="/">
+    <xsl:result-document href="#trascrizioneAudio">
+        <br /> <br />
+        <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
+    </xsl:result-document>
+	</xsl:template>
     <!-- template per output in riga-->
     <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">
 		<span class="frasi">
@@ -18,28 +21,5 @@
 		</span>
 		<br />
     </xsl:template>
-    <!--template che prende i gap nella registrazione -->
-    <xsl:template match="//tei:gap">
-		[...]
-    </xsl:template>
-	<!--template che prende le pause nella registrazione -->
-    <xsl:template match="//tei:pause">
-		//
-    </xsl:template>
-	<!--template che prende le interruzioni del discorso nella registrazione -->
-    <xsl:template match="//tei:del">
-	    --<xsl:value-of select="."/>--
-    </xsl:template>
-	<!--template che prende i fenomeni vocali del discorso nella registrazione -->
-    <xsl:template match="//tei:vocal">
-	    *<xsl:value-of select="."/>*
-    </xsl:template>
-    <!--template che prende i rumori della registrazione -->
-	<xsl:template match="//tei:incident">
-	    *<xsl:value-of select="."/>*
-	</xsl:template>
-	<!--template che prende i movimenti del parlante nel discorso nella registrazione -->
-    <xsl:template match="//tei:kinesic">
-    	*<xsl:value-of select="."/>*
-    </xsl:template>
 </xsl:stylesheet>
+   

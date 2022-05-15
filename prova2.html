@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Shlomo Venezia - Trascrizione</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="saxon-js/SaxonJS2.js"></script>
+    <script>
+      SaxonJS.transform({
+        stylesheetLocation: "shlomoDownload.sef.json",
+        sourceLocation: "shlomo.xml"
+        }, "async");
+    </script>
+  </head>
+<body>
+  <div id="trascrizioneAudio" class="testi"></div>
+</body>
+</html>

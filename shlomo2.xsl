@@ -88,7 +88,7 @@
         </tr>
         <br/>
         <br/>
-        <a href="trascrizioneVenezia.txt" download="Trascrizione.txt" target="_blank"><button type="button" id="btn">Scarica la trascrizione</button></a>
+        <!--<a href="trascrizioneVenezia.txt" download="Trascrizione.txt" target="_blank"><button type="button" id="btn">Scarica la trascrizione</button></a>-->
     </table>
 </xsl:template>
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
@@ -119,6 +119,9 @@
 		</span>
 		<br />
     </xsl:template>
+    <!--<xsl:template match="//tei:u[@xml:id='S1']">
+        <xsl:value-of select="substring-after(@who, '#')"/>:<span style="background-color:purple"><xsl:value-of select="."/><br/></span>
+    </xsl:template>-->
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
 	    <span class="gapRegistrazione">

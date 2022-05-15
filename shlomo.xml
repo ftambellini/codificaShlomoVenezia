@@ -413,7 +413,7 @@
     <text type="source" xml:id="txt-1" xml:lang="it">
         <body>
             <div xml:id="macro1" synch="#MA1">
-                <u who="#SEGRE" xml:id="S1" synch="#TC1">Nel libro quello della <rs type="person">Picciotto-Fargion</rs> ci sono molte imprecisioni 
+                <u who="#SEGRE" xml:id="S1" synch="#TC1">Ha detto <rs type="person">Piero</rs> che nel libro quello della <rs type="person">Picciotto-Fargion</rs> ci sono molte imprecisioni 
                 a questo punto vi chiedo a tutti quanti</u>
                 <u who="#VENEZIA" xml:id="V1" synch="#TC2">Quello è il fatto anche sul libro</u> 
                 <u who="#SEGRE" xml:id="S2" synch="#TC3">Cioè io</u>
@@ -609,10 +609,10 @@
                 bianco e mi dice "vuoi anche un po' di marmellata?" tutto quello che c'hai metti, allora viene anche mio 
                 fratello mio cugino e ciascuno aveva, dopo aver cominciato a mangiare non sapevamo che lavoro andavamo a fare, 
                 dico "noi non sappiamo nulla ci hanno portato qua siamo arrivati ieri e abbiamo fatto la quarantena e non sappiamo nulla" 
-                allora mi dice il lavoro di quelli in questa baracca, sono dei sonderkommando che sarebbero commando speciale <pause/>
+                allora mi dice il lavoro di quelli in questa baracca, sono dei Sonderkommando che sarebbero commando speciale <pause/>
                 dico che non sapevo cosa volesse dire commando speciale, "non mi interessa il lavoro mi interessa se danno da mangiare" 
                 e mi dice "non ti preoccupare da mangiare lo danno ancora più degli altri" dopo gli ho chiesto 
-                "cos'è il lavoro del sonderkommando?" è il lavoro dei crematori dove bruci le persone <pause/> 
+                "cos'è il lavoro del Sonderkommando?" è il lavoro dei crematori dove bruci le persone <pause/> 
                 io non lo sapevo io avevo visto in vita mia quando è morto mio papà avevo 11 anni e l'ho accompagnato 
                 al cimitero come si fa di solito anche mio papà aveva fatto la guerra del 15-18 in italia, dalla <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> 
                 volontario per far la guerra là e allora io ho visto come funziona il cimitero. <del type="falseStart">invece è stato </del>
@@ -672,7 +672,7 @@
                 il campo di fatti abbiamo portato mio cognato amici d'infanzia che li avevano presi in mano prima a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> e chiamavano 
                 "Shlomo Shlomo, siamo qua vieni con noi" allora ci siamo riuniti tutti quanti e ci hanno dato tre porzioni di pane e tre 
                 pezzetti di margarina per il viaggio,<pause/>quello  lo mangiavi subito perchè sennò te lo rubavano e la mattina presto 
-                anzi prima di cominciare a uscire la mattina era venuto qualche tedesco a urlare "chi ha lavorato nei sonderkommando?" 
+                anzi prima di cominciare a uscire la mattina era venuto qualche tedesco a urlare "chi ha lavorato nei Sonderkommando?" 
                 e cose così e nessuno diceva niente perchè era 100% sicuro che ti fucilavano e allora la mattina dopo non avevano più 
                 tempo perche è russi stavano per entrare anche loro avevano paura di rimanere dentro come noi allora la mattina alle 
                 cinque "avanti marsch" e noi siamo andati tranquillamente pensando che ormai stavano perdendo dappertutto e magari 
@@ -694,7 +694,7 @@
                 <gap reason="inaudible" extent="5 words"/> sicchè ha fatto 50 e via avanti piano piano siamo arrivati alla baracca 
                 dove sei nudo però non c'è il vento un po' di meno freddo è, lì siamo rimasti la notte e come sardine messe così ci 
                 riscaldavamo uno con l'altro anche se non c'era grasso su di noi alla fine la mattina arriva mio fratello dico 
-                "Maurice, io cambio nome questi continuano a chiedere chi ha lavorato ai sonderkommando, va a finire che ci scoprono" 
+                "Maurice, io cambio nome questi continuano a chiedere chi ha lavorato ai Sonderkommando, va a finire che ci scoprono" 
                 mio fratello mi dice "tu cambia nome, io rimango così perchè può darsi che tu ti mandano in un posto a me in un altro 
                 e chi ha più fortuna rimarrà in vita" e così è stato, a me il secondo giorno invece di Venezia mi chiamavo Benezia 
                 con la B e in ordine alfabetico ero tra i secondi infatti tra quelli c'era un cugino mio che si chiamava 
@@ -802,8 +802,8 @@
                 no settembre era il '43 ottobre 7 ottobre perchè lì era 8 novembre e da noi 8 settembre<pause/> 
                 7 ottobre ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> e quella del 43 era invece quell'altra data, ora più niente con le date<pause/> 
                 ad ogni modo c'è stata questa rivolta e tutte le persone che stavano all'altro crematorio, sono state tutte eliminate quel giorno</u>
-                <u who="#SEGRE" xml:id="S26" synch="#TC61">chi ha fatto la rivolta, solo i sonderkommando o anche altri?</u>
-                <u who="#VENEZIA" xml:id="V28" synch="#TC62">solo i sonderkommando, dovevano fare per conto proprio perchè 
+                <u who="#SEGRE" xml:id="S26" synch="#TC61">chi ha fatto la rivolta, solo i Sonderkommando o anche altri?</u>
+                <u who="#VENEZIA" xml:id="V28" synch="#TC62">solo i Sonderkommando, dovevano fare per conto proprio perchè 
                 c'erano questi partigiani all'esterno che se ci metteva il capo nostro non era <gap reason="inaudible" extent="2 or 3 words"/> 
                 persone che avevano abbastanza cervello stavano cercando di fare qualche cosa però quelli di fuori continuavano a dire che 
                 "non è il momento non è il momento" e andava avanti finchè sono arrivati tutti questi ungheresi che erano 420 ungheresi 
@@ -879,7 +879,7 @@
                 <u who="#SEGRE" xml:id="S32" synch="#TC75">c'è questa cosa? c'è questo libro?</u>
                 <u who="#VENEZIA" xml:id="V35" synch="#TC76">si si c'è c'è,io c'ho le fotocopie l'ho date a mio nipote che sta in 
                 <placeName ref="#IR"><rs type="place">Israele</rs></placeName> perchè lei sta anche facendo qualche cosa così ma<pause/>non sono riuscito a trovarlo dove ce l'ho, 
-                vede è tutta roba di sonderkommando qua<pause/>questo <rs type="person">David Olère</rs> dipingeva <pause/> 
+                vede è tutta roba di Sonderkommando qua<pause/>questo <rs type="person">David Olère</rs> dipingeva <pause/> 
                 e i tedeschi li tenevano da parte non lavorava con noi<pause/> stava su in una specie di ufficietto
                 <pause/><gap reason="inaudible" extent="1 words"/></u>
                 <u who="#SEGRE" xml:id="S33" synch="#TC77">e disegnava tutto quello che vedeva?</u>
@@ -1173,9 +1173,9 @@
                 <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> quando abbiamo fatto il film memoria e lei non si è degnata a dirmi una parola, non sono io che vado da lei, tu 
                 hai interesse a sentire una persona <gap reason="inaudible" extent="2 words"/>ha capito subito con chi ha a che fare come 
                 ha sentito uscendo dal tempio per una visita dopo che c'era<pause/> allora uscendo c'erano fuori i giornalisti e una giornalista 
-                mi ha chiesto "lei anche è un sopravissuto?" dico "si però non sono Romano", non mi ha detto una parola ha cambiato subito 
+                mi ha chiesto "lei anche è un sopravvissuto?" dico "si però non sono Romano", non mi ha detto una parola ha cambiato subito 
                 cercava da un'altra parte capito? allora è venuto un altro e gli ho detto meglio le parole "si sono stato ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> però 
-                ho lavorato nei sonderkommando" e si sono messi subito in contatto è venuto, non volevo parlare neanche con lui perchè era 
+                ho lavorato nei Sonderkommando" e si sono messi subito in contatto è venuto, non volevo parlare neanche con lui perchè era 
                 inutile e questo era <gap reason="inaudible" extent="2 words"/> e sono andato prima nel '92 era la prima volta che parlavo 
                 dopo 47 anni e un po' prima mi aveva visto<gap reason="inaudible" extent="2 words"/>infatti vado spesso con lui<pause/> 
                 quando andiamo con lui andiamo o col sindaco di qua o con altri gruppi che sono professori di Carpi e Modena oppure io vado 
@@ -1204,7 +1204,7 @@
                 <u who="#VENEZIA" xml:id="V70" synch="#TC-222">molto sincero mi fa piacere perchè per adesso almeno, se poi cambierà non lo so 
                 ma per il momento<pause/> perchè anche <rs type="person">Mussolini</rs> all'inizio era quello che era dopo insomma</u>
                 <u who="#SEGRE" xml:id="S62" synch="#TC-223">quindi ci mettiamo i dati suoi <pause/> i dati suoi e poi questa cosa qua questo lavoro che lei 
-                ha fatto i sonderkommando e poi questa attività che lei fa adesso fa il testimone a pieno tempo, ci ha dedicato una mattina intera</u>
+                ha fatto i Sonderkommando e poi questa attività che lei fa adesso fa il testimone a pieno tempo, ci ha dedicato una mattina intera</u>
                 <u who="#PAVONCELLO" xml:id="P18" synch="#TC-224">dopo quanto ha detto che è ritornato ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName>? non è facile tornare</u>
                 <u who="#VENEZIA" xml:id="V71" synch="#TC-225">e non sono molti che vogliono</u>
                 <u who="#SEGRE" xml:id="S63" synch="#TC-226">molti non ci tornano non vogliono andare</u>
