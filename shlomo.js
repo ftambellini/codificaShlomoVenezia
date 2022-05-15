@@ -42,8 +42,8 @@ function gestoreAssocia1(a) {
 function gestoreDecolora1() {
     try {
         for (var i = 0; i < nodoMinuti.length; i++) {
-            nodoMinuti[i].style.backgroundColor = "white";
-            nodoFrasi[i].style.backgroundColor = "white";
+            nodoMinuti[i].style.backgroundColor = "#e8e9ea";
+            nodoFrasi[i].style.backgroundColor = "#e8e9ea";
         }
     } catch (e) {
         alert("gestoreDecolora" + e);

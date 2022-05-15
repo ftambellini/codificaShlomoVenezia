@@ -1,6 +1,9 @@
 h1 {
     text-align: center;
 }
+body {
+  background-color: #e8e9ea;
+}
 table {
     table-layout: auto;
     border-collapse: collapse;
@@ -40,9 +43,9 @@ table {
 }
 
 button{ 
-  background-color: white; 
+  background-color: #e8e9ea; 
   color: black;
-  border: none;
+  border: 2px solid black;
   border-radius: 4px;
   font-size: 15px;
   padding: 10px;
