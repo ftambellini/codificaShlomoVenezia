@@ -26,14 +26,14 @@ function gestoreLoad() {
 function gestoreAssocia1(a) {
     try {
         var minuto = document.getElementById(a);
-        minuto.style.backgroundColor = "green";
+        minuto.style.backgroundColor = "#0dc8e0";
         for (var i = 0; i < nodoFrasi.length; i++) {
             nodoFrasi[i].setAttribute('id', [i]);
         }
         len = a.length;
         identificatore = a.substring(0, len - 1);
         var frase = document.getElementById(identificatore);
-        frase.style.backgroundColor = "green";
+        frase.style.backgroundColor = "#0dc8e0";
     } catch (e) {
         alert("gestoreAssocia" + e);
     }
@@ -42,12 +42,10 @@ function gestoreAssocia1(a) {
 function gestoreDecolora1() {
     try {
         for (var i = 0; i < nodoMinuti.length; i++) {
-            nodoMinuti[i].style.backgroundColor = "#dbccac";
-            nodoFrasi[i].style.backgroundColor = "#dbccac";
+            nodoMinuti[i].style.backgroundColor = "white";
+            nodoFrasi[i].style.backgroundColor = "white";
         }
     } catch (e) {
         alert("gestoreDecolora" + e);
     }
 }
-
-window.onload = gestoreLoad;
