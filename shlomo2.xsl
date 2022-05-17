@@ -27,7 +27,7 @@
             <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
         </xsl:result-document>
         <xsl:result-document href="#timelineAudio">
-            <br />
+            <br /> 
             <xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when" />
         </xsl:result-document>
         </body>
@@ -118,9 +118,6 @@
 		</span>
 		<br />
     </xsl:template>
-    <!--<xsl:template match="//tei:u[@xml:id='S1']">
-        <xsl:value-of select="substring-after(@who, '#')"/>:<span style="background-color:purple"><xsl:value-of select="."/><br/></span>
-    </xsl:template>-->
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
 	    <span class="gapRegistrazione">
