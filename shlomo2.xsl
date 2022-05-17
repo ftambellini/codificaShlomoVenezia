@@ -27,7 +27,7 @@
             <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
         </xsl:result-document>
         <xsl:result-document href="#timelineAudio">
-            <br /> <br />
+            <br />
             <xsl:apply-templates select="//tei:timeline[@origin='1']/tei:when" />
         </xsl:result-document>
         </body>
@@ -88,7 +88,6 @@
         </tr>
         <br/>
         <br/>
-        <!--<a href="trascrizioneVenezia.txt" download="Trascrizione.txt" target="_blank"><button type="button" id="btn">Scarica la trascrizione</button></a>-->
     </table>
 </xsl:template>
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
