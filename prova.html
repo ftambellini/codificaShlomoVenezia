@@ -7,17 +7,25 @@
         <script type="text/javascript" src="shlomo.js"></script>
     <script type="text/javascript" src="saxon-js/SaxonJS2.js"></script>
     <script>
-      SaxonJS.transform({
+      var f = function(){
+        SaxonJS.transform({
         stylesheetLocation: "shlomo2.sef.json",
         sourceLocation: "shlomo.xml"
-        }, "async");
-      window.setTimeout("gestoreLoad()", 200)
+        }, "sync"
+        );
+        gestoreLoad();
+      };
+      window.onload = f;
     </script>
   </head>
 <body>
   <div id="metadatiAudio"></div>
-  <a href="prova2.html"><button type="button" id="trascrivi">Scarica la trascrizione</button></a>
   <div id="trascrizioneAudio" class="testi"></div>
   <div id="timelineAudio" class="testi"></div>
 </body>
+<footer>
+  <a href="prova2.html"><button type="button">Visualizza la trascrizione - Completa</button></a>
+  <br/> <br/>
+  <a href="prova3.html"><button type="button">Visualizza la trascrizione - Solo Venezia</button></a>
+</footer>
 </html>

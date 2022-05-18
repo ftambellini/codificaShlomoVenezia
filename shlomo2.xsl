@@ -68,17 +68,17 @@
         <tr><th>LEGENDA:</th></tr>
         <tr>
             <th>Gap inaudibili nella registrazione</th>
-                <td>[...]</td> 
+                <td><strong style="font-size:25px">&#9746;</strong></td> 
         </tr>
         <tr>
             <th>Pause del parlante</th>
-                <td>//</td>
+                <td><strong style="font-size:25px">//</strong></td>
         </tr>
         <tr>
-            <th>--Interruzioni del discorso (ripetizioni e/o false partenze)--</th>
+            <th><strong><s size="5px">Interruzioni del discorso (ripetizioni e/o false partenze)</s></strong></th>
         </tr>
         <tr>
-            <th>*Fenomeni vocali/non verbali e movimenti dei parlanti*</th>
+            <th><strong style="font-size:25px">&#9834;</strong>Fenomeni vocali/non verbali e movimenti dei parlanti<strong style="font-size:25px">&#9834;</strong></th>
         </tr>
         <tr>
             <th><span class="riferimentoPosti" style="border:2px solid red">Riferimenti a luoghi</span></th>
@@ -112,7 +112,7 @@
 		<xsl:attribute name="idM">
         	<xsl:value-of select="substring-after(@synch, '#')"/>
     	</xsl:attribute>
-		<xsl:text>--> </xsl:text>
+		<xsl:text> &#8594; </xsl:text>
 		<xsl:value-of select="substring-after(@absolute, '')"/>
 		<xsl:apply-templates/>
 		</span>
@@ -121,30 +121,30 @@
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
 	    <span class="gapRegistrazione">
-		[...]
+        <strong style="font-size:25px">&#9746;</strong>
     </span>
     </xsl:template>
 	<!--template che prende le pause nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:pause">
 	    <span class="pauseDiscorso">
-		//
+            <strong style="font-size:25px">//</strong>
         </span>
     </xsl:template>
 	<!--template che prende le interruzioni del discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:del">
-	    <span class="interruzioni">--<xsl:value-of select="."/>--</span>
+	    <span class="interruzioni"><s><xsl:value-of select="."/></s></span>
     </xsl:template>
 	<!--template che prende i fenomeni vocali del discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:vocal">
-	    <span class="fenomenoVocale">*<xsl:value-of select="."/>*</span>
+	    <span class="fenomenoVocale"><strong style="font-size:25px">&#9834;</strong><xsl:value-of select="."/><strong style="font-size:25px">&#9834;</strong></span>
     </xsl:template>
     <!--template che prende i rumori della registrazione e li mette nella relativa classe-->
 	<xsl:template match="//tei:incident">
-	    <span class="rumori">*<xsl:value-of select="."/>*</span>
+	    <span class="rumori"><strong style="font-size:25px">&#9834;</strong><xsl:value-of select="."/><strong style="font-size:25px">&#9834;</strong></span>
 	</xsl:template>
 	<!--template che prende i movimenti del parlante nel discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:kinesic">
-    	<span class="movimenti">*<xsl:value-of select="."/>*</span>
+    	<span class="movimenti"><strong style="font-size:25px">&#9834;</strong><xsl:value-of select="."/><strong style="font-size:25px">&#9834;</strong></span>
     </xsl:template>
 	<!--template che prende i riferimenti a luoghi/persone nel discorso nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:rs[@type='place']">

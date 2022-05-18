@@ -6,18 +6,16 @@
 	<xsl:template name="main" match="/">
     <xsl:result-document href="#trascrizioneAudio">
         <br /> <br />
-        <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
+        <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u[@who='#VENEZIA']" />
     </xsl:result-document>
 	</xsl:template>
     <!-- template per output in riga-->
-    <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">
-		<xsl:value-of select="substring-after(@who, '#')"/>
-		<xsl:text>: </xsl:text>
+    <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u[@who='#VENEZIA']">
 		<xsl:apply-templates/>
-		<br />
 		<br/>
+        <br/>
     </xsl:template>
-	<xsl:template match="//tei:gap">
+    <xsl:template match="//tei:gap">
 		
     </xsl:template>
 	<!--template che prende le pause nella registrazione e le mette nella relativa classe-->
@@ -41,4 +39,3 @@
     	
     </xsl:template>
 </xsl:stylesheet>
-   

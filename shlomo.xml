@@ -418,9 +418,9 @@
                 <u who="#VENEZIA" xml:id="V1" synch="#TC2">Quello è il fatto anche sul libro</u> 
                 <u who="#SEGRE" xml:id="S2" synch="#TC3">Cioè io</u>
                 <u who="#VENEZIA" xml:id="V2" synch="#TC4">Io non sono scritto</u>
-                <u who="#SEGRE" xml:id="S3" synch="#TC5">Non c'è, lei non l'ho trovata, nè da <placeName ref="#RD"><rs type="place">Rodi</rs></placeName>, <vocal><desc>eh?</desc></vocal></u>
+                <u who="#SEGRE" xml:id="S3" synch="#TC5">Non c'è, lei non l'ho trovata, nè da <placeName ref="#RD"><rs type="place">Rodi</rs></placeName>, eh?</u>
                 <u who="#VENEZIA" xml:id="V3" synch="#TC6">Io son venuto da <placeName ref="#AT"><rs type="place">Atene</rs></placeName>, non è corretto</u>
-                <u who="#SEGRE" xml:id="S4" synch="#TC7">Da <placeName ref="#AT"><rs type="place">Atene</rs></placeName> <vocal><desc>oh</desc></vocal> ecco</u>
+                <u who="#SEGRE" xml:id="S4" synch="#TC7">Da <placeName ref="#AT"><rs type="place">Atene</rs></placeName> oh ecco</u>
                 <u who="#PAVONCELLO" xml:id="P1" synch="#TC8">ah lei è venuto da <placeName ref="#AT"><rs type="place">Atene</rs></placeName></u> 
                 <u who="#SEGRE" xml:id="S5" synch="#TC9">Io ero convinta da <placeName ref="#RD"><rs type="place">Rodi</rs></placeName> vedi? ecco</u>
                 <u who="#VENEZIA" xml:id="V4" synch="#TC10">Io <del type="falseStart">son venuto cioè stato a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName></del>, nato a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName></u>
@@ -474,7 +474,7 @@
                 <u who="#SEGRE" xml:id="S12" synch="#TC25">venerdì era il '44? più o meno marzo? <del type="falseStart">cos'era</del> che mi ha detto marzo '44?</u>
                 <u who="#VENEZIA" xml:id="V11" synch="#TC26">marzo '44 di venerdì. era il venti-qualche cosa <gap reason="inaudible" extent="5 words"/> era il ventiquattro marzo del '44</u>
                 <u who="#PAVONCELLO" xml:id="P4" synch="#TC27">lo stesso giorno delle fosse ardeatine dico:<pause/> ventiquattro marzo</u>
-                <u who="#VENEZIA" xml:id="V12" synch="#TC28">24 marzo del <pause/> non sapevamo niente di quello che succedeva 
+                <u who="#VENEZIA" xml:id="V12" synch="#TC28"><del type="falseStart">24 marzo del</del> non sapevamo niente di quello che succedeva 
                 nell'Europa perchè allora eravamo indietro di mille anni non come adesso che ogni giorno cambiano le <pause/> 
                 e comunque ci hanno caricato e ci hanno portato a Haidari, Haidari sarebbe 
                 la grande prigione di <placeName ref="#AT"><rs type="place">Atene</rs></placeName> fuori dalla città<gap reason="inaudible" extent="5 words"/> e lì era tutto pieno, 
