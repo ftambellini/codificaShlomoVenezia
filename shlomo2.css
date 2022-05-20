@@ -25,14 +25,83 @@ th{
   padding-left: 15px;
   width:75%;
   line-height: 1.4;
+  margin-bottom: 5em;
 }
 #timelineAudio {
   overflow:auto;
+  line-height: 2;
+  font-size: 20px;
   position: fixed;
   left: 85%;
   bottom: 80px;
   width: 10%;
-  height: 15em;
+  height: 20em;
+}
+header{
+  position: fixed;
+  float: right;
+  left: 84%;
+}
+.cerca {
+  width: 35%;
+  margin-top: 10px;
+  height:50px;
+}
+input{
+  margin-top: 10px;
+  height: 50px;
+  width: 50%;
+}
+.gapRegistrazione {
+  position: relative;
+  display: inline-block;
+}
+.gapRegistrazione .gapTooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.gapRegistrazione:hover .gapTooltip {
+  visibility: visible;
+}
+.modal, .modal2{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #ccced0;
+}
+#modale, #modale2{
+  padding: 15px;
+}
+.content, .content2{
+  background-color: #ccced0;
+  padding: 15px;
+}
+.close, .close2{
+  position: fixed;
+  color: #747577;
+  font-size: 30px;
+  font-weight: bold;
+}
+.close:hover, .close:focus, .close2:hover, .close2:focus{
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
 }
 .testi{
   display: inline-block;
@@ -42,7 +111,6 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
   color: black;
   height: 5em;
 }

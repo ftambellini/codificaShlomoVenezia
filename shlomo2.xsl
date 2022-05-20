@@ -67,7 +67,7 @@
         </tr>
         <tr><th>LEGENDA:</th></tr>
         <tr>
-            <th>Gap inaudibili nella registrazione</th>
+            <th>Gap inaudibili nella registrazione (passare sopra con il mouse per visualizzarne la durata)</th>
                 <td><strong style="font-size:25px">&#9746;</strong></td> 
         </tr>
         <tr>
@@ -112,6 +112,10 @@
 		<xsl:attribute name="idM">
         	<xsl:value-of select="substring-after(@synch, '#')"/>
     	</xsl:attribute>
+        <xsl:attribute name="idR">
+            <xsl:variable name="input" select="@absolute"/>
+        	<xsl:value-of select="translate($input, translate($input,'0123456789',''),'')"/>
+    	</xsl:attribute>
 		<xsl:text> &#8594; </xsl:text>
 		<xsl:value-of select="substring-after(@absolute, '')"/>
 		<xsl:apply-templates/>
@@ -120,9 +124,9 @@
     </xsl:template>
 	<!--template che prende i gap nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:gap">
-	    <span class="gapRegistrazione">
-        <strong style="font-size:25px">&#9746;</strong>
-    </span>
+	    <span class="gapRegistrazione"><strong style="font-size:25px">&#9746;</strong>
+            <span class="gapTooltip">"<xsl:value-of select="substring-after(@extent, '')"/>"</span>
+        </span>
     </xsl:template>
 	<!--template che prende le pause nella registrazione e le mette nella relativa classe-->
     <xsl:template match="//tei:pause">

@@ -13,19 +13,42 @@
         sourceLocation: "shlomo.xml"
         }, "sync"
         );
+        SaxonJS.transform({
+        stylesheetLocation: "shlomoDownload.sef.json",
+        sourceLocation: "shlomo.xml"
+        }, "sync"
+        );
+        SaxonJS.transform({
+        stylesheetLocation: "shlomoDownload2.sef.json",
+        sourceLocation: "shlomo.xml"
+        }, "sync"
+        );
         gestoreLoad();
       };
       window.onload = f;
     </script>
   </head>
+<header>
+  <label for = "cerca">Inserire le 7 cifre del minutaggio desiderato, senza spazi</label><br/><input type = "search" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1');" maxlength = "7" minlength = "7" id = "ricerca"><button class ="cerca" id="cerca">Cerca</button>
+</header>
 <body>
   <div id="metadatiAudio"></div>
+  <div id="modale" class="modal">
+    <div class="content">
+      <span class="close">&times;</span>
+    </div>
+  </div>
+  <div id="modale2" class="modal2">
+    <div class="content2">
+      <span class="close2">&times;</span>
+    </div>
+  </div>
   <div id="trascrizioneAudio" class="testi"></div>
   <div id="timelineAudio" class="testi"></div>
 </body>
 <footer>
-  <a href="prova2.html"><button type="button">Visualizza la trascrizione - Completa</button></a>
+  <button id="modal">Visualizza la trascrizione - Completa</button>
   <br/> <br/>
-  <a href="prova3.html"><button type="button">Visualizza la trascrizione - Solo Venezia</button></a>
+  <button id="modal2">Visualizza la trascrizione - Solo Venezia</button>
 </footer>
 </html>

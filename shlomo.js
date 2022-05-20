@@ -3,13 +3,51 @@ var scambio;
 var count;
 var nodoMinuti;
 var nodoFrasi;
+var modale;
+var modale2;
+var btn;
+var btn2;
+var span;
+var span2;
+var btnCerca;
+var ricerca;
+var idR;
+var isEmpty = str => !str.trim().length;
 
 function gestoreLoad() {
     try {
         count = 1;
         scambio = true;
+        modale = document.getElementById("modale");
+        modale2 = document.getElementById("modale2");
+        btn = document.getElementById("modal");
+        btn2 = document.getElementById("modal2");
+        span = document.getElementsByClassName("close")[0];
+        span2 = document.getElementsByClassName("close2")[0];
+        btnCerca = document.getElementById("cerca");
+        ricerca = document.getElementById("ricerca");
+        idR = document.getElementsByTagName("idR");
         nodoFrasi = document.getElementsByClassName("frasi");
         nodoMinuti = document.getElementsByClassName("minutaggio");
+        btn.onclick = function() {
+            modale.style.display = "block";
+        }
+        span.onclick = function() {
+            modale.style.display = "none";
+        }
+        btn2.onclick = function() {
+            modale2.style.display = "block";
+        }
+        span2.onclick = function() {
+            modale2.style.display = "none";
+        }
+        btnCerca.onclick = function() { //funzione che cerca il minutaggio in formato completo più vicino all'input
+            if (isEmpty(ricerca.value)){
+            alert ("inserire i valori correttamente");
+            } else if (ricerca.value == idR.value){
+                alert("bravo");
+            }
+        }
         var a = 1;
         for (var i = 0; i < nodoMinuti.length; i++) {
             nodoMinuti[i].setAttribute('id', [i + "m"]);

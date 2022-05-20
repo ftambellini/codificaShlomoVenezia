@@ -4,7 +4,7 @@
 	<xsl:template match="tei:teiHeader" />
 
 	<xsl:template name="main" match="/">
-    <xsl:result-document href="#trascrizioneAudio">
+    <xsl:result-document href="#modale">
         <br /> <br />
         <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u" />
     </xsl:result-document>
