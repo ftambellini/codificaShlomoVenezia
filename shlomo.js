@@ -26,9 +26,9 @@ function gestoreLoad() {
         span2 = document.getElementsByClassName("close2")[0];
         btnCerca = document.getElementById("cerca");
         ricerca = document.getElementById("ricerca");
-        idR = document.getElementsByTagName("idR");
         nodoFrasi = document.getElementsByClassName("frasi");
         nodoMinuti = document.getElementsByClassName("minutaggio");
+        //idR = nodoMinuti.attr("idR");
         btn.onclick = function() {
             modale.style.display = "block";
         }
@@ -44,8 +44,9 @@ function gestoreLoad() {
         btnCerca.onclick = function() { //funzione che cerca il minutaggio in formato completo più vicino all'input
             if (isEmpty(ricerca.value)){
             alert ("inserire i valori correttamente");
-            } else if (ricerca.value == idR.value){
-                alert("bravo");
+            } else {
+                sendData(ricerca.value);
+                alert("ok");
             }
         }
         var a = 1;
@@ -60,6 +61,10 @@ function gestoreLoad() {
         alert("gestoreLoad" + e);
     }
 }
+//funzione di ricerca
+function sendData (sData) {
+    location.search = sData;
+  }
 //associazione frasi a minuti
 function gestoreAssocia1(a) {
     try {
@@ -76,6 +81,7 @@ function gestoreAssocia1(a) {
         alert("gestoreAssocia" + e);
     }
 }
+
 //De evidenza dopo che si toglie il mouse dai minuti
 function gestoreDecolora1() {
     try {
