@@ -42,13 +42,13 @@
                 <listPerson> 
                     <person xml:id="VENEZIA" sex="male"> 
                         <persName> 
-                            <name>Shlomo</name> 
+                            <forename>Shlomo</forename> 
                             <surname>Venezia</surname> 
                         </persName> 
                     </person>
                     <person xml:id="KAUFMANN" sex="female"> 
                         <persName> 
-                            <name>Marika</name> 
+                            <forename>Marika</forename> 
                             <surname>Kaufmann</surname> 
                         </persName> 
                     </person>
@@ -58,19 +58,19 @@
                     </listRelation>
                     <person xml:id="VENEZIA2" sex="male"> 
                         <persName> 
-                            <name>Maurice</name> 
+                            <forename>Maurice</forename> 
                             <surname>Venezia</surname> 
                         </persName> 
                     </person>
                     <person xml:id="SEGRE" sex="female"> 
                         <persName> 
-                            <name>Anna</name> 
+                            <forename>Anna</forename> 
                             <surname>Segre</surname> 
                         </persName> 
                     </person>
                     <person xml:id="PAVONCELLO" sex="female"> 
                         <persName> 
-                            <name>Gloria</name> 
+                            <forename>Gloria</forename> 
                             <surname>Pavoncello</surname> 
                         </persName> 
                     </person>
@@ -201,6 +201,9 @@
             </place>
             <place xml:id="CT">
                 <placeName>Caltanisetta</placeName>
+            </place>
+            <place xml:id="CR">
+                <placeName>Cracovia</placeName>
             </place>
         </listPlace> 
     <!--timeline relativa alle macro-aree del discorso-->
@@ -418,30 +421,30 @@
                 <u who="#VENEZIA" xml:id="V1" synch="#TC2">Quello è il fatto anche sul libro</u> 
                 <u who="#SEGRE" xml:id="S2" synch="#TC3">Cioè io</u>
                 <u who="#VENEZIA" xml:id="V2" synch="#TC4">Io non sono scritto</u>
-                <u who="#SEGRE" xml:id="S3" synch="#TC5">Non c'è, lei non l'ho trovata, nè da <placeName ref="#RD"><rs type="place">Rodi</rs></placeName>, eh?</u>
-                <u who="#VENEZIA" xml:id="V3" synch="#TC6">Io son venuto da <placeName ref="#AT"><rs type="place">Atene</rs></placeName>, non è corretto</u>
-                <u who="#SEGRE" xml:id="S4" synch="#TC7">Da <placeName ref="#AT"><rs type="place">Atene</rs></placeName> oh ecco</u>
-                <u who="#PAVONCELLO" xml:id="P1" synch="#TC8">ah lei è venuto da <placeName ref="#AT"><rs type="place">Atene</rs></placeName></u> 
-                <u who="#SEGRE" xml:id="S5" synch="#TC9">Io ero convinta da <placeName ref="#RD"><rs type="place">Rodi</rs></placeName> vedi? ecco</u>
-                <u who="#VENEZIA" xml:id="V4" synch="#TC10">Io <del type="falseStart">son venuto cioè stato a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName></del>, nato a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName></u>
+                <u who="#SEGRE" xml:id="S3" synch="#TC5">Non c'è, lei non l'ho trovata, né da <placeName ref="#RD">Rodi</placeName>, eh?</u>
+                <u who="#VENEZIA" xml:id="V3" synch="#TC6">Io son venuto da <placeName ref="#AT">Atene</placeName>, non è corretto</u>
+                <u who="#SEGRE" xml:id="S4" synch="#TC7">Da <placeName ref="#AT">Atene</placeName> oh ecco</u>
+                <u who="#PAVONCELLO" xml:id="P1" synch="#TC8">ah lei è venuto da <placeName ref="#AT">Atene</placeName></u> 
+                <u who="#SEGRE" xml:id="S5" synch="#TC9">Io ero convinta da <placeName ref="#RD">Rodi</placeName> vedi? ecco</u>
+                <u who="#VENEZIA" xml:id="V4" synch="#TC10">Io <del type="falseStart">son venuto cioè stato a <placeName ref="#SL">Salonicco</placeName></del>, nato a <placeName ref="#SL">Salonicco</placeName></u>
                 <u who="#SEGRE" xml:id="S6" synch="#TC11">Si</u>
             </div>
             <div xml:id="macro2" synch="#MA2">
-                <u who="#VENEZIA" xml:id="V5" synch="#TC12">Son stato lì finchè hanno portato via tutti gli ebrei di <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> poi hanno cominciato 
-                con gli ebrei italiani, questo va bene anche segnarlo.</u>
+                <u who="#VENEZIA" xml:id="V5" synch="#TC12">Son stato lì finché hanno portato via tutti gli ebrei di <placeName ref="#SL">Salonicco</placeName> poi hanno cominciato 
+                con gli ebrei Italiani, questo va bene anche segnarlo.</u>
                 <u who="#PAVONCELLO" xml:id="P2" synch="#TC13">Eh infatti</u>
                 <u who="#SEGRE" xml:id="S7" synch="#TC14">Si, si, si</u>
                 <u who="#VENEZIA" xml:id="V6" synch="#TC15">Difatti da là c'è stato, il console italiano il quale <pause/> ha chiamato i capifamiglia 
-                dicendo che <pause/> i tedeschi non volevano più gli ebrei, nessun ebreo là a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> anche la mia famiglia, nati
-                però cittadini italiani.<pause/> Allora ha dato un'idea questi dice i tedeschi ci hanno dato 15 giorni di tempo 
+                dicendo che <pause/> i tedeschi non volevano più gli ebrei, nessun ebreo là a <placeName ref="#SL">Salonicco</placeName> anche la mia famiglia, nati
+                però cittadini Italiani.<pause/> Allora ha dato un'idea questi dice i tedeschi ci hanno dato 15 giorni di tempo 
                 per <unclear reason="inaudible">sbaraccare</unclear> per uscire, abbiamo dovuto fare i fagotti e loro stessi del consolato sono 
-                stati bravi con tutte le leggi razziali eccetera e ci hanno portato ad <placeName ref="#AT"><rs type="place">Atene</rs></placeName> che era occupata dall'Italia, 
-                dagli italiani, e lì come fanno in un campo profughi <del type="falseStart">dentro delle case</del> nelle scuole e lì 
+                stati bravi con tutte le leggi razziali eccetera e ci hanno portato ad <placeName ref="#AT">Atene</placeName> che era occupata dall'Italia, 
+                dagli Italiani, e lì come fanno in un campo profughi <del type="falseStart">dentro delle case</del> nelle scuole e lì 
                 abbiamo passato dal luglio del '43 fino al marzo del '44 quando i tedeschi poi ci hanno deportati <pause/> questa è la storia</u>
-                <u who="#SEGRE" xml:id="S8" synch="#TC16">Quindi da <placeName ref="#AT"><rs type="place">Atene</rs></placeName> marzo 44?</u>
-                <u who="#VENEZIA" xml:id="V7" synch="#TC17">Da <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> <placeName ref="#AT"><rs type="place">Atene</rs></placeName> e ad <placeName ref="#AT"><rs type="place">Atene</rs></placeName> siamo stati come profughi fino all'8 settembre del '43,
+                <u who="#SEGRE" xml:id="S8" synch="#TC16">Quindi da <placeName ref="#AT">Atene</placeName> marzo 44?</u>
+                <u who="#VENEZIA" xml:id="V7" synch="#TC17">Da <placeName ref="#SL">Salonicco</placeName> <placeName ref="#AT">Atene</placeName> e ad <placeName ref="#AT">Atene</placeName> siamo stati come profughi fino all'8 settembre del '43,
                 quando l'Italia ha rotto con i tedeschi<pause/> <del type="falseStart"><del type="repetition">ci</del> ci davano</del> ci aiutavano il consolato 
-                di <placeName ref="#AT"><rs type="place">Atene</rs></placeName> <pause/>andavamo tutti i giorni come fanno qui alla caritas che vanno con la pentola e ci davano qualche cosa, 
+                di <placeName ref="#AT">Atene</placeName> <pause/>andavamo tutti i giorni come fanno qui alla Caritas che vanno con la pentola e ci davano qualche cosa, 
                 non avevi lavoro non avevi niente, dovevi vendere le cose che avevi <del type="repetition">roba</del> roba nuova,
                 io avevo addirittura la dote di mia sorella che stava per sposarsi e abbiamo piano piano un lenzuolo due lenzuoli 
                 e via al seguito, comunque è arrivato il momento che siamo caduti in mano ai tedeschi e lì per lì i tedeschi 
@@ -449,24 +452,24 @@
                 il giorno venerdì andare alla comunità ebraica, era tipo la sinagoga a firmare, a firmare il registro. <del type="falseStart">Noi</del>
                 io ero abbastanza giovane e dovevo provvedere anche per la famiglia</u>
                 <u who="#SEGRE" xml:id="S9" synch="#TC18">Lei è nato?</u>
-                <u who="#PAVONCELLO" xml:id="G3" synch="#TC19">A <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName></u>
+                <u who="#PAVONCELLO" xml:id="G3" synch="#TC19">A <placeName ref="#SL">Salonicco</placeName></u>
                 <u who="#VENEZIA" xml:id="V8" synch="#TC20"><del type="repetition">ventinove </del>ventinove dodici ventitré</u>
                 <u who="#SEGRE" xml:id="S10" synch="#TC21">ventinove dodici ventitré</u>
                 <u who="#VENEZIA" xml:id="V9" synch="#TC22">e allora avevo neanche vent'anni insomma venti e qualcosa e <pause/> 
-                e siamo andati quasi due mesi perchè noi facevamo presto la mattina per poter andare a rimediare ai mercati 
+                siamo andati quasi due mesi perché noi facevamo presto la mattina per poter andare a rimediare ai mercati 
                 così come fanno adesso questi poveracci che non lavorano. E quando quel giorno siamo andati là presto la mattina<gap reason="inaudible" extent="3 words"/>
-                e lì è scoppiata la bomba per noi perchè ho capito subito, dopo aver quello che era successo a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> e infatti 
+                e lì è scoppiata la bomba per noi perché ho capito subito, dopo aver quello che era successo a <placeName ref="#SL">Salonicco</placeName> e infatti 
                 rimanevamo dentro la sinagoga tutto il tempo "che succede? che succede?", un ufficiale delle SS ci dirà qualche cosa, 
                 quello che vedeva insomma alle 9 la mattina presto ci apriva, ormai erano le 11 e non vedeva nessuno, 
                 e la gente che arrivava veniva messa dentro<pause/> in questa maniera ci hanno preso tutti<pause/>
                 a un certo momento io mi sono cioè<gap reason="inaudible" extent="3 words"/> ho visto che le finestre erano troppo alte, 
-                non si poteva vedere all'esterno e abbiamo creato noi giovani una specie di scaletta umana e son salito per ultimo perchè
+                non si poteva vedere all'esterno e abbiamo creato noi giovani una specie di scaletta umana e son salito per ultimo perché
                 ero abbastanza agile insomma e difatti ho notato che c'erano tutti questi, come si chiamano, camion dei tedeschi 
                 con le insegne loro eccetera e su quello c'erano i militari le SS tutti vestiti con le tute mimetiche come 
                 per andare al fronte, i cani non mancavano mai i mitra non mancavano mai e allora ho detto "qua siamo in trappola
                 cerchiamo ragazzi di uscire tutti di colpo <gap reason="inaudible" extent="3 words"/> quanti possono ammazzarne?<pause/> 
                 però qualcuno avrà la fortuna di scappare"
-                c'erano quelli che erano di <placeName ref="#AT"><rs type="place">Atene</rs></placeName> noi eravamo di <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> 
+                c'erano quelli che erano di <placeName ref="#AT">Atene</placeName> noi eravamo di <placeName ref="#SL">Salonicco</placeName> 
                 <gap reason="inaudible" extent="6 words"/> e gli altri 
                 pensavano non sarebbe successo niente, e loro "no, no, no, no, no" e siamo rimasti lì poi verso le 2 non veniva più nessuno <gap reason="inaudible" extent="4 words"/></u>
                 <u who="#SEGRE" xml:id="S11" synch="#TC23">che giorno era?</u>
@@ -475,76 +478,76 @@
                 <u who="#VENEZIA" xml:id="V11" synch="#TC26">marzo '44 di venerdì. era il venti-qualche cosa <gap reason="inaudible" extent="5 words"/> era il ventiquattro marzo del '44</u>
                 <u who="#PAVONCELLO" xml:id="P4" synch="#TC27">lo stesso giorno delle fosse ardeatine dico:<pause/> ventiquattro marzo</u>
                 <u who="#VENEZIA" xml:id="V12" synch="#TC28"><del type="falseStart">24 marzo del</del> non sapevamo niente di quello che succedeva 
-                nell'Europa perchè allora eravamo indietro di mille anni non come adesso che ogni giorno cambiano le <pause/> 
+                nell'Europa perché allora eravamo indietro di mille anni non come adesso che ogni giorno cambiano le <pause/> 
                 e comunque ci hanno caricato e ci hanno portato a Haidari, Haidari sarebbe 
-                la grande prigione di <placeName ref="#AT"><rs type="place">Atene</rs></placeName> fuori dalla città<gap reason="inaudible" extent="5 words"/> e lì era tutto pieno, 
+                la grande prigione di <placeName ref="#AT">Atene</placeName> fuori dalla città<gap reason="inaudible" extent="5 words"/> e lì era tutto pieno, 
                 stracolmo dappertutto c'era anche una grandissima baracca adibita a doccia per i prigionieri, non c'era nulla dentro, 
                 solo cemento<pause/> e ci hanno tenuti circa una settimana otto giorni adesso non<pause/> avevamo perso anche il controllo 
                 adesso ho scoperto era venerdì quasi l'ultimo e allora ho fatto questo calcolo. poi ci hanno portati via e 
-                strada facendo da <placeName ref="#AT"><rs type="place">Atene</rs></placeName> dovevamo passare per forza maggiore da <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> che era il nodo cruciale delle ferrovie
-                e io cercavo di vedere perchè abitavo vicino a quella stazione, tra parentesi c'era un grandissimo quartiere ebraico, 
+                strada facendo da <placeName ref="#AT">Atene</placeName> dovevamo passare per forza maggiore da <placeName ref="#SL">Salonicco</placeName> che era il nodo cruciale delle ferrovie
+                e io cercavo di vedere perché abitavo vicino a quella stazione, tra parentesi c'era un grandissimo quartiere ebraico, 
                 di quasi cinque, seimila persone<pause/> una cosa immensa, una cittadina e quella l'hanno adibita come campo di 
                 concentramento per gli altri che erano sparsi erano sessanta e passa mila persone non era un <pause/> 
                 e guardavo dal finestrino, presente i finestrini come sono e incontro così con lo sguardo 
                 ma ho visto uno che stava sotto e si chiamava <gap reason="inaudible" extent="2 words"/>il quale a guardarlo così 
-                a mezz'occhio perchè non potevamo neanche parlare c'erano le guardie allora mi fa sottovoce in greco, perchè io parlo 
-                greco come l'italiano, mi ha detto subito dice "guardate di scappare perchè dove vi portano vi ammazzano tutti"<pause/> 
+                a mezz'occhio perché non potevamo neanche parlare c'erano le guardie allora mi fa sottovoce in greco, perché io parlo 
+                greco come l'Italiano, mi ha detto subito dice "guardate di scappare perché dove vi portano vi ammazzano tutti"<pause/> 
                 quel momento è stato proprio la fine di tutto.<pause/> Cerchiamo di scappare e vediamo cosa possiamo fare 
                 <gap reason="inaudible" extent="2 words"/> nella notte <del type="falseStart">dovevamo</del> eravamo mio fratello e 
                 due cugini a saltare <del type="repetition">da</del> appunto da questo vagone, c'era una luna quella sera che era meravigliosa 
-                però lo scappare non era tanto facile noi non pensavamo ai rischi della fuga perchè studiavamo in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> 
+                però lo scappare non era tanto facile noi non pensavamo ai rischi della fuga perché studiavamo in <placeName ref="#GR">Grecia</placeName> 
                 sapevamo il greco potevamo rischiare<gap reason="inaudible" extent="4 words"/>, ma saltare dal treno mentre 
                 correva non era così facile, comunque abbiamo tentato mio fratello aveva già tirato fuori la gamba per scappare 
                 quando mio zio, 65 anni circa, ha cominciato ad urlare che ci hanno contati e arrivati sul posto vedranno che mancano 
                 quattro persone, ma urlare in una maniera terribile e s'è svegliata mia mamma le <del type="falseStart">due</del> tre sorelle 
                 altre persone, cugini, eravamo una settantina dentro il carro bestiame e in quel momento lì vedendo la mamma che piange in 
                 queste condizioni ho pensato subito che è impossibile lasciare in quelle condizioni una mamma<pause/> e abbiamo desistito da 
-                questa fuga e abbiamo attraversato tutta diciamo la <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> uscendo in <placeName ref="#YU"><rs type="place">Jugoslavia</rs></placeName> e su pezzo di <placeName ref="#AUT"><rs type="place">Austria</rs></placeName> pezzo di <placeName ref="#HU"><rs type="place">Ungheria</rs></placeName> e dopo 
-                la frontiera tra <placeName ref="#CK"><rs type="place">Cecoslovacchia</rs></placeName> e <placeName ref="#PL"><rs type="place">Polonia</rs></placeName> non sapevamo dove stavamo e non vedevi tutto <pause/>, in <placeName ref="#AUT"><rs type="place">Austria</rs></placeName> il cartello Vienna 
-                c'era scritto Wien allora capivi che era Vienna perciò quando ho visto questa famosa <placeName ref="#CK"><rs type="place">Cecoslovacchia</rs></placeName> vicini alla frontiera un posto 
-                che si chiama <placeName ref="#BN"><rs type="place">Brno</rs></placeName> BI ERRE ENNE, come leggeranno questi simboli e consonanti? comunque siamo entrati dentro e durante il viaggio 
+                questa fuga e abbiamo attraversato tutta diciamo la <placeName ref="#GR">Grecia</placeName> uscendo in <placeName ref="#YU">Jugoslavia</placeName> e su pezzo di <placeName ref="#AUT">Austria</placeName> pezzo di <placeName ref="#HU">Ungheria</placeName> e dopo 
+                la frontiera tra <placeName ref="#CK">Cecoslovacchia</placeName> e <placeName ref="#PL">Polonia</placeName> non sapevamo dove stavamo e non vedevi tutto <pause/>, in <placeName ref="#AUT">Austria</placeName> il cartello Vienna 
+                c'era scritto Wien allora capivi che era Vienna perciò quando ho visto questa famosa <placeName ref="#CK">Cecoslovacchia</placeName> vicini alla frontiera un posto 
+                che si chiama <placeName ref="#BN">Brno</placeName> BI ERRE ENNE, come leggeranno questi simboli e consonanti? comunque siamo entrati dentro e durante il viaggio 
                 che è durato quasi <del type="falseStart">dodici</del>, undici o dodici giorni attraversavi con la ferrovia che andava proprio come 
                 una lumaca<gap reason="inaudible" extent="10 words"/> comunque ci hanno, avevamo alberi da tutte le parti non si vedeva nemmeno 
                 il cielo allora finalmente sentiamo che si ferma il treno, tutti contenti, 
                 <gap reason="inaudible" extent="4 words"/>ci avevano detto che davano lavoro a tutti i giovani, 
                 quelli che erano più anziani sarebbero rimasti a casa e le mamme accudivano i bambini tutte queste cose, siamo arrivati contenti 
-                perchè senza mangiare e senza niente eravamo ormai sfiniti finalmente si spalancano questi portelloni,<pause/> una cosa da non credere 
-                <del type="falseStart">un</del>un'<rs type="place">inferno</rs>, <gap reason="inaudible" extent="4 words"/>già avevan cominciato per disumanizzare la persona 
-                andare sui treni e diventato proprio <del type="falseStart">un</del> una cosa che neanche posso posso dirla che cosa potessi essere ecco. allora visto dove si era 
+                perché senza mangiare e senza niente eravamo ormai sfiniti finalmente si spalancano questi portelloni,<pause/> una cosa da non credere 
+                <del type="falseStart">un </del>un inferno, <gap reason="inaudible" extent="4 words"/>già avevan cominciato per disumanizzare la persona 
+                andare sui treni e diventato proprio <del type="falseStart">un</del> una cosa che neanche posso posso dirla che cosa potesse essere ecco. allora visto dove si era 
                 fermato che anche lì abbiamo visto il punto dove io son sceso uscendo, era il primo binario il binario morto dove venivano condotte queste 
-                carrozze questi carri bestiame, spalancano e faccio un salto perchè era scosceso, non è che era dritto un vecchio come poteva scendere, 
-                pensavo a mia madre anche se non era anziana c'aveva quarantatre quarantaquattro anni,<pause/> come sono sceso stavo guardando così per vedere 
+                carrozze questi carri bestiame, spalancano e faccio un salto perché era scosceso, non è che era dritto un vecchio come poteva scendere, 
+                pensavo a mia madre anche se non era anziana c'aveva quarantatré quarantaquattro anni,<pause/> come sono sceso stavo guardando così per vedere 
                 che arrivassi vicino quando mi sento due botte in testa una dopo l'altra ma in una maniera cioè vi dico che ho visto le stelle e niente mentre 
-                ho fatto così già era pronto per darmi un'altra mi sono ritirato, passato quell'attimo così non ho più visto la mamma nè nessuno c'era 
+                ho fatto così già era pronto per darmi un'altra mi sono ritirato, passato quell'attimo così non ho più visto la mamma né nessuno c'era 
                 mio fratello vicino</u>
                 <u who="#SEGRE" xml:id="S13" synch="#TC29">più viste?</u>
                 <u who="#VENEZIA" xml:id="V13" synch="#TC30">più viste <pause/> <del type="falseStart">non c'è stata la benedizione 
-                non c'è stata</del>, lì era un caos una cosa incredibile perchè molte cose, quello che dicono i ragazzi io credo a tutti 
-                però va bene non va bene questo non lo posso dire perchè non c'ero io là, perchè io racconto cose mie anche se mio fratello 
+                non c'è stata</del>, lì era un caos una cosa incredibile perché molte cose, quello che dicono i ragazzi io credo a tutti 
+                però va bene non va bene questo non lo posso dire perché non c'ero io là, perché io racconto cose mie anche se mio fratello 
                 mi ha detto delle cose io non le prendo in considerazione, che sennò sono tante cose ed è inutile aggiungere cose che 
                 io non ero presente e ci hanno scelto subito quelli che, andava così che sempre dividevano le donne coi bambini e gli uomini 
                 da parte non importava se anziani, uomini donne e bambini almeno quando sono arrivato io dopo ho saputo che sono arrivato 
                 l'undici di aprile del 1944 c'è lì <del type="falseStart">la</del>la scritta e ci hanno diviso 320 ragazzi giovani e anche 
-                un po' più anziani e eravamo 320 poi ho visto appunto lì ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> al museo del mio gruppo eravamo 1500 tondi, 
+                un po' più anziani e eravamo 320 poi ho visto appunto lì ad <placeName ref="#AU">Auschwitz</placeName> al museo del mio gruppo eravamo 1500 tondi, 
                 320 uomini e 113 donne separati sempre, e ognuno era portato per conto loro non c'era più, non venivamo più a contatto con 
                 nessuno<pause/> e lì è stata la faccenda che ci hanno portato subito a questa zona, a questa zona, zona sarebbe dove facevi 
                 la doccia dove ti tagliavi i capelli e oltre a tagliarti i capelli facevano a strisce al capo, più fine ancora, ti depilavano 
-                tutto il corpo ti massacravano perchè i ragazzi che eran là erano tutti ragazzi prigionieri e non avevano neanche il materiale 
+                tutto il corpo ti massacravano perché i ragazzi che eran là erano tutti ragazzi prigionieri e non avevano neanche il materiale 
                 per rasarti. io non ero peloso per niente ero ancora un bambino non c'avevo neanche la barba allora lo stesso dovevi fare questo, 
                 passato questo sistema che doveva essere uguale per tutti passavi avanti e lì eri subito a fare la doccia e in questa doccia c'era 
                 un tedeschino<pause/> che si divertiva con noi, noi appunto entravamo a catena diciamo, non è che eravamo tutti ammassati 
                 ma doveva essere tutti, <gap reason="inaudible" extent="2 words"/>e questo tedeschino apriva l'acqua, all'improvviso apriva 
                 l'acqua bollentissima e istintivamente ognuno di noi usciva fuori dall'acqua e lui urlava come un animale e calci agli stinchi 
                 e uno era costretto ad andare contro l'acqua bollente e là sempre tutti bagnati era il momento di fare il tatuaggio al braccio 
-                e lì era anche un'altra disgrazia perchè ti tenevano il braccio e puntini puntini puntini continuamente finchè arrivava a finire 
+                e lì era anche un'altra disgrazia perché ti tenevano il braccio e puntini puntini puntini continuamente finchè arrivava a finire 
                 il numero e difatti a me è successo che sentivo dolore non mi potevo muovere quando mi ha lasciato il braccio libero ho preso ho 
                 fatto così senza pensare a tanto quando ho guardato ho visto che non si vedeva niente e tutto il braccio una tortiglia di sangue 
-                e inchiostro e la paura "adesso chissà cosa faranno" perchè ad ucciderti non ci mettevano niente, era più facile ucciderti che 
+                e inchiostro e la paura "adesso chissà cosa faranno" perché ad ucciderti non ci mettevano niente, era più facile ucciderti che 
                 picchiarti</u>
                 <u who="#SEGRE" xml:id="S14" synch="#TC31"><del type="falseStart">che numero</del> che numero le hanno messo?</u>
                 <u who="#VENEZIA" xml:id="V14" synch="#TC32">eh il numero dopo glielo dico, vabbè diciamo subito 182727 e 
                 <pause/>in quel momento là ha preso due dita con un po' di saliva ha visto che era iniettato e mi son tranquillizzato 
-                dopodichè ci hanno dato anche il vestiario e in quel periodo non davano più i vestiti di quelli che avevno i prigionieri a strisce</u>
+                dopodiché ci hanno dato anche il vestiario e in quel periodo non davano più i vestiti di quelli che avevano i prigionieri a strisce</u>
                 <u who="#SEGRE" xml:id="S15" synch="#TC33">era tardi</u>
             </div>
             <div xml:id="macro3" synch="#MA3">
@@ -554,7 +557,7 @@
                 una cosa che se la vediamo a carnevale è divertente ma lì era una cosa incredibile e non potevi neanche tornare 
                 indietro per fartelo cambiare, guai, c'erano comunque altri prigionieri che facevano quel lavoro ma non era 
                 possibile far niente. alla fine ce lo siamo scambiati tra di noi e la cosa che a me è rimasta più alla mente era 
-                il fatto di mia mamma, io volevo sapere dove stava, non pensavo mai al fatto di essere uccisa subito, perchè nessuno 
+                il fatto di mia mamma, io volevo sapere dove stava, non pensavo mai al fatto di essere uccisa subito, perché nessuno 
                 fino a che non era passato almeno un giorno non era possibile saperlo però io quando lei, l'aspettavo subito dopo una 
                 baracca però in attesa che gli altri finissero ho sentito qualcheduno, un prigioniero che stava là prima di me e 
                 parlava lo spagnolo, un sefardita e gli parlo in spagnolo e gli dico "scusa <gap reason="inaudible" extent="2 words"/> 
@@ -565,32 +568,32 @@
                 una parola e mi ha preso per il braccio e mi ha portato alla finestra dice "vedi? là in fondo" era a 150 metri 
                 di distanza era buio pesto era diventato notte verso le 10 e usciva da una ciminiera tutto quel fumo con le fiamme in mezzo, 
                 dice "chi non è venuto con voi si sta liberando da quella parte" quando mi ha detto così non volevo credere 
-                proprio per niente perchè non era possibile pensare una cosa del genere, ho detto questo vuol fare lo scherzo come fanno 
+                proprio per niente perché non era possibile pensare una cosa del genere, ho detto questo vuol fare lo scherzo come fanno 
                 i militari quando vanno, sa quelli di leva per il gusto di farlo ai giovani, però a pensarci anche se scherzi non era facile,
-                ci hanno parcheggiato in un posto in una baracca fino alla mattina alle 9 perchè alle 9 ci toccava andare nel campo, 
-                io vorrei premettere una cosa, che molti ragazzi che son stati ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName>, anche a <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> però 
-                <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> era fatto in questa maniera erano quaratanta km quadrati tutto il territorio occupato da vari 
-                sottocampi e il nostro campo di <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> era grandissimo e chi ha visto anche alla televisione c'era 
+                ci hanno parcheggiato in un posto in una baracca fino alla mattina alle 9 perché alle 9 ci toccava andare nel campo, 
+                io vorrei premettere una cosa, che molti ragazzi che son stati ad <placeName ref="#AU">Auschwitz</placeName>, anche a <placeName ref="#MT">Mauthausen</placeName> però 
+                <placeName ref="#AU">Auschwitz</placeName> era fatto in questa maniera erano quaranta km quadrati tutto il territorio occupato da vari 
+                sottocampi e il nostro campo di <placeName ref="#AU">Auschwitz</placeName> era grandissimo e chi ha visto anche alla televisione c'era 
                 l'ingresso che era un vialone immenso largo da una parte c'era le donne dall'altra gli uomini adesso 
                 quello dove c'era gli uomini era diviso in più strade diciamo, iniziava con la lettera A B C D E F così, 
                 dove la A era la quarantena, infatti a noi ci hanno buttato là e tutti dovevano fare questo percorso, 
                 la quarantena per loro voleva dire eliminare magari qualche contagio di qualcheduno magari non si vede 
                 guardandolo così eccetera un'altra cosa che volevo dire prima di cominciare a fare la doccia che ci avevano 
                 svestiti tutti, ho visto qualcheduno lo estraevano dal gruppo, ed ero rimasto un po' curioso per sapere 
-                il perchè ho chiesto anche di quello, mi avevano assicurato che quelli là li stavano portando all'ospedale 
-                perchè avevano bisogno di essere curati<pause/> e l'ospedale era direttamente ad essere eliminati che 
+                il perché ho chiesto anche di quello, mi avevano assicurato che quelli là li stavano portando all'ospedale 
+                perché avevano bisogno di essere curati<pause/> e l'ospedale era direttamente ad essere eliminati che 
                 potevi fare lì? niente anche questo mi è rimasto. questo qui era veramente magrolino, non che fosse malato 
-                però non era, la faccia era<pause/> allor aquando passavi davanti al medico, quando uno sta male si ammoscia 
+                però non era, la faccia era<pause/> allora quando passavi davanti al medico, quando uno sta male si ammoscia 
                 e si vede che è deperito allora quelli li prendevano e li mettevano da parte come fanno la cernita con le patate
                 o qualsiasi altra cosa, fanno la cernita di quelli da far sparire, adesso in quella baracca, in attesa che venisse 
-                il giorno e c'erano molti religiosi tra noi e non avenano nulla con sè e <gap reason="inaudible" extent="10 words"/>
+                il giorno e c'erano molti religiosi tra noi e non avevano nulla con sé e <gap reason="inaudible" extent="10 words"/>
                 dicevano tutte queste preghiere ma non c'era nulla da fare la mattina dopo alle 9 ci hanno portato in giro per questo 
                 posto per la quarantena e lì ci hanno messo in una baracca tutti  quanti che eravamo questi 320 poi c'erano altri 
                 prigionieri in mezzo e tutti siamo stati circa 8-10 giorni circa. venne il comandante, no il comandante, un ufficiale 
                 con due attendenti un giorno dice che andava tutto ok il capoblocco fa l'adunata dinanzi all'uscita eravamo 180 persone.<pause/>
-                hanno chiesto che lavoro si faceva, che ognuno sapeva fare ma nessuno aveva un mestiere perchè la guerra cominciata 
+                hanno chiesto che lavoro si faceva, che ognuno sapeva fare ma nessuno aveva un mestiere perché la guerra cominciata 
                 nel '40 fino al '45 non abbiamo avuto la possibilità di imparare niente allora in quel momento ho detto 
-                "faccio il barbiere, mio fratello faceva il barbiere, mio cugino faceva il barbiere" tutti barbieri perchè io avevo 
+                "faccio il barbiere, mio fratello faceva il barbiere, mio cugino faceva il barbiere" tutti barbieri perché io avevo 
                 notato quelli che ci avevano massacrati "come lo fanno loro posso farlo anch'io" però con lo scopo che stai sotto 
                 il tetto, non fa freddo, non ti bagni e puoi rimediare anche qualche cosettina così ho detto che faccio il barbiere, 
                 però era tutto un inganno anche quello, per far vedere che stavano cercando delle persone con un mestiere e 
@@ -599,11 +602,11 @@
                 per andare a pulire dentro lo studio del dentista. e ci hanno portato 180 persone ci hanno portati nella parte dove 
                 si va a lavorare si chiama in tedesco arbeitzlager: lager di lavoro e lì c'era una baracca completamente isolata, 
                 erano sedici baracche da una parte, sedici dall'altra dispari e,<gap reason="inaudible" extent="1 word"/><pause/> 
-                già entrando mi ha fatto un'impressione perchè c'era una piscina piena di acqua e all'angolo della piscina proprio 
+                già entrando mi ha fatto un'impressione perché c'era una piscina piena di acqua e all'angolo della piscina proprio 
                 c'era una forca<pause/> era tutto nuovo tutto "cos'è dove siamo qua" e ci portano a metà delle 16 baracche e ci fanno 
-                entrare dentro era tutto circondato di filo spinato contro tutto c'era solo una persona dentro perchè era orario di 
-                lavoro. questo qua era un ebreo polacco che tra parentesi ho incontrato l'anno scorso in <placeName ref="#IR"><rs type="place">Israele</rs></placeName> allora questo 
-                polacco mi ha preso subito mi ha visto e mi ha preso a ben volere perchè ero l'unico che parlava tedesco e potevo 
+                entrare dentro era tutto circondato di filo spinato contro tutto c'era solo una persona dentro perché era orario di 
+                lavoro. questo qua era un ebreo polacco che tra parentesi ho incontrato l'anno scorso in <placeName ref="#IR">Israele</placeName> allora questo 
+                polacco mi ha preso subito mi ha visto e mi ha preso a ben volere perché ero l'unico che parlava tedesco e potevo 
                 comunicare allora mi ha chiesto subito "Bist du hungrig?" "hai fame?"  ecco per la fame non vedevamo 
                 l'ora anche di una mollichetta, allora mi da un pezzo di pane che non era del campo era un pezzo di pane 
                 bianco e mi dice "vuoi anche un po' di marmellata?" tutto quello che c'hai metti, allora viene anche mio 
@@ -614,7 +617,7 @@
                 e mi dice "non ti preoccupare da mangiare lo danno ancora più degli altri" dopo gli ho chiesto 
                 "cos'è il lavoro del Sonderkommando?" è il lavoro dei crematori dove bruci le persone <pause/> 
                 io non lo sapevo io avevo visto in vita mia quando è morto mio papà avevo 11 anni e l'ho accompagnato 
-                al cimitero come si fa di solito anche mio papà aveva fatto la guerra del 15-18 in italia, dalla <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> 
+                al cimitero come si fa di solito anche mio papà aveva fatto la guerra del 15-18 in Italia, dalla <placeName ref="#GR">Grecia</placeName> 
                 volontario per far la guerra là e allora io ho visto come funziona il cimitero. <del type="falseStart">invece è stato </del>
                 ci hanno portato il giorno dopo e ci hanno subito contato per questa faccenda e il lavoro là era più che altro non avrei 
                 dovuto dare <gap reason="inaudible" extent="4 words"/></u>
@@ -623,19 +626,19 @@
             <div xml:id="macro4" synch="#MA4">
                 <u who="#VENEZIA" xml:id="V16" synch="#TC36">mi va tutto il sangue al cervello, insomma cerco di stringere che sennò 
                 andiamo troppo <pause/> allora lì ci mettono dentro e infatti il capo ci ha lasciati lì fuori nel cortile e di andare a 
-                effettuare<gap reason="inaudible" extent="6 words"/>però io ero molto non dico birichino ma ero troppo abbastanza vivace 
+                effettuare<gap reason="inaudible" extent="6 words"/> però io ero molto non dico birichino ma ero troppo abbastanza vivace 
                 piano piano facendo finta di portar via mi avvicino a una fabbrica mi avvicino alla finestra altezza uomo e mi avvicino 
                 ma non sapevo che cos'era come dove si butta l'immondizia ma era tutto pieno di cadaveri, <pause/>vado indietro piano piano 
                 dico ai miei amici "ragazzi ho visto così e così" e tutti "avrai visto male qua e là" e loro sono andati anche loro piano 
-                piano perchè il capo aveva detto di non avvicinarsi allora uno alla volta uno alla volta quando tornavano si vedeva di 
+                piano perché il capo aveva detto di non avvicinarsi allora uno alla volta uno alla volta quando tornavano si vedeva di 
                 quelle facce come ce l'avevo sicuramente anch'io com'erano disperati a vedere quelle cose lì "cosa facciamo come facciamo? 
                 adesso vediamo cosa faremo cosa ci faranno fare" siamo tornati alla baracca<pause/> e dalla paura e dalle cose insolite che 
                 noi abbiamo visto là siamo rimasti proprio shockati in una maniera terribile, comunque la mattina dopo andiamo di nuovo lì, 
                 ognuno di noi gli hanno dato il posto dove 'erano i forni crematori e c'erano 2 3 4 5 a me hanno dato il 3 allora il capo 
                 che era di là quando ci ha preso che eravamo divisi ormai non eravamo assieme eravamo una quindicina però con noi c'erano 
                 altri comunque si cercava di stare sempre con paesani<pause/> mio fratello è andato a finire da un'altra parte mio cugino 
-                lo stesso alla fine mi hanno chiesto "che mestiere hai detto che fai" e io "barbiere" mi da in mano una forbice da sarto 
-                sono rimasto "che devo fare adesso?" mi porta giù e lì c'erano già gli altri che estreavano dalle camere a gas 
+                lo stesso alla fine mi hanno chiesto "che mestiere hai detto che fai" e io "barbiere" mi dà in mano una forbice da sarto 
+                sono rimasto "che devo fare adesso?" mi porta giù e lì c'erano già gli altri che estraevano dalle camere a gas 
                 <gap reason="inaudible" extent="2 words"/>poi c'era un altro che era 5x5 e questo altro era una porta di quelle che si 
                 svestivano, una sala di vestizione. a sinistra c'era la porta della camera a gas di fronte c'era una specie di 
                 montacarichi e a sinistra c'era un'altra porta che venivano quelli che lavoravano scendevano lì allora arriviamo là e mi 
@@ -646,20 +649,20 @@
                 posto fino al 17 di gennaio e questa era la vita di un diavolo<pause/> non so se avete qualche domanda</u>
                 <u who="#SEGRE" xml:id="S17" synch="#TC37"><del type="falseStart">quando</del> quando è stato liberato?</u>
                 <u who="#VENEZIA" xml:id="V17" synch="#TC38">mi han liberato il 6 maggio del <del type="falseStart">come quello come si chiama</del> 
-                mi son liberato a <gap reason="inaudible" extent="1 word"/> che sarebbe in <placeName ref="#AUT"><rs type="place">Austria</rs></placeName> il 6 maggio del 45 c'era anche <rs type="person">Mario</rs> 
+                mi son liberato a <gap reason="inaudible" extent="1 word"/> che sarebbe in <placeName ref="#AUT">Austria</placeName> il 6 maggio del 45 c'era anche <rs type="person">Mario</rs> 
                 <gap reason="inaudible" extent="1 word"/> si è liberato là e credo che anche lui
                 <gap reason="inaudible" extent="3 words"/> come si chiama quel zio<pause/> 
                 l'abbiamo detto prima che c'ha il piccolo<gap reason="inaudible" extent="3 words"/></u>
                 <u who="#PAVONCELLO" xml:id="P5" synch="#TC39"><vocal><desc>ah</desc></vocal> <rs type="person">Raimondo di Neris</rs></u>
                 <u who="#SEGRE" xml:id="S18" synch="#TC40"><rs type="person">Raimondo di Neris</rs></u>
                 <u who="#VENEZIA" xml:id="V18" synch="#TC41">pensate che con <rs type="person">Raimondo di Neris</rs> non lo conoscevo solo 
-                raccontandogli che siamo usciti da <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> per andare via stavamo nello stesso vagone cioè però non è che 
-                c'era solidarietà non sapevi neanche chi era chi non era e dopo parlando così "in quella stazione stazione 
-                gli operai ci buttavano i pacchi" eravamo tutti affamati io "come no mi ricordo si" e da lì siamo usciti dalla 
-                <placeName ref="#PL"><rs type="place">Polonia</rs></placeName> per ricominciare il viaggio per andare verso l'<placeName ref="#AUT"><rs type="place">Austria</rs></placeName></u> 
-                <u who="#SEGRE" xml:id="S19" synch="#TC42">quindi lei mi diceva che è passato anche a <placeName ref="#DC"><rs type="place">Dachau</rs></placeName> prima diceva, <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> cos'era?</u>
-                <u who="#VENEZIA" xml:id="V19" synch="#TC43"><placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName>, era il campo centrale di altri campetti sottocampi e lì a 
-                <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> son stato 3 giorni soltanto perchè noi avendo lavorato in questo posto è successo così prima di lasciare 
+                raccontandogli che siamo usciti da <placeName ref="#AU">Auschwitz</placeName> per andare via stavamo nello stesso vagone cioè però non è che 
+                c'era solidarietà non sapevi neanche chi era chi non era e dopo parlando così "in quella stazione 
+                gli operai ci buttavano i pacchi" eravamo tutti affamati io "come no, mi ricordo si" e da lì siamo usciti dalla 
+                <placeName ref="#PL">Polonia</placeName> per ricominciare il viaggio per andare verso l'<placeName ref="#AUT">Austria</placeName></u> 
+                <u who="#SEGRE" xml:id="S19" synch="#TC42">quindi lei mi diceva che è passato anche a <placeName ref="#DC">Dachau</placeName> prima diceva, <placeName ref="#MT">Mauthausen</placeName> cos'era?</u>
+                <u who="#VENEZIA" xml:id="V19" synch="#TC43"><placeName ref="#MT">Mauthausen</placeName>, era il campo centrale di altri campetti sottocampi e lì a 
+                <placeName ref="#MT">Mauthausen</placeName> son stato 3 giorni soltanto perché noi avendo lavorato in questo posto è successo così prima di lasciare 
                 il campo la sera dormiamo verso 5 e mezza 6 per andare alla nostra baracca quella isolata e il tedesco di solito non 
                 veniva fino alla baracca, ci lasciava all'ingresso e poi c'era l'altro capo ebreo che ci accompagnava e quella volta 
                 è venuto appresso lui fino alla baracca dicendoci "guai non deve uscire nessuno dalla baracca" ma mai uscivamo dalla 
@@ -667,52 +670,52 @@
                 e "was ist?", "cos'è?" e mi dice "evakuierung è l'evacuazione, qui ci stanno evacuando noi dobbiamo rimanere dentro" 
                 voleva dire che dopo rimanevamo soli ci prendevano e ci uccidevano, noi ci facevano fuori non volevano lasciare 
                 testimonianze<pause/> e invece siamo usciti e ci siamo mischiati insieme a quegli altri che stavano uscendo e questa 
-                è stata la nostra fortuna e però subito dopo da li da <placeName ref="#BR"><rs type="place">Birkenau</rs></placeName> perchè questo era a <placeName ref="#BR"><rs type="place">Birkenau</rs></placeName> siamo arrivati a <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName>, 
-                che sono tre km e mezzo circa a piedi da <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> là di notte e verso le 11 erano già tutti pronti la mattina per lasciare 
-                il campo di fatti abbiamo portato mio cognato amici d'infanzia che li avevano presi in mano prima a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> e chiamavano 
+                è stata la nostra fortuna e però subito dopo da lì da <placeName ref="#BR">Birkenau</placeName> perché questo era a <placeName ref="#BR">Birkenau</placeName> siamo arrivati a <placeName ref="#MT">Mauthausen</placeName>, 
+                che sono tre km e mezzo circa a piedi da <placeName ref="#AU">Auschwitz</placeName> là di notte e verso le 11 erano già tutti pronti la mattina per lasciare 
+                il campo di fatti abbiamo portato mio cognato amici d'infanzia che li avevano presi in mano prima a <placeName ref="#SL">Salonicco</placeName> e chiamavano 
                 "Shlomo Shlomo, siamo qua vieni con noi" allora ci siamo riuniti tutti quanti e ci hanno dato tre porzioni di pane e tre 
-                pezzetti di margarina per il viaggio,<pause/>quello  lo mangiavi subito perchè sennò te lo rubavano e la mattina presto 
+                pezzetti di margarina per il viaggio,<pause/> quello  lo mangiavi subito perché sennò te lo rubavano e la mattina presto 
                 anzi prima di cominciare a uscire la mattina era venuto qualche tedesco a urlare "chi ha lavorato nei Sonderkommando?" 
-                e cose così e nessuno diceva niente perchè era 100% sicuro che ti fucilavano e allora la mattina dopo non avevano più 
-                tempo perche è russi stavano per entrare anche loro avevano paura di rimanere dentro come noi allora la mattina alle 
+                e cose così e nessuno diceva niente perché era 100% sicuro che ti fucilavano e allora la mattina dopo non avevano più 
+                tempo perchè i russi stavano per entrare anche loro avevano paura di rimanere dentro come noi allora la mattina alle 
                 cinque "avanti marsch" e noi siamo andati tranquillamente pensando che ormai stavano perdendo dappertutto e magari 
                 uno due giorni scapperanno e ci lasceranno liberi, invece niente fino all'ultimo continuamente continuamente allora 
-                il viaggio dalla <placeName ref="#PL"><rs type="place">Polonia</rs></placeName> che eravamo ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> per arrivare a <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> è durato undici o dodici giorni abbiamo 
+                il viaggio dalla <placeName ref="#PL">Polonia</placeName> che eravamo ad <placeName ref="#AU">Auschwitz</placeName> per arrivare a <placeName ref="#MT">Mauthausen</placeName> è durato undici o dodici giorni abbiamo 
                 fatto due giorni i primi a piedi<gap reason="inaudible" extent="8 words"/> la sera ci facevano dormire in qualche 
-                casolare di contadini, più casolari perchè eravamo moltissimi, molte migliaia e la mattina si andava avanti come i 
+                casolare di contadini, più casolari perché eravamo moltissimi, molte migliaia e la mattina si andava avanti come i 
                 giorni prima così, finalmente ci hanno caricato sui vagoni aperti quelli per il carbone la neve non vi dico in 
-                gennaio è il peggior mese dell'anno abbiamo fatto giorni così in piedi perchè non c'era spazio per sedersi e 
-                arrivati in un altro posto era interrotta la linea perchè già si vedeva che era <gap reason="inaudible" extent="3 words"/> 
+                gennaio è il peggior mese dell'anno abbiamo fatto giorni così in piedi perché non c'era spazio per sedersi e 
+                arrivati in un altro posto era interrotta la linea perché già si vedeva che era <gap reason="inaudible" extent="3 words"/> 
                 e insomma alla fine di nuovo a piedi e alla fine ci hanno messo in delle chiatte sul Danubio, addirittura su delle chiatte
                 e siamo arrivati in un posto la mattina presto siamo usciti mi ricordo benissimo stavamo dall'altra parte così 
-                dovevamo attraversare un ponte e vedo scritto <placeName ref="#LZ"><rs type="place">Linz</rs></placeName> una cittadina Austriaca e da lì di nuovo finchè siamo 
-                arrivati a <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> a <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> di nuovo la stessa storia ripassa taglia i capelli taglia qua e il numero 
+                dovevamo attraversare un ponte e vedo scritto <placeName ref="#LZ">Linz</placeName> una cittadina Austriaca e da lì di nuovo finchè siamo 
+                arrivati a <placeName ref="#MT">Mauthausen</placeName> a <placeName ref="#MT">Mauthausen</placeName> di nuovo la stessa storia ripassa taglia i capelli taglia qua e il numero 
                 di matricola anche era diverso e ci davano un nastrino con una <gap reason="inaudible" extent="1 word"/> 
                 così, e dopo dico a mio fratello quando ci hanno messo in una baracca completamente nudi e non ci hanno 
-                dato subito il vestiario perchè facevi la doccia, uscivi fuori all'aperto sempre con la neve bagnati e 
+                dato subito il vestiario perché facevi la doccia, uscivi fuori all'aperto sempre con la neve bagnati e 
                 gelati com'eri doveva fare il prigioniero che c'era lì 50 persone e poi ti accompagnava te e noi "dai dai andiamo"
-                <gap reason="inaudible" extent="5 words"/> sicchè ha fatto 50 e via avanti piano piano siamo arrivati alla baracca 
+                <gap reason="inaudible" extent="5 words"/> sicché ha fatto 50 e via avanti piano piano siamo arrivati alla baracca 
                 dove sei nudo però non c'è il vento un po' di meno freddo è, lì siamo rimasti la notte e come sardine messe così ci 
                 riscaldavamo uno con l'altro anche se non c'era grasso su di noi alla fine la mattina arriva mio fratello dico 
                 "Maurice, io cambio nome questi continuano a chiedere chi ha lavorato ai Sonderkommando, va a finire che ci scoprono" 
-                mio fratello mi dice "tu cambia nome, io rimango così perchè può darsi che tu ti mandano in un posto a me in un altro 
+                mio fratello mi dice "tu cambia nome, io rimango così perché può darsi che tu ti mandano in un posto a me in un altro 
                 e chi ha più fortuna rimarrà in vita" e così è stato, a me il secondo giorno invece di Venezia mi chiamavo Benezia 
                 con la B e in ordine alfabetico ero tra i secondi infatti tra quelli c'era un cugino mio che si chiamava 
                 <gap reason="inaudible" extent="3 words"/> A B C D E F G allora hanno fatto quello che volevano e lì ci hanno 
-                portato in un posto un altro sottocampo di <placeName ref="#MT"><rs type="place">Mauthausen</rs></placeName> che si chiamava <placeName ref="#MK"><rs type="place">Melk</rs></placeName> e in questo <placeName ref="#MK"><rs type="place">Melk</rs></placeName> il lavoro che ci 
-                facevano fare era distante dalle baracche dove dormivamo perchè si andava col trenino addirittura e lavoravamo 
-                nelle gallerie nei tunnel facevamo dei tunnel perchè loro volevano fare delle fabbriche avevano sempre il pensiero 
+                portato in un posto un altro sottocampo di <placeName ref="#MT">Mauthausen</placeName> che si chiamava <placeName ref="#MK">Melk</placeName> e in questo <placeName ref="#MK">Melk</placeName> il lavoro che ci 
+                facevano fare era distante dalle baracche dove dormivamo perché si andava col trenino addirittura e lavoravamo 
+                nelle gallerie nei tunnel facevamo dei tunnel perché loro volevano fare delle fabbriche avevano sempre il pensiero 
                 di fare in quel periodo lo stavano terminando quel missile, il missile uno avevano fatto e stavano per terminare 
                 il missile due che aveva una gittata più <pause/> però questo io non l'ho visto noi facevamo solo la galleria e 
-                scavavamo proprio dentro dentro, ogni volta dovevamo arrivare in fondo chesi stava caldi era già diverso non era 
-                più come quell'affare dove stavo prima, per me era come se fossi stato già libero perchè era <rs>l'inferno e sono 
-                andato in purgatorio</rs> era differente, ma per dire e lì son stato circa un mese e mezzo due dopodichè mi hanno 
-                trasferito in un altro campo ed era andato in disgrazia perchè anche lì erano tunnel però non eran caldi e 
+                scavavamo proprio dentro dentro, ogni volta dovevamo arrivare in fondo che si stava caldi era già diverso non era 
+                più come quell'affare dove stavo prima, per me era come se fossi stato già libero perché era l'inferno e sono 
+                andato in purgatorio era differente, ma per dire e lì son stato circa un mese e mezzo due dopodiché mi hanno 
+                trasferito in un altro campo ed era andato in disgrazia perché anche lì erano tunnel però non eran caldi e 
                 come entravi là era acqua da tutte le parti e ti bagnavi e così rimanevi <incident><desc>rumore di auto in 
                 sottofondo</desc></incident> difatti anche lì ho avuto un po' di fortuna che dopo una settimana circa sono 
                 arrivati gli alleati a bombardare e bombardavano le stazioni non è che bombardavano lì difatti ci prendevano 
                 e in una stazione non lontano per andare <gap reason="inaudible" extent="5 words"/> e lì è stato un bene 
-                perchè noi trovavamo magari una scarpa o una cicca un pezzo di straccio e per noi era qualche cosa, non 
+                perché noi trovavamo magari una scarpa o una cicca un pezzo di straccio e per noi era qualche cosa, non 
                 avevi calze prendevi lo straccio e basta e la scarpa non faceva niente ma bastava che era sana e che ti 
                 entrasse, la cambiavi anche se di due colori chissene importava e questo è stato <del type="falseStart">
                 molte volte con quella roba,</del> io non fumavo e andavi al campo che era già diverso era campo di lavoro 
@@ -736,34 +739,34 @@
                 dissenteria non si poteva camminare dentro al campo e allora è normale gli americani hanno creato un altro campo 
                 non lontano con tutti questi tendoni dei militari e hanno fatto una specie di viottolo a serpentina con le corde e 
                 la gente doveva passare di là e arrivare fino alla fine lì ti vestivi completamente doccia subito c'era una pompa 
-                che ti passava il corpo, eravamo pieni di pidocchi una cosa<pause/>e così dopo è finita la storia</u>
+                che ti passava il corpo, eravamo pieni di pidocchi una cosa<pause/> e così dopo è finita la storia</u>
                 <u who="#SEGRE" xml:id="S21" synch="#TC46">ok è stato liberato e? come è arrivato qui?</u>
                 <u who="#PAVONCELLO" xml:id="P6" synch="#TC47">aspetta, io volevo chiedere una cosa, suo fratello invece che era rimasto col nome Venezia?</u>
                 <u who="#VENEZIA" xml:id="V21" synch="#TC48">mio fratello l'hanno mandato in un altro posto che si chiama 
                 budenslaiger un altro campo si chiama Buden lui già stava per andarsene, è stato un miracolo che sono arrivati 
                 e l'hanno liberato è rimasto tre mesi in coma e quando è rinvenuto diciamo guardava vedeva tutti questi camici 
-                bianchi pensava di essere già partito <vocal><desc>ride</desc></vocal> poverino quando molto cose non si ricorda perchè tutto questo shock di tre 
-                mesi di coma insomma comunque l'ho visto tre mesi fa in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName></u>
-                <u who="#PAVONCELLO" xml:id="P7" synch="#TC49">ah suo fratello è ritornato in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName></u>
-                <u who="#VENEZIA" xml:id="V22" synch="#TC50">è tornato in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> dalla <placeName ref="#GR"><rs type="place">Grecia</rs></placeName> poi nel '52 
+                bianchi pensava di essere già partito <vocal><desc>ride</desc></vocal> poverino quando molte cose non si ricorda perché tutto questo shock di tre 
+                mesi di coma insomma comunque l'ho visto tre mesi fa in <placeName ref="#GR">Grecia</placeName></u>
+                <u who="#PAVONCELLO" xml:id="P7" synch="#TC49">ah suo fratello è ritornato in <placeName ref="#GR">Grecia</placeName></u>
+                <u who="#VENEZIA" xml:id="V22" synch="#TC50">è tornato in <placeName ref="#GR">Grecia</placeName> dalla <placeName ref="#GR">Grecia</placeName> poi nel '52 
                 è partito in America non è che è rimasto là però adesso richiama il posto dove sei nato 
                 ti viene voglia di andare io erano 42 anni che neanche ci pensavo infatti lui quando stava 
-                lì mi chiama "vieni vieni" e dico "non posso andare là" perchè poi il viaggio devi scendere 
+                lì mi chiama "vieni vieni" e dico "non posso andare là" perché poi il viaggio devi scendere 
                 e ri-prendere un altro aereo <gap reason="inaudible" extent="4 words"/> allora io sono anziano lui più anziano di me</u>
-                <u who="#PAVONCELLO" xml:id="P8" synch="#TC51">a <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> allora vi siete incontrati?</u>
+                <u who="#PAVONCELLO" xml:id="P8" synch="#TC51">a <placeName ref="#SL">Salonicco</placeName> allora vi siete incontrati?</u>
                 <u who="#VENEZIA" xml:id="V23" synch="#TC52"><del type="falseStart">no c'è ancora</del> si vicino 
-                <placeName ref="#SL"><rs type="place">Salonicco</rs></placeName> vicino al mare che c'hanno una casetta <gap reason="inaudible" extent="3 words"/> che 
+                <placeName ref="#SL">Salonicco</placeName> vicino al mare che c'hanno una casetta <gap reason="inaudible" extent="3 words"/> che 
                 rimane 4-5 mesi là e poi ritorna, è in pensione quindi<pause/> allora fatemi qualche domanda andiamo</u>
-                <u who="#SEGRE" xml:id="S22" synch="#TC53">quindi lei poi siete stati liberati, DDTtati, rilavati, come è arrivato in italia?</u>
+                <u who="#SEGRE" xml:id="S22" synch="#TC53">quindi lei poi siete stati liberati, DDTtati, rilavati, come è arrivato in Italia?</u>
                 <u who="#VENEZIA" xml:id="V24" synch="#TC54">dopo lì hanno cominciato a chiederti dove volevi andare 
-                molti volevano tornare indietro a casa loro io praticamente avrei dovuto andare in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName>, sarei dovuto 
-                andare in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName>, i miei amici eravamo una quindicina diciotto, quindici persone c'era mio cognato che 
-                era molto sionista e diceva "con questa batosta che abbiamo preso dobbiamo andare tutti in <placeName ref="#IR"><rs type="place">Israele</rs></placeName>, tutti in <placeName ref="#IR"><rs type="place">Israele</rs></placeName>" 
+                molti volevano tornare indietro a casa loro io praticamente avrei dovuto andare in <placeName ref="#GR">Grecia</placeName>, sarei dovuto 
+                andare in <placeName ref="#GR">Grecia</placeName>, i miei amici eravamo una quindicina diciotto, quindici persone c'era mio cognato che 
+                era molto sionista e diceva "con questa batosta che abbiamo preso dobbiamo andare tutti in <placeName ref="#IR">Israele</placeName>, tutti in <placeName ref="#IR">Israele</placeName>" 
                 allora passato un mese credo dopo la liberazione formano un come si dice dei camion inglesi per andare in Italia 
-                dopo dall'Italia si andava giù in bassa Italia e andare in <placeName ref="#GR"><rs type="place">Grecia</rs></placeName><pause/> allora io non sapevo di mio fratello, 
+                dopo dall'Italia si andava giù in bassa Italia e andare in <placeName ref="#GR">Grecia</placeName><pause/> allora io non sapevo di mio fratello, 
                 sapevo che era liberato che era stato liberato, però non ci siamo visti dopo<pause/> e mia sorella non sapevo 
                 niente <gap reason="inaudible" extent="2 words"/>gli altri sono morti tutti e due allora in alta Italia ci 
-                hanno portati a <placeName ref="#UD"><rs type="place">Udine</rs></placeName> che sta vicino alla frontiera <placeName ref="#BL"><rs type="place">Billacco</rs></placeName>-<placeName ref="#UD"><rs type="place">Udine</rs></placeName> arriviamo in questi camion eravamo 3 
+                hanno portati a <placeName ref="#UD">Udine</placeName> che sta vicino alla frontiera <placeName ref="#BL">Billacco</placeName>-<placeName ref="#UD">Udine</placeName> arriviamo in questi camion eravamo 3 
                 camion di questi ognuno di noi si era arrangiato siamo entrati dentro le baracche le ss i tedeschi avevano 
                 questi abiti bellissimi e ognuno ha cercato di prendere qualcosa e io ho preso un pastrano quel cappotto 
                 che arriva fino giù ai piedi questo lo mettevano quando erano di guardia la notte <gap reason="inaudible" extent="14 seconds"/> 
@@ -772,73 +775,73 @@
                 <u who="#VENEZIA" xml:id="V25" synch="#TC56">ci hanno visto con tutta quella roba e qualcuno 
                 finalmente ha spiegato che stavamo rimpatriando allora "conoscevi Antonio, conoscevi Giovanni?" 
                 no, non conoscevo nessuno poi parlano friulano <vocal><desc>scimmiottamento vocale del dialetto</desc></vocal> 
-                neanche era Italia perchè pareva di stare in Slavia una cosa così insomma queste son le cose accadute a me 
+                neanche era Italia perché pareva di stare in Slavia una cosa così insomma queste son le cose accadute a me 
                 allora mi è scoppiata la febbre quindi proprio mi ha messo ko e con me c'erano altri due gli altri son 
-                partiti e hanno continuato il viaggio con mio cognato e noi siamo rimasti là a <placeName ref="#UD"><rs type="place">Udine</rs></placeName> ci hanno fatto 
+                partiti e hanno continuato il viaggio con mio cognato e noi siamo rimasti là a <placeName ref="#UD">Udine</placeName> ci hanno fatto 
                 raggi ci hanno fatto le lastre insomma siamo stati ricoverati e ci hanno ricoverato al sanatorio di 
-                <placeName ref="#UD"><rs type="place">Udine</rs></placeName> anche lì c'è stato <gap reason="inaudible" extent="2 words"/> dove sono stato 13 mesi alle prime 
+                <placeName ref="#UD">Udine</placeName> anche lì c'è stato <gap reason="inaudible" extent="2 words"/> dove sono stato 13 mesi alle prime 
                 cure si vedeva già che c'era un piccolo recupero di tutto quando un bel giorno completamente da solo
                 <gap reason="inaudible" extent="4 words"/> <del type="falseStart">non avevo</del> andavo con i ragazzi 
                 a fare amicizia con i giovani del posto i quali mi portavano con loro in giro quando c'era l'orario 
                 familiare di visita eccetera andavo con loro a loro davano <gap reason="inaudible" extent="4 words"/> 
-                un pacchettino pollo, uovo tornavamo su ognuno mi dava, avevo più di loro perchè ognuno mi dava 
+                un pacchettino pollo, uovo tornavamo su ognuno mi dava, avevo più di loro perché ognuno mi dava 
                 qualcosa ma non avevo veramente bisogno e difatti dopo un po' di tempo erano 7-8 mesi che stavo là 
-                viene una signora che era della comunità di <placeName ref="#TR"><rs type="place">Trieste</rs></placeName> dice "sono incaricata dalla comunità" 
+                viene una signora che era della comunità di <placeName ref="#TR">Trieste</placeName> dice "sono incaricata dalla comunità" 
                 <gap reason="inaudible" extent="6 words"/> comunque un'associazione ebraica dice "ci sarebbe" 
                 <gap reason="inaudible" extent="15 seconds"/> ogni tanto<pause/> una volta mi chiede se conoscevo 
                 un certo Niccolò <rs type="person">Saggi</rs><pause/> dico "se mi porta la foto le posso dire ma nomi non"<pause/> e 
                 hanno dopo 15 giorni una foto,"come no questo era così e così una persona molto alta</u>
-                <u who="#SEGRE" xml:id="S24" synch="#TC57">volevo portare anche <rs type="person">Saggi</rs>, perchè c'ho anche di <rs type="person">Saggi</rs> le fotografie, altre foto di <rs type="person">Saggi</rs></u>
+                <u who="#SEGRE" xml:id="S24" synch="#TC57">volevo portare anche <rs type="person">Saggi</rs>, perché c'ho anche di <rs type="person">Saggi</rs> le fotografie, altre foto di <rs type="person">Saggi</rs></u>
                 <u who="#VENEZIA" xml:id="V26" synch="#TC58">il papà di lui era Niccolò, Luigi, allora anche lì è una storia abbastanza<pause/> 
                 loro erano arrivati una settimana prima di me e difatti abbiamo guardato il numero di matricola il loro era 
                 3000 numeri più corto del mio allora pensate voi in una settimana di differenza 3000 e non calcolando altri 
-                che non c'avevano il numero perchè quelli erano numerati allora il papà di lui ha avuto anche lui la disgrazia 
+                che non c'avevano il numero perché quelli erano numerati allora il papà di lui ha avuto anche lui la disgrazia 
                 di andare a lavorare dove lavoravo io non lavoravamo nello stesso posto però, ci hanno diviso ma l'ho visto era
-                una persona che non potevi non vedere, non ricordarti perchè era altissimo un po' rossiccio di capelli non biondo 
+                una persona che non potevi non vedere, non ricordarti perché era altissimo un po' rossiccio di capelli non biondo 
                 era rosso proprio era un colosso non dico due metri ma un metro e novanta sicuramente infatti c'è stato lì quando 
-                eravamo ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> il momento con la rivolta che abbiamo fatto eccetera e dove stava lui è stato ucciso</u>
+                eravamo ad <placeName ref="#AU">Auschwitz</placeName> il momento con la rivolta che abbiamo fatto eccetera e dove stava lui è stato ucciso</u>
                 <u who="#SEGRE" xml:id="S25" synch="#TC59">avete fatto una rivolta?</u>
                 <u who="#VENEZIA" xml:id="V27" synch="#TC60">si si abbiam fatto una rivolta ma era a settembre<pause/>
-                no settembre era il '43 ottobre 7 ottobre perchè lì era 8 novembre e da noi 8 settembre<pause/> 
-                7 ottobre ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> e quella del 43 era invece quell'altra data, ora più niente con le date<pause/> 
+                no settembre era il '43 ottobre 7 ottobre perché lì era 8 novembre e da noi 8 settembre<pause/> 
+                7 ottobre ad <placeName ref="#AU">Auschwitz</placeName> e quella del 43 era invece quell'altra data, ora più niente con le date<pause/> 
                 ad ogni modo c'è stata questa rivolta e tutte le persone che stavano all'altro crematorio, sono state tutte eliminate quel giorno</u>
                 <u who="#SEGRE" xml:id="S26" synch="#TC61">chi ha fatto la rivolta, solo i Sonderkommando o anche altri?</u>
-                <u who="#VENEZIA" xml:id="V28" synch="#TC62">solo i Sonderkommando, dovevano fare per conto proprio perchè 
+                <u who="#VENEZIA" xml:id="V28" synch="#TC62">solo i Sonderkommando, dovevano fare per conto proprio perché 
                 c'erano questi partigiani all'esterno che se ci metteva il capo nostro non era <gap reason="inaudible" extent="2 or 3 words"/> 
                 persone che avevano abbastanza cervello stavano cercando di fare qualche cosa però quelli di fuori continuavano a dire che 
                 "non è il momento non è il momento" e andava avanti finchè sono arrivati tutti questi ungheresi che erano 420 ungheresi 
                 <gap reason="inaudible" extent="4 words"/> e allora questi nostri capi hanno deciso di organizzare di fare per conto nostro, 
                 però con le unghie non puoi fare niente devi aver munizioni qualche pistola qualche mitra c'era comunque non era riuscita 
                 questa è troppo lunga e questo papà di <rs type="person">Saggi</rs> di Luigi, Niccolò si chiamava hanno detto <gap reason="inaudible" extent="8 words"/> 
-                e la moglie non voleva credere perchè l'aspettava finchè è morta anche lei ultimamente sette otto anni fa è morta a 92 anni e 
+                e la moglie non voleva credere perché l'aspettava finchè è morta anche lei ultimamente sette otto anni fa è morta a 92 anni e 
                 sempre continuava a chiedere insomma alla fine invece lui è stato molto non ha voluto mai parlare del padre, tutto ciò che 
-                sapeva <gap reason="inaudible" extent="7 words"/> una volta l'ho preso io, perchè è un argomento abbastanza delicato dico 
+                sapeva <gap reason="inaudible" extent="7 words"/> una volta l'ho preso io, perché è un argomento abbastanza delicato dico 
                 "vieni qua ti racconto un po' la storia di tuo padre" almeno conosci allora gli ho raccontato come è avvenuta la faccenda
                 e lui non sapeva, si è ricreduto<pause/> eravamo amici lui è sposato con una delle sorelle di 
                 <gap reason="inaudible" extent="2 words"/> e l'altra è <gap reason="inaudible" extent="4 words"/></u>
-                <u who="#PAVONCELLO" xml:id="P9" synch="#TC63">ha un figlio che si chiama miki per caso? perchè io è tanto che non lo sento</u>
+                <u who="#PAVONCELLO" xml:id="P9" synch="#TC63">ha un figlio che si chiama miki per caso? perché io è tanto che non lo sento</u>
                 <u who="#VENEZIA" xml:id="V29" synch="#TC64">c'ha una bambina che è un amore un amore una bambina intelligentissima 
-                piccolina già con quegli occhi che mi pare di vedere il cielo adesso l'ho sentito l'altro ieri perchè lì ho visti a 
+                piccolina già con quegli occhi che mi pare di vedere il cielo adesso l'ho sentito l'altro ieri perché lì ho visti a 
                 <gap reason="inaudible" extent="2 words"/> a tutti e due i figli con la mamma<pause/> e così è stata la faccenda del papà, 
                 e lui invece Luigi non se è andata dalla moglie</u>
-                <u who="#SEGRE" xml:id="S27" synch="#TC65">eh in parte è anche lei la fonte ha detto <rs type="person">Piero</rs> "chiedi a Shlomo" perchè</u>
-                <u who="#VENEZIA" xml:id="V30" synch="#TC66">no perchè lui, il papà si lui ha lavorato più con <rs type="person">Piero</rs> 
+                <u who="#SEGRE" xml:id="S27" synch="#TC65">eh in parte è anche lei la fonte ha detto <rs type="person">Piero</rs> "chiedi a Shlomo" perché</u>
+                <u who="#VENEZIA" xml:id="V30" synch="#TC66">no perché lui, il papà si lui ha lavorato più con <rs type="person">Piero</rs> 
                 non si conoscevamo ma è venuto fuori qui che loro dice" io lavoravo al salotto comando dell'aviazione" 
                 sarebbe per gli aerei per i pezzi rovinati cercavano di attaccarli l'uno con l'altro però facevano tre km a 
                 piedi e tre km di ritorno col freddo e la neve era abbastanza pesante ed <pause/>ecco di lui posso dire una 
-                cosa sola perchè me l'ha raccontata lui e normalmente non racconto le cose degli altri ma lui</u>
+                cosa sola perché me l'ha raccontata lui e normalmente non racconto le cose degli altri ma lui</u>
                 <u who="#SEGRE" xml:id="S28" synch="#TC67">eh ma lui non c'è</u>
                 <u who="#VENEZIA" xml:id="V31" synch="#TC68">non c'è  appunto e aveva raccontato che un giorno l'avevano preso 
                 a lui e altri erano 12 ragazzi tutti della stessa età più o meno 20 anni e hanno voluto fare un esperimento per 
                 il tifo <pause/>che tra parentesi questo esperimento era per la casa Bayer hanno iniettato questo liquido, 
                 questo vaccino e lui mi ha detto che dei dodici, dieci sono morti e due son rimasti in vita e il motivo era 
-                semplice, perchè loro due da bambini avevano già avuto il tifo e non gli ha preso come ha preso agli altri
+                semplice, perché loro due da bambini avevano già avuto il tifo e non gli ha preso come ha preso agli altri
                 a loro gli ha preso ma gli ha preso su solo con la febbre 40 e più di febbre e lui, Luigi aveva parlava ungherese 
-                bene, perchè  la mamma era ungherese insomma c'è tutta una storia e così stando lì al lazzeretto l'ospedaletto 
+                bene, perché  la mamma era ungherese insomma c'è tutta una storia e così stando lì al lazzeretto l'ospedaletto 
                 il medico era un ebreo ungherese allora quando trovi un paesano sei più predisposto infatti quello lì l'ha tenuto 
-                anzichè tre giorni l'ha tenuto più giorni, perchè tre giorni ti mandavano via dopo stavi come stavi, se rimanevi 
-                venivi segnato il numero e alla prima occasione ti mandavano a essere eliminato e così lui è rimasto lì perchè è 
-                rimasto dopo in vita, perchè il papà stando lì dove lavorava noi avevamo la possibilità di trovare in mezzo alla 
+                anziché tre giorni l'ha tenuto più giorni, perché tre giorni ti mandavano via dopo stavi come stavi, se rimanevi 
+                venivi segnato il numero e alla prima occasione ti mandavano a essere eliminato e così lui è rimasto lì perché è 
+                rimasto dopo in vita, perché il papà stando lì dove lavorava noi avevamo la possibilità di trovare in mezzo alla 
                 roba delle persone valori, oro, brillanti quello che vuoi le donne in particolar modo c'avevano i bigodini che ci 
                 nascondevano a volte un orologino piccolo piccolo ce l'aveva nel bigodino così, un'altra volta ho trovato 
                 un cardigan non come questo che c'ha tre bottoni, c'erano sei o sette bottoni cardigan di un colore, e i bottoni 
@@ -847,7 +850,7 @@
                 dove si andava erano tutti sti sei o sette bottoni, noi queste cose praticamente le davamo al capo e con queste 
                 cose di valore ogni tanto le mandavano a questi polacchi che dovevano aiutarci i partigiani e allora vista la fonte 
                 di tutta quella roba che mandavamo continuavano a dire che "c'è sempre bisogno c'è sempre bisogno", è per quello che 
-                dopo un po' hanno chiuso con loro e non hanno fatto niente, che non mi dicano "lì ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> sono stati i polacchi 
+                dopo un po' hanno chiuso con loro e non hanno fatto niente, che non mi dicano "lì ad <placeName ref="#AU">Auschwitz</placeName> sono stati i polacchi 
                 che hanno salvato che hanno fatto" c'era guerra tra di qua e di là, una guerra io che sto dentro e mi fanno a pezzetti, 
                 una guerra che non finisce più e col tempo cancelleranno tutti lì non c'erano ebrei, solo polacchi. io adesso cominciano 
                 le guide quando vanno parlan solo di quelli non nominano mai ebreo si vede se incrocia la lingua non li nominano mai 
@@ -855,19 +858,19 @@
                 <u who="#SEGRE" xml:id="S29" synch="#TC69">di <rs type="person">Saggi</rs></u>
                 <u who="#VENEZIA" xml:id="V32" synch="#TC70">di <rs type="person">Saggi</rs> dopo di questo il papà appunto dava a uno che poi veniva in 
                 contatto con un altro con un altro e un altro era difficile venire in contatto, gli dava 5 sterline e poi arrivava 
-                <rs type="person">Saggi</rs> con una sterlina e così con quello lui ha potuto avere qualche po' di pane in più o qualche <pause/>, perchè 
+                <rs type="person">Saggi</rs> con una sterlina e così con quello lui ha potuto avere qualche po' di pane in più o qualche <pause/>, perché 
                 non poteva darla così, la dava al capo baracca lui la prendeva e sapeva cosa come fare e lui gli dava</u>
                 <u who="#SEGRE" xml:id="S30" synch="#TC71">e arrivava il pane a Luigi</u>
                 <u who="#VENEZIA" xml:id="V33" synch="#TC72">gli dava un pezzo di pane, che poi quel pane era un pezzo in meno per 
                 gli altri, ne dava un po' di minestra in più era minestra degli altri e così lui comunque arrivato il 17 di gennaio 
-                del '45 non si è potuto muovere di lì come anche <rs type="person">Piero</rs>, di fatti loro son stati liberati là perchè son stati anche 
-                un po' fortunati, tutta quella gente che non poteva camminare dove vanno? sono rimasti in baracca perchè ormai non 
+                del '45 non si è potuto muovere di lì come anche <rs type="person">Piero</rs>, di fatti loro son stati liberati là perché son stati anche 
+                un po' fortunati, tutta quella gente che non poteva camminare dove vanno? sono rimasti in baracca perché ormai non 
                 avevano nessuno scopo di scappare di uscire infatti molti hanno tentato di uscire e sono rimasti a metà strada, 
-                infatti quando abbiamo fatto la marcia della morte si chiama, perchè chi rimaneva indietro che non aveva più forza 
+                infatti quando abbiamo fatto la marcia della morte si chiama, perché chi rimaneva indietro che non aveva più forza 
                 un colpo alla nuca e si buttavano alle cunette laterali e poi si è andati, non dovevi rimanere indietro noi abbiamo 
                 aiutato il nostro amico che per strada ha cominciato a vomitare sangue, lì per lì non sapevamo neanche cos'era, 
-                cosa non era poteva essere TBC poteva essere il cuore, poi è venuto fuori che era il cuore perchè dopo ha potuto 
-                andare in <placeName ref="#IR"><rs type="place">Israele</rs></placeName> poi è morto in <placeName ref="#IR"><rs type="place">Israele</rs></placeName><pause/> ed era quello, era il cuore, e così è stata la faccenda, ci hanno 
+                cosa non era poteva essere TBC poteva essere il cuore, poi è venuto fuori che era il cuore perché dopo ha potuto 
+                andare in <placeName ref="#IR">Israele</placeName> poi è morto in <placeName ref="#IR">Israele</placeName><pause/> ed era quello, era il cuore, e così è stata la faccenda, ci hanno 
                 liberati e la liberazione era come quando si vede nel film di <rs type="person">Benigni</rs> "la vita è bella" che arrivano i carri armati 
                 e il bambino si butta in avanti, noi ne abbiamo visti entrare due però non ci ha fatto cioè chi rideva chi piangeva 
                 per amarezza chi era proprio sconvolto una cosa che non si può spiegare, si potrebbe fare un film di quello con 
@@ -878,16 +881,16 @@
                 <u who="#VENEZIA" xml:id="V34" synch="#TC74">questo è uno che stava con me nello stesso mio vagone aveva 12 anni più di me era un pittore e lui ha dipinto tutto del crematorio eccetera, è venuto fuori</u>
                 <u who="#SEGRE" xml:id="S32" synch="#TC75">c'è questa cosa? c'è questo libro?</u>
                 <u who="#VENEZIA" xml:id="V35" synch="#TC76">si si c'è c'è,io c'ho le fotocopie l'ho date a mio nipote che sta in 
-                <placeName ref="#IR"><rs type="place">Israele</rs></placeName> perchè lei sta anche facendo qualche cosa così ma<pause/>non sono riuscito a trovarlo dove ce l'ho, 
-                vede è tutta roba di Sonderkommando qua<pause/>questo <rs type="person">David Olère</rs> dipingeva <pause/> 
+                <placeName ref="#IR">Israele</placeName> perché lei sta anche facendo qualche cosa così ma<pause/> non sono riuscito a trovarlo dove ce l'ho, 
+                vede è tutta roba di Sonderkommando qua<pause/> questo <rs type="person">David Olère</rs> dipingeva <pause/> 
                 e i tedeschi li tenevano da parte non lavorava con noi<pause/> stava su in una specie di ufficietto
                 <pause/><gap reason="inaudible" extent="1 words"/></u>
                 <u who="#SEGRE" xml:id="S33" synch="#TC77">e disegnava tutto quello che vedeva?</u>
                 <u who="#VENEZIA" xml:id="V36" synch="#TC78">lui aveva anche nascosto qualche cosa che poi l'hanno 
-                trovato e qui gli italiani agli ebrei l'hanno fatto, sia la comunità sia il governo <pause/> il governo</u>
+                trovato e qui gli Italiani agli ebrei l'hanno fatto, sia la comunità sia il governo <pause/> il governo</u>
                 <u who="#SEGRE" xml:id="S34" synch="#TC79">soprattutto il governo</u>
                 <u who="#VENEZIA" xml:id="V37" synch="#TC80">son tutti uguali <pause/>se si tratta del bene non fanno niente bisogna farlo 
-                fare agli altri per esempio quelli della scuola di <placeName ref="#MI"><rs type="place">Milano</rs></placeName> hanno dato la scuola subito 
+                fare agli altri per esempio quelli della scuola di <placeName ref="#MI">Milano</placeName> hanno dato la scuola subito 
                 <gap reason="inaudible" extent="3 words"/>o sei democratico<pause/></u>
                 <u who="#SEGRE" xml:id="S35" synch="#TC81">senta ma quindi con Luigi <rs type="person">Saggi</rs> siete rimasti amici? con <rs type="person">Saggi</rs> siete rimasti amici poi?</u>
                 <u who="#VENEZIA" xml:id="V38" synch="#TC82">si si dopo siamo stati lui stava qua, e siamo rimasti di tutta la 
@@ -896,7 +899,7 @@
                 no foto qualche disegno riesce è stato rifatto un poco così<pause/> ecco meglio guardare questo <pause/> tutte 
                 le cose qua tutte cose<vocal><desc>colpo di tosse</desc></vocal> questo l'ha fatto il figlio
                 <gap reason="inaudible" extent="3 words"/> alexander si chiama <pause/> l'ho incontrato ultimamente lì al museo 
-                della shoah a <placeName ref="#PA"><rs type="place">Parigi</rs></placeName>,<pause/> qua c'è <rs type="person">Elie Wiesel</rs> e quell'altro <rs type="person">Serge Klarsfeld</rs> <gap reason="inaudible" extent="3 words"/> 
+                della shoah a <placeName ref="#PA">Parigi</placeName>,<pause/> qua c'è <rs type="person">Elie Wiesel</rs> e quell'altro <rs type="person">Serge Klarsfeld</rs> <gap reason="inaudible" extent="3 words"/> 
                 questo è il figlio di quello</u>
                 <u who="#SEGRE" xml:id="S36" synch="#TC83">ah io ho anche una sua foto con può essere con <rs type="person">Wiesel</rs> o 
                 con <rs type="person">Wiesenthal</rs> con <rs type="person">Wiesenthal</rs> che però è in un'altra cartolina ma le devo riportare tutte le devo far vedere anche quelle di <rs type="person">Saggi</rs></u>
@@ -906,121 +909,121 @@
                 tagliava i capelli alle donne com'era la maniera lì ma non era come<pause/> poi ce l'ha con questo tedesco che 
                 era il peggiore il più cattivo <pause/> che uccideva le persone come le mosche come <pause/>tanto non doveva dare 
                 conto a nessuno<pause/></u>
-                <u who="#SEGRE" xml:id="S38" synch="#TC87">e lei è tornato e quando è tornato che ha fatto quando è arrivato a <placeName ref="#RM"><rs type="place">Roma</rs></placeName>?</u>
-                <u who="#VENEZIA" xml:id="V41" synch="#TC88">io son stato ricoverato a <placeName ref="#RM"><rs type="place">Roma</rs></placeName> si a <placeName ref="#RM"><rs type="place">Roma</rs></placeName> dopo 
-                <gap reason="inaudible" extent="1 word"/> son stato parecchio, ci hanno portato a <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName> lì c'era una villa 
+                <u who="#SEGRE" xml:id="S38" synch="#TC87">e lei è tornato e quando è tornato che ha fatto quando è arrivato a <placeName ref="#RM">Roma</placeName>?</u>
+                <u who="#VENEZIA" xml:id="V41" synch="#TC88">io son stato ricoverato a <placeName ref="#RM">Roma</placeName> si a <placeName ref="#RM">Roma</placeName> dopo 
+                <gap reason="inaudible" extent="1 word"/> son stato parecchio, ci hanno portato a <placeName ref="#GF">Grottaferrata</placeName> lì c'era una villa 
                 affittata da loro e noi stavamo nelle camere chi due chi uno chi tre e lì abbiamo convissuto abbiamo fatto amicizia 
-                con quelli che già eravamo amici all'ospedale in atttesa di andare di emigrare insomma<pause/> però non veniva mai 
-                quest'ora e molti <gap reason="inaudible" extent="5 words"/> perchè in <placeName ref="#IR"><rs type="place">Israele</rs></placeName> se non eri più sano 
+                con quelli che già eravamo amici all'ospedale in attesa di andare di emigrare insomma<pause/> però non veniva mai 
+                quest'ora e molti <gap reason="inaudible" extent="5 words"/> perché in <placeName ref="#IR">Israele</placeName> se non eri più sano 
                 <gap reason="inaudible" extent="4 words"/>invece a me e anche altri hanno detto che lavoro volevamo fare così colà, 
-                io intanto ho fatto un corso di inglese poi ho fatto qualcosa qui a <placeName ref="#RM"><rs type="place">Roma</rs></placeName> non mi ricordo così tutto perchè dovevo fare 
+                io intanto ho fatto un corso di inglese poi ho fatto qualcosa qui a <placeName ref="#RM">Roma</placeName> non mi ricordo così tutto perché dovevo fare 
                 quello lì e ho fatto un corso per lavorare in albergo infatti 27 anni negli alberghi<pause/> e tutto questo stando a 
-                <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName> poi ci hanno mandati <gap reason="inaudible" extent="10 words"/> e siamo andati a finire a <placeName ref="#BE"><rs type="place">Bellagio</rs></placeName> e lì 
-                c'era la prima scuola alberghiera d'italia e pagavano per noi 30.000 mi ricordo 30.000 lire al mese e siamo stati là 
+                <placeName ref="#GF">Grottaferrata</placeName> poi ci hanno mandati <gap reason="inaudible" extent="10 words"/> e siamo andati a finire a <placeName ref="#BE">Bellagio</placeName> e lì 
+                c'era la prima scuola alberghiera d'Italia e pagavano per noi 30.000 mi ricordo 30.000 lire al mese e siamo stati là 
                 9 mesi e si faceva un po' di tutto <gap reason="inaudible" extent="3 words"/> una cosa leggera ho fatto amministrazione 
                 e ricevimento cose più leggere insomma</u>
                 <u who="#SEGRE" xml:id="S39" synch="#TC89">cioè tipo nel '46 lei stava in amministrazione</u>
-                <u who="#VENEZIA" xml:id="V42" synch="#TC90">no nel '46 ancora no ho cominciato nel '52 e perchè quegli anni là dal '45 al '52 sono volati così per la malattia</u>
-                <u who="#PAVONCELLO" xml:id="P10" synch="#TC91">quanto tempo è stato a <placeName ref="#ME"><rs type="place">Merano</rs></placeName> ce l'aveva detto prima ma non mi ricordo perchè tanto tempo c'è stato</u>
-                <u who="#VENEZIA" xml:id="V43" synch="#TC92">da <placeName ref="#UD"><rs type="place">Udine</rs></placeName> andato a <placeName ref="#ME"><rs type="place">Merano</rs></placeName> era il mese di novembre adesso la data, 
-                il giorno non lo so era novembre <del type="falseStart">andati</del>portati a <placeName ref="#ME"><rs type="place">Merano</rs></placeName> e da <placeName ref="#ME"><rs type="place">Merano</rs></placeName> il '52 siamo venuti a 
-                <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName>, insomma dal '45 al '52</u>
+                <u who="#VENEZIA" xml:id="V42" synch="#TC90">no nel '46 ancora no ho cominciato nel '52 e perché quegli anni là dal '45 al '52 sono volati così per la malattia</u>
+                <u who="#PAVONCELLO" xml:id="P10" synch="#TC91">quanto tempo è stato a <placeName ref="#ME">Merano</placeName> ce l'aveva detto prima ma non mi ricordo perché tanto tempo c'è stato</u>
+                <u who="#VENEZIA" xml:id="V43" synch="#TC92">da <placeName ref="#UD">Udine</placeName> andato a <placeName ref="#ME">Merano</placeName> era il mese di novembre adesso la data, 
+                il giorno non lo so era novembre <del type="falseStart">andati</del>portati a <placeName ref="#ME">Merano</placeName> e da <placeName ref="#ME">Merano</placeName> il '52 siamo venuti a 
+                <placeName ref="#GF">Grottaferrata</placeName>, insomma dal '45 al '52</u>
             </div>
             <div xml:id="macro5" synch="#MA5">
                 <u who="#SEGRE" xml:id="S40" synch="#TC93">quindi nel '52 <del type="falseStart">ha cominciato</del> ha fatto questa scuola</u>
                 <u who="#VENEZIA" xml:id="V44" synch="#TC94">novembre del '46, 13 mesi se fate il conto da luglio a novembre si del 
-                '46 è venuta quella signora che abitava vicino <placeName ref="#TR"><rs type="place">Trieste</rs></placeName> si chiamava <rs type="person">Bianca Pincherle</rs> vi dice niente? 
+                '46 è venuta quella signora che abitava vicino <placeName ref="#TR">Trieste</placeName> si chiamava <rs type="person">Bianca Pincherle</rs> vi dice niente? 
                 Pincherle c'era <rs type="person">Alberto Moravia</rs> che si chiamava Pincherle<pause/>  e lì lei era una di famiglia di questi 
-                Pincherle di <placeName ref="#TR"><rs type="place">Trieste</rs></placeName> <pause/>Moravia ha cambiato nome però era un Picherle ebreo come era uno scrittore qua e là, non 
+                Pincherle di <placeName ref="#TR">Trieste</placeName> <pause/>Moravia ha cambiato nome però era un Pincherle ebreo come era uno scrittore qua e là, non 
                 figura <pause/> nessuno lo sa quasi che sia ebreo però era</u>
                 <u who="#SEGRE" xml:id="S41" synch="#TC95">era ebreo<pause/> io questa cosa non la sapevo</u>
                 <u who="#PAVONCELLO" xml:id="P11" synch="#TC96">non sapevi che era ebreo? ma lui l'ha sempre nascosto</u>
                 <u who="#SEGRE" xml:id="S42" synch="#TC97">è una cosa da nascondere?</u>
                 <u who="#VENEZIA" xml:id="V45" synch="#TC98">gli intellettuali sono un po'<pause/> cercano di nasconderlo sono 
-                quelli più alla mano che non hanno paura di dire "sono ebreo" io quand andavo per le scuole la prima cosa 
-                che dico "sono ebreo" e<pause/> son stati gli italiani in particolar modo perchè non riuscendoci ad 
-                arrivare già non ha valore quello che racconti perchè la gente quando manca il cervelletto e come 
-                molti ad esempio se parli sei uno di <placeName ref="#RM"><rs type="place">Roma</rs></placeName> quando stai col sindaco di <placeName ref="#RM"><rs type="place">Roma</rs></placeName>, gli voglio un bene da matti 
-                perchè è l'unico che racconta cose del genere però c'ha più passione per i Romani perchè Romano lui, 
+                quelli più alla mano che non hanno paura di dire "sono ebreo" io quando andavo per le scuole la prima cosa 
+                che dico "sono ebreo" e<pause/> son stati gli Italiani in particolar modo perché non riuscendoci ad 
+                arrivare già non ha valore quello che racconti perché la gente quando manca il cervelletto e come 
+                molti ad esempio se parli sei uno di <placeName ref="#RM">Roma</placeName> quando stai col sindaco di <placeName ref="#RM">Roma</placeName>, gli voglio un bene da matti 
+                perché è l'unico che racconta cose del genere però c'ha più passione per i Romani perché Romano lui, 
                 Romani gli altri e allora non è che importi più di tanto<pause/> e loro mi chiamano se mi chiamano 
                 molte volte mi chiamano e non vado, adesso ancora mi sento un po'</u>
                 <u who="#SEGRE" xml:id="S43" synch="#TC99">insomma è un bel lavoro quello che lei sta facendo è una cosa proprio</u>
-                <u who="#VENEZIA" xml:id="V46" synch="#TC100">lavoro di stanchezza e anche fisica perchè internamente io, per quello ho detto prima non ho calcolato tempi</u>
+                <u who="#VENEZIA" xml:id="V46" synch="#TC100">lavoro di stanchezza e anche fisica perché internamente io, per quello ho detto prima non ho calcolato tempi</u>
                 <u who="#SEGRE" xml:id="S44" synch="#TC101">non ha calcolato che tornava vicinissimo</u>
                 <u who="#VENEZIA" xml:id="V47" synch="#TC102">mi hanno richiamato erano cinquantuno scuole e già mi hanno dato gli indirizzi dico 
                 "voi chiamate, in base a come sto messo in base alla salute io vi dirò quando posso venire" infatti ogni volta che son là mi 
-                fa piacere perchè in realtà, quest'anno hanno fatto meglio prendono quattro ragazzi di ogni scuola si riconoscono tra di loro, 
+                fa piacere perché in realtà, quest'anno hanno fatto meglio prendono quattro ragazzi di ogni scuola si riconoscono tra di loro, 
                 ritornano a scuola, parlano tra di loro praticamente vengono a sapere anche gli altri e quello è una cosa abbastanza</u>
-                <u who="#SEGRE" xml:id="S45" synch="#TC103">questa mostra infatti è collegata in questo modo cioè viene fatta in una scuola in collegamento con la scuola ebraica e poi farà il giro delle scuole ques'tanno</u>
+                <u who="#SEGRE" xml:id="S45" synch="#TC103">questa mostra infatti è collegata in questo modo cioè viene fatta in una scuola in collegamento con la scuola ebraica e poi farà il giro delle scuole quest'anno</u>
                 <u who="#VENEZIA" xml:id="V48" synch="#TC104"><del type="falseStart">normalmente io non</del>sapevo che sarebbe andata a 
                 finire così pensavo quest'affare a cosa scrivere eccetera, la cosa andava a finire in mezz'ora quindi, uno deve raccontare 
-                la sua storia e diventa pesantee allora<pause/> vede quelle cassette là in fondo quelle stanno tutte là da <rs type="person">Spielberg</rs>, 
+                la sua storia e diventa pesante e allora<pause/> vede quelle cassette là in fondo quelle stanno tutte là da <rs type="person">Spielberg</rs>, 
                 sono cassette</u>
                 <u who="#SEGRE" xml:id="S46" synch="#TC105">sono la sua copia di quello che sta nell'archivio di <rs type="person">Spielberg</rs></u>
                 <u who="#VENEZIA" xml:id="V49" synch="#TC106">registrate per <rs type="person">Spielberg</rs> <pause/>e qui è venuta una signora era signorina 
-                allora da <placeName ref="#GE"><rs type="place">Gerusalemme</rs></placeName> perchè loro al telefono mi hanno detto "do you want to speak italian or english?" io ho detto preferisco 
-                l'italiano perchè io parlo l'inglese però ci son delle cose che non riesco rimango impappinato. una volta mi hanno dato uno 
-                dei <gap reason="inaudible" extent="5 words"/>allora ha detto che era venuto dalla <placeName ref="#FR"><rs type="place">Francia</rs></placeName> per parlare con me per vedere se 
+                allora da <placeName ref="#GE">Gerusalemme</placeName> perché loro al telefono mi hanno detto "do you want to speak italian or english?" io ho detto preferisco 
+                l'italiano perché io parlo l'inglese però ci son delle cose che non riesco rimango impappinato. una volta mi hanno dato uno 
+                dei <gap reason="inaudible" extent="5 words"/>allora ha detto che era venuto dalla <placeName ref="#FR">Francia</placeName> per parlare con me per vedere se 
                 valeva la pena che io andassi con lui difatti siamo stati e poi m'ha chiamato per andare là per 4 giorni e hanno girato lì 
                 proprio e hanno fatto un bel lavoretto <gap reason="inaudible" extent="3 words"/> però io ho detto che parlo il francese ma 
                 sempre un po' e loro "no no ci sarà la traduzione la guida, ci sarà l'interprete" siamo stati là
-                <gap reason="inaudible" extent="10 words"/>ultimamente son stato lì in <placeName ref="#FR"><rs type="place">Francia</rs></placeName> a <placeName ref="#PA"><rs type="place">Parigi</rs></placeName> che c'ho un grandissimo benefattore</u>
+                <gap reason="inaudible" extent="10 words"/>ultimamente son stato lì in <placeName ref="#FR">Francia</placeName> a <placeName ref="#PA">Parigi</placeName> che c'ho un grandissimo benefattore</u>
                 <u who="#SEGRE" xml:id="S47" synch="#TC107">lì sono più organizzati non c'è paragone, non c'è paragone</u>
-                <u who="#VENEZIA" xml:id="V50" synch="#TC108">no io non so perchè qui<pause/> sarà perchè ci sono quelli rimasti di una volta 
+                <u who="#VENEZIA" xml:id="V50" synch="#TC108">no io non so perché qui<pause/> sarà perché ci sono quelli rimasti di una volta 
                 che vogliono hanno certo "ma non abbiamo fatto niente" cerchiamo di essere anche un po' più aperti non facciamo sempre quelli
-                <pause/> l'unica cosa che ho osservato qua se uno da una qualsiasi cosa non è abbastanza perchè se hai dato 100 l'anno prossimo 
+                <pause/> l'unica cosa che ho osservato qua se uno da una qualsiasi cosa non è abbastanza perché se hai dato 100 l'anno prossimo 
                 deve essere 150 allora dicono sempre di meno sempre di meno è una politica sbagliata per<pause/> meglio chi c'ha e da 
                 volontariamente purtroppo anche quelli che hanno molto non sono tanto<pause/> per dare tanto io c'ho mio suocero che lui c'ha 
                 <gap reason="inaudible" extent="4 words"/>ce n'ha abbastanza però anche se da così che non vuole che si sappia che l'ha dato 
                 lui con tutto ciò quando vengono le tasse, a noi ce almeno l'hanno tolto questo fatto delle tasse per i deportati ma io le davo 
                 volentieri ma ogni anni ti mettono il 20% in più, eh no andiamo fino alle stelle io vivo di pensione non è che ho qualche cosa 
                 che posso avere comunque questo per loro non vale<pause/> alla fine di disinnamora, io vado lì al tempio quando è qualche festa 
-                e quando c'è qualche cosa domani ci sarà qualcosa, chi mi ha telefonato per invitarmi? una signora di <placeName ref="#SE"><rs type="place">Sant'Egidio</rs></placeName>, a me non m'ha 
+                e quando c'è qualche cosa domani ci sarà qualcosa, chi mi ha telefonato per invitarmi? una signora di <placeName ref="#SE">Sant'Egidio</placeName>, a me non m'ha 
                 detto nessuno niente vado come sempre anche al tempio se c'è qualche cosa, non c'è nessuno neanche quei quattro che son rimasti 
-                ancora perchè sono</u>
-                <u who="#SEGRE" xml:id="S48" synch="#TC109">no no ci sarà <rs type="person">Piero</rs> parlerà però non so bene se al Pitigiliani ma qualcuno parlerà, perchè è tutto,non c'è un'organizzazione no in <placeName ref="#FR"><rs type="place">Francia</rs></placeName> non c'è paragone, proprio il capitale che viene impegnato l'organizzazione per no?</u>
+                ancora perché sono</u>
+                <u who="#SEGRE" xml:id="S48" synch="#TC109">no no ci sarà <rs type="person">Piero</rs> parlerà però non so bene se al Pitigliani ma qualcuno parlerà, perché è tutto, non c'è un'organizzazione no in <placeName ref="#FR">Francia</placeName> non c'è paragone, proprio il capitale che viene impegnato l'organizzazione per no?</u>
                 <u who="#VENEZIA" xml:id="V51" synch="#TC110"><del type="falseStart">per dire una stupidaggine questo dottore che io conosco lì prima</del> quattro crematori 
-                uno,cioè due di questi avevano una capienza di 1450 persone e ne mettevo anche 1700- 1800 ammassati in una maniera indicibile, 
+                uno, cioè due di questi avevano una capienza di 1450 persone e ne mettevo anche 1700- 1800 ammassati in una maniera indicibile, 
                 gli altri due il 4 e il 5 erano la metà 750 circa però quelli avevano un'altra cosa avevano delle fosse all'aperto e non avevano 
                 bisogno dei forni cioè avevano i forni ma non erano sufficienti per smaltire e lì buttavano nelle fosse all'aperto, c'è stata 
                 ultimamente una foto sul giornale di un pilota inglese ha preso questa foto e non l'ha tirata fuori per tanti anni</u>
-                <u who="#SEGRE" xml:id="S49" synch="#TC111">si ma si sapeva<pause/> si sapeva che erano così</u>
+                <u who="#SEGRE" xml:id="S49" synch="#TC111">sì ma si sapeva<pause/> si sapeva che erano così</u>
                 <u who="#VENEZIA" xml:id="V52" synch="#TC112">noi là pregavamo non il padre eterno, pregavamo il bombardamento 
                 che venissero e ci bombardassero così finiva tutto, non è che dice "si cerco faccio che fuggo ,così mi sparano" non era 
                 così, ti prendevano e poi era una cosa che dovevano tutti vedere come ti stanno massacrando alla fine se tutto andava
                 bene ti schiacciavano la testa coi tacchi <kinesic><desc>pesta per terra</desc></kinesic> prima di farti morire la 
                 sofferenza era grande mi dicono "come mai? qua e là uno poteva anche ammazzarsi" e questa è l'ultima cosa che un uomo 
-                fa, infatti molti quelli che stanno in vita dicono "io dovevo rimanre là" lo dici, perchè? perchè la natura stessa non 
+                fa, infatti molti quelli che stanno in vita dicono "io dovevo rimanere là" lo dici, perché? perché la natura stessa non 
                 c'era<pause/> sapevo che era così e la prima occasione che avrei avuto mi sarei ucciso, però nell'arco di 20 anni ti 
                 trovi in questa baraonda che non è una cosa credibile e lì non potevi neanche pensare una cosa del genere, molti a scuola 
-                dicono "c'era solidariteà?" non 'era solidarietà, non era possibile la solidarietà in un posto dove tu c'hai 20g di una 
+                dicono "c'era solidarietà?" non 'era solidarietà, non era possibile la solidarietà in un posto dove tu c'hai 20g di una 
                 cosa non posso darti 2g del mio se ti do 2 a te rimango io senza quei due chi aveva più fortuna col cibo
-                <gap reason="inaudible" extent="6 words"/> erano quelli che stavano dove stavo io al crematorio perchè purtroppo lì 
-                arrivava tutta quella gente, lasciavano quei pacchi che avevano, quella poca roba, perchè la maggior parte veniva 
+                <gap reason="inaudible" extent="6 words"/> erano quelli che stavano dove stavo io al crematorio perché purtroppo lì 
+                arrivava tutta quella gente, lasciavano quei pacchi che avevano, quella poca roba, perché la maggior parte veniva 
                 partendo da casa e i tedeschi dicevano "portate tutto quello che avete, che lì dove andate c'è bisogno di valori, 
-                materassi, vestiari" arrivavano qui ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> <vocal><desc>mima urla</desc></vocal> e questa baraonda e chi si 
+                materassi, vestiari" arrivavano qui ad <placeName ref="#AU">Auschwitz</placeName> <vocal><desc>mima urla</desc></vocal> e questa baraonda e chi si 
                 avvicinava con qualcosa in mano gliela levavano subito dalle mani "lasciate lasciate, verrà tutto portato dove andate 
                 voi" così tutto rimaneva lì e quando andava in questi posti che era il comando e lì veniva fatta la divisione, giacche 
                 con giacche valori con valori, e c'era roba di gente che veniva anche se era poverissima portavano la roba più buona 
-                che avevano e c'erano persone che portavano roba ancora buona nelle valigie perchè "se avevo bisogno di una camicia chi 
+                che avevano e c'erano persone che portavano roba ancora buona nelle valigie perché "se avevo bisogno di una camicia chi 
                 me la dava là?" chi aveva la camicia la buttava o qualsiasi altra cosa <gap reason="inaudible" extent="4 words"/> però 
                 ti arrangiavi come quando trovavamo pane o qualche scarpa cose così la mettevamo su, dormivamo sopra quando si lavorava 
                 lì<pause/> un giorno un mio amico stava di fronte si chiamava Daniel <gap reason="inaudible" extent="2 words"/> 
                 mi dice "Shlomo se trovi un po' di zucchero ho bisogno" come no difatti dopo tre o quattro giorni avevo in mano un 
                 giacchettino così c'erano due zollette di zucchero, ho pensato e lui ho messo da parte, anche passare da uno all'altro 
-                era un rischio enorme allora guardo io apro il cancello, siete stati a <placeName ref="#BR"><rs type="place">Birkenau</rs></placeName>? dovete andare una volta che ci sarà 
+                era un rischio enorme allora guardo io apro il cancello, siete stati a <placeName ref="#BR">Birkenau</placeName>? dovete andare una volta che ci sarà 
                 qualche cosa, è veramente molto importante, allora ci saranno da un crematorio all'altro c'è da attraversare uno 
                 stradone immenso, che adesso hanno prolungato la ferrovia allora facendo questo stradone prima ho fatto così ho 
                 aperto il cancello, destra sinistra tutto libero tutto vuoto, dico "adesso è il momento giusto" mentre sto 
                 camminando la distanza è più o meno sessanta settanta metri<pause/> cammino normale, arrivo a metà strada mi 
                 sbucano da un lato due tedeschi coi fucili così ed erano due  che avevano fatto la guardia in qualche posto e 
-                stavano ritornando verso il comando mentre li vedo pensavo tra me e me "se torno indietro faccio male perchè 
+                stavano ritornando verso il comando mentre li vedo pensavo tra me e me "se torno indietro faccio male perché 
                 sapevo che tipi erano<pause/> se vado avanti devo andare piano" ho detto propongo il pacchettino che avevo in 
                 mano allora cammino piano piano a 10 metri faccio in tedesco "guten abend, buonasera" e loro mi hanno risposto 
                 allora dico "volete zucchero?" allora son andato vicino a loro e gli ho dato il sacchettino a loro due quando 
                 l'hanno preso li ho fatti passare e sono andato da Daniel però prima di andare guardavo loro due che stavano 
-                andando e vedendo che a loro stavano bisticciando perchè "l'ha dato a me non a te" ognuno voleva tenerselo per 
-                sè perchè anche loro non è che avevano tanto oltre alla razione a avere zuccheor in più era un terno al lotto 
+                andando e vedendo che a loro stavano bisticciando perché "l'ha dato a me non a te" ognuno voleva tenerselo per 
+                sé perché anche loro non è che avevano tanto oltre alla razione a avere zucchero in più era un terno al lotto 
                 sono andato da Daniel poverino che era molto molto fine me lo ricordo come adesso, carnagione bianca e allora 
                 dico "Dani purtroppo lo zucchero se lo stanno mangiando quei mascalzoni" dice "hai fatto bene hai fatto bene" 
                 "se mi capiterà di nuovo" ma non mi è capitato di nuovo di trovare lo zucchero però almeno mi ero scusato<pause/>
@@ -1031,42 +1034,42 @@
                 alberghi avevano <gap reason="inaudible" extent="2 words"/> un libro grande dove metti la camera così e gli extra che ha preso 
                 tutto quanto il numero della camera con il nome del cliente e questo veniva firmato giorno per giorno al momento che quel 
                 cliente andava via c'avevi tutti i totali e facevi la fattura e le cose da fare io facevo anche quello comunque c'era il 
-                professore che era uno appoggiato dai partiti ed era anziano e stava lì così per avere lo stipendo e non faceva niente 
-                comunque questo all'inizio, professore Grossi era un torninese non aveva figli e avea la moglie sempre con se e mi dice 
+                professore che era uno appoggiato dai partiti ed era anziano e stava lì così per avere lo stipendio e non faceva niente 
+                comunque questo all'inizio, professore Grossi era un torinese non aveva figli e aveva la moglie sempre con se e mi dice 
                 "Venezia vuoi venire con me quando hai finito il corso? c'è così così e così" e io "come no professore" altrimenti sarei 
-                tornato a <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName>, non avevo agganci <pause/>dice c'è un albergo che non è per tutti è un albergo per la montecatini 
-                che la montecatini ha costruito questo albergo per i suoi dipendenti gli impiegati e per quelli che lavorano nelle miniere 
-                e lei sa difatti arrivato il mommento sono andato con lui era il primo mio approccio al lavoro andiamo in questo albergo 
+                tornato a <placeName ref="#GF">Grottaferrata</placeName>, non avevo agganci <pause/>dice c'è un albergo che non è per tutti è un albergo per la Montecatini 
+                che la Montecatini ha costruito questo albergo per i suoi dipendenti gli impiegati e per quelli che lavorano nelle miniere 
+                e lei sa difatti arrivato il momento sono andato con lui era il primo mio approccio al lavoro andiamo in questo albergo 
                 che l'avevano fatto tra Castellammare di Stabia e Sorrento a metà se vi dico che era tutto attorniato 
                 <gap reason="inaudible" extent="3 words"/> una cosa incredibile ed era un palazzo di tre piani non di più 
-                perchè stava sulla collinetta e poteva vedere tutto quel bel mare, infatti avevo la cameretta sopra proprio 
+                perché stava sulla collinetta e poteva vedere tutto quel bel mare, infatti avevo la cameretta sopra proprio 
                 e tutto il terrazzo che era libero stavo lì ogni tanto e cercavo di respirare un po' d'aria pura però ci son 
-                stato pochissimo perchè mi hanno mandato in ferie quando non dovevo andare in ferie e questo professore aveva
-                paura di perdere il posto lui era sempre in giro con la moglie lì venivano sempre impiegati della montecatini 
-                oltre a quelli che capitavano ovviamente passavano gli impiegati di <placeName ref="#NA"><rs type="place">Napoli</rs></placeName>, sapevano che c'era questo 
+                stato pochissimo perché mi hanno mandato in ferie quando non dovevo andare in ferie e questo professore aveva
+                paura di perdere il posto lui era sempre in giro con la moglie lì venivano sempre impiegati della Montecatini 
+                oltre a quelli che capitavano ovviamente passavano gli impiegati di <placeName ref="#NA">Napoli</placeName>, sapevano che c'era questo 
                 <gap reason="inaudible" extent="2 words"/>  allora mentre stavano là "posso offrire qualche cosa?" quello basta 
                 che prenda,<gap reason="inaudible" extent="5 words"/> era tutto bello e nuovo<gap reason="inaudible" extent="2 words"/> 
-                quelli della montecatini allora ci hannno portato in quel periodo queste macchine del caffè era una macchina di classe 
+                quelli della Montecatini allora ci hanno portato in quel periodo queste macchine del caffè era una macchina di classe 
                 all'inizio, difatti quando l'hanno portata l'hanno spiegato a me come funziona eccetera infatti dopo i camerieri e chi 
                 stava lì vedevano loro e dicevo "lo faccio io il caffè  così non vi lamenterete" allora tutti a dire com'era buono e 
                 allora mi ha preso la mano dicendo che ero in gamba questo direttore questo professore che era anche abbastanza anziano 
                 alla fine lui <gap reason="inaudible" extent="2 words"/> di mandarmi in ferie e dopo <gap reason="inaudible" extent="3 words"/>
-                a <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName> ho dormito in stanza con gli amici che c'erano quando mi arriva questa lettera in stanza che non c'è più bisogno 
+                a <placeName ref="#GF">Grottaferrata</placeName> ho dormito in stanza con gli amici che c'erano quando mi arriva questa lettera in stanza che non c'è più bisogno 
                 del mio</u>
                 <u who="#SEGRE" xml:id="S51" synch="#TC115">quindi il professore ha temuto di essere soppiantato?</u>
-                <u who="#VENEZIA" xml:id="V54" synch="#TC116"><del type="falseStart">no perchè è stato</del>no perchè è prima di me aveva 
-                soppiantato un altro per quello sennò non l'avrebbe fatto perchè io son  stato a lavorare anche a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> dopo di lui, 
-                qui a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> c'era questo ebreo polacco che il professore aveva fatto come con me aveva visto che era <pause/>perchè 
+                <u who="#VENEZIA" xml:id="V54" synch="#TC116"><del type="falseStart">no perché è stato</del>no perché è prima di me aveva 
+                soppiantato un altro per quello sennò non l'avrebbe fatto perché io son  stato a lavorare anche a <placeName ref="#RI">Rimini</placeName> dopo di lui, 
+                qui a <placeName ref="#RI">Rimini</placeName> c'era questo ebreo polacco che il professore aveva fatto come con me aveva visto che era <pause/>perché 
                 gli altri erano tutti senza verve lui tirava fuori quelle persone, quei due o tre che potevano fare il cameriere uno 
-                due che potevano fare il cuoco allora andati a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> con questo mio amico polacco e faceva quasi tutto lui perchè 
+                due che potevano fare il cuoco allora andati a <placeName ref="#RI">Rimini</placeName> con questo mio amico polacco e faceva quasi tutto lui perché 
                 il professore non pensava a niente lui allora si chiamava <gap reason="inaudible" extent="2 words"/>un lavoratore 
                 in quel periodo<pause/> allora venivano là questi e quel mascalzone di ebreo non li faceva pagare tirava le carte 
                 non so come <gap reason="inaudible" extent="3 words"/> e si facevano 15 giorni di vacanza in questo albergo era un 
-                albergo scuola a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> <pause/> anche lì alla fine hanno detto "che ci sta a fare il professor Grossi c'è questo 
+                albergo scuola a <placeName ref="#RI">Rimini</placeName> <pause/> anche lì alla fine hanno detto "che ci sta a fare il professor Grossi c'è questo 
                 che portava avanti tutto da lui" e gli hanno dato un calcio nel sedere, sempre appoggiandolo nel partito, la 
                 democrazia cristiana allora quando son capitato ho visto così ho avuto paura e ho fatto tutto in regola libretto 
-                di lavoro e le marchettetutto perfetto allora sono andato là e quando son tornato hanno pagato tutto e poi non 
-                sapevo perchè e mi dicono "sa Venezia qui viene spesso la notte la montecatini e il servizio che fai non c'è 
+                di lavoro e le marchette tutto perfetto allora sono andato là e quando son tornato hanno pagato tutto e poi non 
+                sapevo perché e mi dicono "sa Venezia qui viene spesso la notte la Montecatini e il servizio che fai non c'è 
                 bisogno"<gap reason="inaudible" extent="3 words"/> non è che avevo una paga se lei lo dice io 
                 <gap reason="inaudible" extent="2 words"/><pause/> son capitato lì dopo quattro cinque mesi che mi ero sposato</u>
                 <u who="#SEGRE" xml:id="S52" synch="#TC117">già l'aveva incontrata sua moglie?</u>
@@ -1074,182 +1077,182 @@
                 non è che <pause/> dico fammi dare un'occhiata così per vedere al mio posto c'era uno che era uno di quelli tontoloni, 
                 un carro armato che stava fermo e allora per lui andava bene quel tipo di persona e di me non c'era bisogno questo vabbè comunque</u>
                 <u who="#SEGRE" xml:id="S53" synch="#TC119">ha fatto 2+2 quello</u>
-                <u who="#VENEZIA" xml:id="V56" synch="#TC120">e poi sono andato a finire a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> dove c'era questo mio amico ma non 
-                è che io sia stato molto bene con lui perchè lui era fragilino<gap reason="inaudible" extent="2 words"/> 
+                <u who="#VENEZIA" xml:id="V56" synch="#TC120">e poi sono andato a finire a <placeName ref="#RI">Rimini</placeName> dove c'era questo mio amico ma non 
+                è che io sia stato molto bene con lui perché lui era fragilino<gap reason="inaudible" extent="2 words"/> 
                 addirittura il comandate della regione i carabinieri c'era quel come si chiamano quelli il circolo di quelli 
                 benestanti, una specie di club allora con quelli facevano 15 giorni quelle persone ci sapeva fare non c'è 
                 nulla da dire e son stato con lui quattro anni</u>
-                <u who="#PAVONCELLO" xml:id="P12" synch="#TC121">a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName>?come ha fatto a incontrare sua moglie e vivere così a <placeName ref="#RM"><rs type="place">Roma</rs></placeName>?</u>
+                <u who="#PAVONCELLO" xml:id="P12" synch="#TC121">a <placeName ref="#RI">Rimini</placeName>? Come ha fatto a incontrare sua moglie e vivere così a <placeName ref="#RM">Roma</placeName>?</u>
                 <u who="#VENEZIA" xml:id="V57" synch="#TC122">vivevo con mia moglie dopo il matrimonio mi son sposato sono andato a 
-                Sorrento e sono stato 3 giorni mentre stavo a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> mi filavo con mia moglie che non era ancora moglie allora 
+                Sorrento e sono stato 3 giorni mentre stavo a <placeName ref="#RI">Rimini</placeName> mi filavo con mia moglie che non era ancora moglie allora 
                 quella lì mi ha dato aut aut dice con il tempo che sta passando quella era ragazzina non aveva neanche 18 anni 
                 quando l'ho incontrata e allora stando lì dico "va bene adesso cercheremo di sistemare" ogni tanto andavo<pause/> 
                 due anni è andata avanti questa faccenda quando sono andato lì "allora facciamo le carte" e io ho fatto le mie carte 
-                tutto quanto <pause/>Salomone Venezia perchè il mio nome Shlomo in ebraico è Salomone però lei mi chiamava</u>
+                tutto quanto <pause/>Salomone Venezia perché il mio nome Shlomo in ebraico è Salomone però lei mi chiamava</u>
                 <u who="#PAVONCELLO" xml:id="P13" synch="#TC123">pure Bruno si chiama lei, me l'ha detto <rs type="person">Romeo</rs> che lo chiama Bruno</u>
-                <u who="#VENEZIA" xml:id="V58" synch="#TC124"><rs type="person">Romeo</rs> poi allora è un altra storia volete sapere tutto insomma io qua vi tengo un'altra ora adesso no dai</u>
+                <u who="#VENEZIA" xml:id="V58" synch="#TC124"><rs type="person">Romeo</rs> poi allora è un'altra storia volete sapere tutto insomma io qua vi tengo un'altra ora adesso no dai</u>
                 <u who="#PAVONCELLO" xml:id="P14" synch="#TC125">vabbè quando è stanco ce lo dice noi non ci annoiamo mai a sentire racconti</u>
-                <u who="#VENEZIA" xml:id="V59" synch="#TC126">ci sono cose che io non le racconto<pause/> vado avanti perchè sennò è 
+                <u who="#VENEZIA" xml:id="V59" synch="#TC126">ci sono cose che io non le racconto<pause/> vado avanti perché sennò è 
                 troppo allora siamo tornati là ho detto il nome, Salomone arriviamo dal sindaco però prima doveva esserci una persona 
-                al mio posto che io mi trovavo a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> e lei le carte doveva darle già a <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName> al comune
+                al mio posto che io mi trovavo a <placeName ref="#RI">Rimini</placeName> e lei le carte doveva darle già a <placeName ref="#GF">Grottaferrata</placeName> al comune
                 <gap reason="inaudible" extent="2 words"/> e quando è venuto il momento prima in comune poi alla sinagoga 
                 sono andato lì ha cominciato il sindaco lei Salomone Venezia e mia moglie mi guarda<pause/> lei mi conosceva 
                 come Bruno,<vocal><desc>ride</desc></vocal> lo sapevo che faceva ridere per quello lo volevo raccontare questo 
                 fatto di Bruno allora dico "si sono io" "ma i documenti son questi non c'entra niente" e "dopo te lo racconterò"</u>
                 <!--inizio secondo file audio-->
                 <u who="#VENEZIA" xml:id="V60" synch="#TC-201">è andato così alla fine dice "no il Bruno è il Brunetto" 
-                <gap reason="inaudible" extent="2 words"/>, Bruno mi ci chiamavano tutti perchè loro neanche lo sapevano come 
+                <gap reason="inaudible" extent="2 words"/>, Bruno mi ci chiamavano tutti perché loro neanche lo sapevano come 
                 mi chiamava lei, non diceva Salomone<gap reason="inaudible" extent="2 words"/> aveva anche un filo di paura 
-                ancora a chiamarmi Salomone perchè è quello ebreo allora in quel momento là Bruno ed è rimasto Bruno e tutti 
-                quanti mi conoscevano Bruno, tutt'ora ci sono delle persone che qulche volta quando vado alla televisione 
+                ancora a chiamarmi Salomone perché è quello ebreo allora in quel momento là Bruno ed è rimasto Bruno e tutti 
+                quanti mi conoscevano Bruno, tutt'ora ci sono delle persone che qualche volta quando vado alla televisione 
                 "Shlomo Venezia" non lo conoscono<pause/> e questo è la vita che</u>
                 <u who="#SEGRE" xml:id="S54" synch="#TC-202">si è sposato nel?</u>
-                <u who="#VENEZIA" xml:id="V61" synch="#TC-203">allora<pause/> dopodichè passato un po' di tempo da quando 
-                abbiamo fatto in comune son tornato e ormai <gap reason="inaudible" extent="5 words"/>a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> era tutto 
+                <u who="#VENEZIA" xml:id="V61" synch="#TC-203">allora<pause/> dopodiché passato un po' di tempo da quando 
+                abbiamo fatto in comune son tornato e ormai <gap reason="inaudible" extent="5 words"/>a <placeName ref="#RI">Rimini</placeName> era tutto 
                 pronto per sposarmi, c'erano tutti i miei amici che stavano dietro alla preparazione abbiamo ordinato un 
-                piccolo pullmino perchè non è che potevamo spendere, io con mia moglie abbiamo preso un autista che c'era 
+                piccolo pullmino perché non è che potevamo spendere, io con mia moglie abbiamo preso un autista che c'era 
                 lì con una macchina quelle francesi<pause/><gap reason="inaudible" extent="2 words"/> due cavalli così era allora tutto pronto</u>
                 <u who="#SEGRE" xml:id="S55" synch="#TC-204">che anno era? che anno era?</u>
                 <u who="#VENEZIA" xml:id="V62" synch="#TC-205"><gap reason="inaudible" extent="2 words"/> adesso mi viene in mente e non stavo più 
-                a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName><pause/> non stavo a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> tant'è che avevo detto ai miei amici che prendevo le ferie<pause/> e qui a <placeName ref="#RM"><rs type="place">Roma</rs></placeName> c'è un 
-                amico che ha un alberghetto e ha voluto offrirci il pranzo comunque eravamo un armata, l'armata brancaleone di sempre, 
+                a <placeName ref="#RI">Rimini</placeName><pause/> non stavo a <placeName ref="#RI">Rimini</placeName> tant'è che avevo detto ai miei amici che prendevo le ferie<pause/> e qui a <placeName ref="#RM">Roma</placeName> c'è un 
+                amico che ha un alberghetto e ha voluto offrirci il pranzo comunque eravamo un armata, l'armata Brancaleone di sempre, 
                 arriviamo così e io scendo anzi siamo andati in giro e abbiamo tardato per qualche motivo, mia moglie era scesa già con 
                 questa macchina che ho detto prima era davanti al tempio quello grande e non c'era nessuno e lei era disperata "che succede 
                 che succede?" e gira e rigirati alla fine <gap reason="inaudible" extent="5 words"/>non c'era nessuno che dicesse le cose 
                 lei poverina non aveva la madre il papà che allora prima di sposarsi <gap reason="inaudible" extent="3 words"/> lei era già 
                 stata dal parrucchiere era già pronta allora è dovuta andare all'albergo di questo nostro amico e non aveva niente appresso, 
                 anzi è andata come era vestita da sposa sotto alla stazione che c'era quello che non so cosa doveva fare e al tempio 
-                <gap reason="inaudible" extent="6 words"/>questa era in qualche maniera, piangeva era disperata "ma non ti dovevi preocupare" 
+                <gap reason="inaudible" extent="6 words"/>questa era in qualche maniera, piangeva era disperata "ma non ti dovevi preoccupare" 
                 e insomma alla fine ci siamo sposati al tempio maggiore c'era il rabbino allora che non mi ricordo il nome 
                 <del type="falseStart">faceva la maestra la figlia</del>, no la figlia di lui faceva la maestra alla scuola elementare</u>
-                <u who="#PAVONCELLO" xml:id="P15" synch="#TC-206">c'era Prato all'epoca? si chiamava Prato forse? perchè i miei parlano sempre di Prato</u>
+                <u who="#PAVONCELLO" xml:id="P15" synch="#TC-206">c'era Prato all'epoca? si chiamava Prato forse? perché i miei parlano sempre di Prato</u>
                 <u who="#VENEZIA" xml:id="V63" synch="#TC-207">si c'era un Prato che conosco quella famiglia li conosco ma non mi ricordo più i 
                 nomi io gli volevo un sacco di bene e così <gap reason="inaudible" extent="4 words"/> tutti questi vecchietti, comunque
                 <pause/><gap reason="inaudible" extent="3 words"/> andiamo lei quando è venuta dopo aver fatto questo è tornata direttamente 
                 a farsi i capelli <pause/>tornando indietro non ci aveva visti ancora era quella la sua preoccupazione e non so per quale 
                 motivo lì tarda uno tarda l'altro<gap reason="inaudible" extent="3 words"/> e finalmente siamo venuti c'era appunto questo 
                 rabbino e abbiamo fatto il matrimonio e poi siamo usciti noi e quei pochi invitati una ventina siamo andati in questo albergo 
-                perchè non volevamo evitare di spendere, di fare<pause/> e questo è stato questo matrimonio e da lì siamo partiti subito in 
-                viaggio di nozze a Sorrento io conoscevo una perchè lavorando lì, non ero ancora sposato, col professore 6 anni in questo posto 
+                perché non volevamo evitare di spendere, di fare<pause/> e questo è stato questo matrimonio e da lì siamo partiti subito in 
+                viaggio di nozze a Sorrento io conoscevo una perché lavorando lì, non ero ancora sposato, col professore 6 anni in questo posto 
                 conoscevo bene quella zona e sapevo questa era un ebrea molto anziana e non aveva nessuno lei quando andava voleva 
                 <gap reason="inaudible" extent="5 words"/>che io andassi sempre e pensavo che se l'avessi curata un pochino magari 
                 mi lasciava qualche cosa <gap reason="inaudible" extent="6 words"/> arrivati lì mi fa anche lo sconto quando siamo 
                 andati mia moglie aveva 17 anni, le ho fatto il passaporto arriviamo lì saliamo in camera e all'improvviso suona il 
                 campanello, non c'era il telefonino "signor Venezia come faccio? è minorenne" dico "guardi siamo sposati è minorenne, 
                 ci hanno sposato, c'è i documenti" ma lei tranquillamente doveva fare la schedina da mandare alla questura, allora son 
-                sceso subito giù perchè lei aveva paura comunque chiama un mio amico da <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> "devi tornare perchè questo e quello" 
-                torna a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName>, io avevo arrangiato prima di andarmi a sposare avevo affittato una pensioncina di <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> che era era 
+                sceso subito giù perché lei aveva paura comunque chiama un mio amico da <placeName ref="#RI">Rimini</placeName> "devi tornare perché questo e quello" 
+                torna a <placeName ref="#RI">Rimini</placeName>, io avevo arrangiato prima di andarmi a sposare avevo affittato una pensioncina di <placeName ref="#RI">Rimini</placeName> che era era 
                 piena <gap reason="inaudible" extent="5 words"/>uno per l'inverno mi aveva dato tutto quello che volevo, pagato due 
                 lire<pause/> allora avevo comprato la legna per riscaldare la sposina giovanissima poveracci 
                 <gap reason="inaudible" extent="2 words"/> e io avevo quasi il doppio di lei</u>
-                <u who="#SEGRE" xml:id="S56" synch="#TC-208">quindi abitavate a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName>?</u>
-                <u who="#VENEZIA" xml:id="V64" synch="#TC-209">bitavamo a <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> ma per poco tempo perchè il signore polacco 
-                prima ero solo e se stavo 12 13 14 ore non faceva niente perchè non sapevo neanche dove andare l'unico posto era 
+                <u who="#SEGRE" xml:id="S56" synch="#TC-208">quindi abitavate a <placeName ref="#RI">Rimini</placeName>?</u>
+                <u who="#VENEZIA" xml:id="V64" synch="#TC-209">abitavamo a <placeName ref="#RI">Rimini</placeName> ma per poco tempo perché il signore polacco 
+                prima ero solo e se stavo 12 13 14 ore non faceva niente perché non sapevo neanche dove andare l'unico posto era 
                 al bar dove c'era il biliardo e ogni tanto ci facevamo le partita allora quando mi sono sposato non potevo andare 
-                14 ore come prima e ho detto senti "io c'ho mia moglie e devo tornare a casa, lei sta tutto il girno sola oppure 
+                14 ore come prima e ho detto senti "io c'ho mia moglie e devo tornare a casa, lei sta tutto il giorno sola oppure 
                 va in bicicletta" che il proprietario della pensione ci ha dato una bicicletta e lei è abituata che andava in giro 
                 <pause/>e la sera tornavo tardi e dopo un po' ha cominciato a farmi i dispetti</u>
-                <u who="#SEGRE" xml:id="S57" synch="#TC-210">perchè non era più disponibile come prima</u>
+                <u who="#SEGRE" xml:id="S57" synch="#TC-210">perché non era più disponibile come prima</u>
                 <u who="#VENEZIA" xml:id="V65" synch="#TC-211">non era come prima e questo qua gli dico "senti a me queste cose non le dovevi 
                 fare, tu devi capire che son sposato ti va bene? <kinesic><desc>batte le mani</desc></kinesic>sennò quindici giorni da 
                 oggi anche senza sapere dove vado" e lui fai "come vuoi non faccio pressioni", "va bene allora segna 15 giorni poi me ne 
-                vado"<gap reason="inaudible" extent="2 words"/> sono andato alla stazione ho preso due biglietti per venire a <placeName ref="#RM"><rs type="place">Roma</rs></placeName>, 
+                vado"<gap reason="inaudible" extent="2 words"/> sono andato alla stazione ho preso due biglietti per venire a <placeName ref="#RM">Roma</placeName>, 
                 il giorno prima di lasciare, mi invita lui a me e mia moglie a cena e gli dico "non vengo a cena da te, non c'è bisogno 
-                ti ho detto che me ne vado, chiuso basta" perchè loro sono sai questi polacchi che se vogliono una cosa ti tirano ti 
+                ti ho detto che me ne vado, chiuso basta" perché loro sono sai questi polacchi che se vogliono una cosa ti tirano ti 
                 tirano finchè non hanno quello che vogliono<pause/> allora <gap reason="inaudible" extent="3 words"/> sono andato dai 
-                suoi che stavano ancora a <placeName ref="#GF"><rs type="place">Grottaferrata</rs></placeName> <gap reason="inaudible" extent="2 words"/>lì e subito ho trovato lavoro in un 
+                suoi che stavano ancora a <placeName ref="#GF">Grottaferrata</placeName> <gap reason="inaudible" extent="2 words"/>lì e subito ho trovato lavoro in un 
                 albergo<pause/> son stato lì e basta <gap reason="inaudible" extent="3 words"/></u>
                 <u who="#SEGRE" xml:id="S58" synch="#TC-212">e questo ha fatto, quanto tempo cioè l'amministrazione dell'albergo</u>
                 <u who="#VENEZIA" xml:id="V66" synch="#TC-213">ricevimento, reception e quelle cose lì insomma</u>
-                <u who="#SEGRE" xml:id="S59" synch="#TC-214">ok allora di tutte queste cose che praticamente abbiamo toccato perchè 
+                <u who="#SEGRE" xml:id="S59" synch="#TC-214">ok allora di tutte queste cose che praticamente abbiamo toccato perché 
                 abbiamo solo toccato, cosa preferirebbe che fosse scritto su questa piccola scheda accanto alla foto e se ha delle 
-                foto di dopo la guera almeno perchè qui abbiamo solo queste sue si questi i dati alla <rs type="person">Picciotto-Fargion</rs> che li abbiamo 
-                segnati quelli che lei ci ha detto perchè su quel libro lei non c'è, non c'è infatti le ho chiesto la matricola le ho 
+                foto di dopo la guerra almeno perché qui abbiamo solo queste sue si questi i dati alla <rs type="person">Picciotto-Fargion</rs> che li abbiamo 
+                segnati quelli che lei ci ha detto perché su quel libro lei non c'è, non c'è infatti le ho chiesto la matricola le ho 
                 chiesto quando è stato deportato la data così mi ha detto</u>
-                <u who="#PAVONCELLO" xml:id="P16" synch="#TC-215">vabbè se ce l'ha i dati anche dei campi perchè io i campi non li ho scritti tutti, è registrato si ma in tedesco la scrittura in tedesco non la sappiamo</u>
+                <u who="#PAVONCELLO" xml:id="P16" synch="#TC-215">vabbè se ce l'ha i dati anche dei campi perché io i campi non li ho scritti tutti, è registrato si ma in tedesco la scrittura in tedesco non la sappiamo</u>
                 <u who="#VENEZIA" xml:id="V67" synch="#TC-216"><gap reason="inaudible" extent="2 words"/>la <rs type="person">Picciotto-Fargion</rs> è un'altra 
-                cosa<pause/> quella ha scritto anche quelli di <placeName ref="#RD"><rs type="place">Rodi</rs></placeName>, io sono l'unico come si chiama quello che fanno vedere alla televisione 
-                piccolo e nero io sono l'unico calimero perchè non sono ne di <placeName ref="#RD"><rs type="place">Rodi</rs></placeName> di <placeName ref="#RM"><rs type="place">Roma</rs></placeName>, allora la <rs type="person">Picciotto-Fargion</rs> è stata con me ad 
-                <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> quando abbiamo fatto il film memoria e lei non si è degnata a dirmi una parola, non sono io che vado da lei, tu 
+                cosa<pause/> quella ha scritto anche quelli di <placeName ref="#RD">Rodi</placeName>, io sono l'unico come si chiama quello che fanno vedere alla televisione 
+                piccolo e nero io sono l'unico Calimero perché non sono né di <placeName ref="#RD">Rodi</placeName> di <placeName ref="#RM">Roma</placeName>, allora la <rs type="person">Picciotto-Fargion</rs> è stata con me ad 
+                <placeName ref="#AU">Auschwitz</placeName> quando abbiamo fatto il film memoria e lei non si è degnata a dirmi una parola, non sono io che vado da lei, tu 
                 hai interesse a sentire una persona <gap reason="inaudible" extent="2 words"/>ha capito subito con chi ha a che fare come 
                 ha sentito uscendo dal tempio per una visita dopo che c'era<pause/> allora uscendo c'erano fuori i giornalisti e una giornalista 
                 mi ha chiesto "lei anche è un sopravvissuto?" dico "si però non sono Romano", non mi ha detto una parola ha cambiato subito 
-                cercava da un'altra parte capito? allora è venuto un altro e gli ho detto meglio le parole "si sono stato ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> però 
-                ho lavorato nei Sonderkommando" e si sono messi subito in contatto è venuto, non volevo parlare neanche con lui perchè era 
+                cercava da un'altra parte capito? allora è venuto un altro e gli ho detto meglio le parole "si sono stato ad <placeName ref="#AU">Auschwitz</placeName> però 
+                ho lavorato nei Sonderkommando" e si sono messi subito in contatto è venuto, non volevo parlare neanche con lui perché era 
                 inutile e questo era <gap reason="inaudible" extent="2 words"/> e sono andato prima nel '92 era la prima volta che parlavo 
-                dopo 47 anni e un po' prima mi aveva visto<gap reason="inaudible" extent="2 words"/>infatti vado spesso con lui<pause/> 
+                dopo 47 anni e un po' prima mi aveva visto<gap reason="inaudible" extent="2 words"/> infatti vado spesso con lui<pause/> 
                 quando andiamo con lui andiamo o col sindaco di qua o con altri gruppi che sono professori di Carpi e Modena oppure io vado 
-                molte volte con altri professori di <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> e ci son stato parecchio con questi e l'albergo dove ho alloggiato la prima volta 
+                molte volte con altri professori di <placeName ref="#RI">Rimini</placeName> e ci son stato parecchio con questi e l'albergo dove ho alloggiato la prima volta 
                 nel '92 che era un motel adesso è diventato un albergo di 4 stelle motel è rimasto però una cosa enorme bello pulito e nuovo. 
                 eravamo con due scuole <gap reason="inaudible" extent="5 words"/> 4 professori. <gap reason="inaudible" extent="7 words"/>era 
                 il periodo che si cominciava a scrivere degli ebrei allora qua hanno detto "non ci siamo, ricominciamo di nuovo da capo" difatti 
                 hanno invitato me e, <gap reason="inaudible" extent="2 words"/>siamo andati assieme e abbiamo trovato la giornata nevosa e fredda,
                 i ragazzi sono stati molto bravi ci hanno portato a scuola, ci hanno invitato per natale addirittura quella volta siamo stati ricevuti 
-                dal segretario del papa Stanislao <gap reason="inaudible" extent="2 words"/> alla chiesa che c'è santa maria lì a Cracovia, 350 persone
+                dal segretario del papa Stanislao <gap reason="inaudible" extent="2 words"/> alla chiesa che c'è santa Maria lì a <placeName ref="#CR">Cracovia</placeName>, 350 persone
                 e tutti quei giornalisti poi ci ha presentato il sindaco i cinque sopravvissuti anche se stavolta eravamo in sei, e ci sono le sorelle 
-                Bucci, sono due sorelle una che abita a <placeName ref="#PD"><rs type="place">Padova</rs></placeName> una a <placeName ref="#BX"><rs type="place">Bruxelles</rs></placeName> in <placeName ref="#BG"><rs type="place">Belgio</rs></placeName>, queste una aveva quattro anni quando la sono andata e prendere 
+                Bucci, sono due sorelle una che abita a <placeName ref="#PD">Padova</placeName> una a <placeName ref="#BX">Bruxelles</placeName> in <placeName ref="#BG">Belgio</placeName>, queste una aveva quattro anni quando la sono andata e prendere 
                 e l'altra sei anni<pause/> l'anno scorso è stato <gap reason="inaudible" extent="10 words"/>e quest'anno abbiamo avuto per la prima volta 
                 uno che si chiama <rs type="person">Sami Modiano</rs></u>
                 <u who="#SEGRE" xml:id="S60" synch="#TC-217"><rs type="person">Sami</rs> si si lei lo conosce</u>
-                <u who="#VENEZIA" xml:id="V68" synch="#TC-218">e quell'altro l'anno scorso c'era <pause/>e anche quest'anno è venuto dal <placeName ref="#CD"><rs type="place">Canada</rs></placeName></u>
+                <u who="#VENEZIA" xml:id="V68" synch="#TC-218">e quell'altro l'anno scorso c'era <pause/>e anche quest'anno è venuto dal <placeName ref="#CD">Canada</placeName></u>
                 <u who="#SEGRE" xml:id="S61" synch="#TC-219">quindi diciamo che negli ultimi anni c'è stato un ritorno alla testimonianza</u>
-                <u who="#VENEZIA" xml:id="V69" synch="#TC-220">il primo è stato comunque <rs type="person">Rutelli</rs>,<pause/>però <rs type="person">Rutelli</rs> <gap reason="inaudible" extent="2 words"/> 
+                <u who="#VENEZIA" xml:id="V69" synch="#TC-220">il primo è stato comunque <rs type="person">Rutelli</rs>,<pause/> però <rs type="person">Rutelli</rs> <gap reason="inaudible" extent="2 words"/> 
                 è venuto non so se è stato una notte là oppure lo stesso giorno<gap reason="inaudible" extent="2 words"/>, si una notte ha dormito<pause/>
-                eravamo Marcellui io e lui e ha portato il figlio tutta la guardia del corpo <gap reason="inaudible" extent="3 words"/>ci siamo staccati 
-                dal gruppo per andare a spiegare a lui<gap reason="inaudible" extent="5 words"/>, dopodichè all'una ha preso il treno per andare all'aereo 
-                per <placeName ref="#RM"><rs type="place">Roma</rs></placeName>, invece lui <gap reason="inaudible" extent="1 word"/> è stato tutto il tempo con noi si è messo seduto con un gruppo di ragazzi a 
+                eravamo Marcel lui io e lui e ha portato il figlio tutta la guardia del corpo <gap reason="inaudible" extent="3 words"/>ci siamo staccati 
+                dal gruppo per andare a spiegare a lui<gap reason="inaudible" extent="5 words"/>, dopodiché all'una ha preso il treno per andare all'aereo 
+                per <placeName ref="#RM">Roma</placeName>, invece lui <gap reason="inaudible" extent="1 word"/> è stato tutto il tempo con noi si è messo seduto con un gruppo di ragazzi a 
                 tavola, se abbiamo <gap reason="inaudible" extent="6 words"/> e i ragazzi, si fa una bella<pause/> ed è molto bravo 
                 <gap reason="inaudible" extent="4 words"/></u>
                 <u who="#PAVONCELLO" xml:id="P17" synch="#TC-221">però è sincero ecco, oltre la propaganda elettorale è una persona sincera</u>
-                <u who="#VENEZIA" xml:id="V70" synch="#TC-222">molto sincero mi fa piacere perchè per adesso almeno, se poi cambierà non lo so 
-                ma per il momento<pause/> perchè anche <rs type="person">Mussolini</rs> all'inizio era quello che era dopo insomma</u>
+                <u who="#VENEZIA" xml:id="V70" synch="#TC-222">molto sincero mi fa piacere perché per adesso almeno, se poi cambierà non lo so 
+                ma per il momento<pause/> perché anche <rs type="person">Mussolini</rs> all'inizio era quello che era dopo insomma</u>
                 <u who="#SEGRE" xml:id="S62" synch="#TC-223">quindi ci mettiamo i dati suoi <pause/> i dati suoi e poi questa cosa qua questo lavoro che lei 
                 ha fatto i Sonderkommando e poi questa attività che lei fa adesso fa il testimone a pieno tempo, ci ha dedicato una mattina intera</u>
-                <u who="#PAVONCELLO" xml:id="P18" synch="#TC-224">dopo quanto ha detto che è ritornato ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName>? non è facile tornare</u>
+                <u who="#PAVONCELLO" xml:id="P18" synch="#TC-224">dopo quanto ha detto che è ritornato ad <placeName ref="#AU">Auschwitz</placeName>? non è facile tornare</u>
                 <u who="#VENEZIA" xml:id="V71" synch="#TC-225">e non sono molti che vogliono</u>
                 <u who="#SEGRE" xml:id="S63" synch="#TC-226">molti non ci tornano non vogliono andare</u>
-                <u who="#VENEZIA" xml:id="V72" synch="#TC-227"><rs type="person">Piero</rs> è la terza che va <rs type="person">Piero</rs> perchè è col comune sennò<pause/></u>
-                <u who="#PAVONCELLO" xml:id="P19" synch="#TC-228">lei quante volte mi ha detto? perchè l'ha detto prima</u>
+                <u who="#VENEZIA" xml:id="V72" synch="#TC-227"><rs type="person">Piero</rs> è la terza che va <rs type="person">Piero</rs> perché è col comune sennò<pause/></u>
+                <u who="#PAVONCELLO" xml:id="P19" synch="#TC-228">lei quante volte mi ha detto? perché l'ha detto prima</u>
                 <u who="#VENEZIA" xml:id="V73" synch="#TC-229">io 37 volte</u>
                 <u who="#SEGRE" xml:id="S64" synch="#TC-230">37 volte capito, questo è un lavoro</u>
                 <u who="#VENEZIA" xml:id="V74" synch="#TC-231">ci vado molto per non scrivere ho iniziato ad accompagnare studenti delle scuole romane e non, 
-                ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> è iniziato nel 1992, 47 anni dopo la liberazione e il motivo è semplice perchè han cominciato a vedere tutte queste scritte</u>
+                ad <placeName ref="#AU">Auschwitz</placeName> è iniziato nel 1992, 47 anni dopo la liberazione e il motivo è semplice perché han cominciato a vedere tutte queste scritte</u>
                 <u who="#SEGRE" xml:id="S65" synch="#TC-232">revisionismo e anche ritorno</u>
                 <u who="#VENEZIA" xml:id="V75" synch="#TC-233">certo, già avevano cominciato<gap reason="inaudible" extent="2 words"/>, lì hanno 
                 visto che nessuno si interessava si sono allargati, <del type="falseStart">adesso</del> ieri tornando con mia moglie in macchina 
                 hanno messo la pubblicità e tutti gli affari, hanno messo quelli come si chiamano i nuovi fascisti</u>
                 <u who="#SEGRE" xml:id="S66" synch="#TC-234">fronte della gioventù? forza nuova si</u>
-                <u who="#PAVONCELLO" xml:id="P20" synch="#TC-235">mo' fanno la marcia su <placeName ref="#RM"><rs type="place">Roma</rs></placeName> il 29 ottobre, ho visto i manifesti "29 ottobre rimarciamo su <placeName ref="#RM"><rs type="place">Roma</rs></placeName>"</u>
+                <u who="#PAVONCELLO" xml:id="P20" synch="#TC-235">mo' fanno la marcia su <placeName ref="#RM">Roma</placeName> il 29 ottobre, ho visto i manifesti "29 ottobre rimarciamo su <placeName ref="#RM">Roma</placeName>"</u>
                 <u who="#VENEZIA" xml:id="V76" synch="#TC-236">si comincia con quello, ieri sera l'ho visto<pause/></u>
-                <u who="#SEGRE" xml:id="S67" synch="#TC-237">questo lo mettiamo, bene<pause/>lei ha foto di dopo? cioè per esempio del '92 di voi ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName> qualcosa che possiamo mettere in corrispondenza</u>
+                <u who="#SEGRE" xml:id="S67" synch="#TC-237">questo lo mettiamo, bene<pause/> lei ha foto di dopo? cioè per esempio del '92 di voi ad <placeName ref="#AU">Auschwitz</placeName> qualcosa che possiamo mettere in corrispondenza</u>
                 <u who="#PAVONCELLO" xml:id="P21" synch="#TC-238">magari avesse pure prima nel senso che la mostra sarà del prima e del subito dopo</u>
-                <u who="#VENEZIA" xml:id="V77" synch="#TC-239">prima di essere deportato ce n'ho una<pause/>quella che è santa</u>
+                <u who="#VENEZIA" xml:id="V77" synch="#TC-239">prima di essere deportato ce n'ho una<pause/> quella che è santa</u>
                 <u who="#PAVONCELLO" xml:id="P22" synch="#TC-240">ma noi una fotocopia solo della foto, mica pretendiamo la foto vera si immagini, una copia</u>
                 <u who="#VENEZIA" xml:id="V78" synch="#TC-241">questa qua era tre o quattro mesi prima di essere catturato</u>
                 <u who="#PAVONCELLO" xml:id="P23" synch="#TC-242">ah<pause/> e come fa ad averla questa foto?</u>
-                <u who="#VENEZIA" xml:id="V79" synch="#TC-243">è stata un miracolo che me l'hanno<pause/> di qualche vicina di casa l'ha data a mio fretello io non ho niente di casa, questo è un vestito mio dico 
+                <u who="#VENEZIA" xml:id="V79" synch="#TC-243">è stata un miracolo che me l'hanno<pause/> di qualche vicina di casa l'ha data a mio fratello io non ho niente di casa, questo è un vestito mio dico 
                 sempre di stoffa inglese spinato<pause/> grigio spinato che andava molto di moda e l'avevo fatto tre quattro mesi prima di essere 
                 portato via</u>
                 <u who="#PAVONCELLO" xml:id="P24" synch="#TC-244">quindi aveva una ventina d'anni, bello eh? bellissimo io conosco i suoi figli ma non vedo una grande somiglianza è tanto che non li vedo<pause/> più Alberto conoscevo</u>
-                <u who="#VENEZIA" xml:id="V80" synch="#TC-245">eh Alberto si sta sempre in giro, ora sta a <placeName ref="#PA"><rs type="place">Parigi</rs></placeName> è un po' aumentato di grado comunque va in India<pause/> 
+                <u who="#VENEZIA" xml:id="V80" synch="#TC-245">eh Alberto si sta sempre in giro, ora sta a <placeName ref="#PA">Parigi</placeName> è un po' aumentato di grado comunque va in India<pause/> 
                 ha avuto un bambino dopo 11 anni un maschietto un demonio, Gabriel e so tutti vivaci comunque<pause/></u>
                 <u who="#SEGRE" xml:id="S68" synch="#TC-246">bene se ce l'ha qualche foto di lei dopo<pause/> che non siano queste ecco, per fare un dossier un po' più completo</u>
                 <u who="#VENEZIA" xml:id="V81" synch="#TC-247">fate la copia? come le fanno adesso</u>
                 <u who="#SEGRE" xml:id="S69" synch="#TC-248">si le fanno una copia in poco insomma ci mettono poco</u>
-                <u who="#VENEZIA" xml:id="V82" synch="#TC-249">no perchè quella foto là</u>
+                <u who="#VENEZIA" xml:id="V82" synch="#TC-249">no perché quella foto là</u>
                 <u who="#SEGRE" xml:id="S70" synch="#TC-250">questa qua è santa e va bene</u>
-                <u who="#PAVONCELLO" xml:id="P25" synch="#TC-251">ma non c'è bisogno di lasciarglielala foto, non è che gliela lasci, te la fanno subito la copia</u>
-                <u who="#VENEZIA" xml:id="V83" synch="#TC-252">l'ho mandata cioè l'ho data a una ragazza che la sorella è stata con me ad <placeName ref="#AU"><rs type="place">Auschwitz</rs></placeName>, di <placeName ref="#CT"><rs type="place">Caltanisetta</rs></placeName> 
+                <u who="#PAVONCELLO" xml:id="P25" synch="#TC-251">ma non c'è bisogno di lasciargliela la foto, non è che gliela lasci, te la fanno subito la copia</u>
+                <u who="#VENEZIA" xml:id="V83" synch="#TC-252">l'ho mandata cioè l'ho data a una ragazza che la sorella è stata con me ad <placeName ref="#AU">Auschwitz</placeName>, di <placeName ref="#CT">Caltanisetta</placeName> 
                 e lei ha scritto un libro su di me e voleva mettere una foto<pause/></u>
                 <u who="#SEGRE" xml:id="S71" synch="#TC-253">le ha dato questa?</u>
-                <u who="#VENEZIA" xml:id="V84" synch="#TC-254">allora le ho detto "io la foto non la do" perchè se poi spedisco <gap reason="inaudible" extent="5 words"/>
-                la sorella la venne a prendere e la fotocopiò, perchè se perdo questa</u>
+                <u who="#VENEZIA" xml:id="V84" synch="#TC-254">allora le ho detto "io la foto non la do" perché se poi spedisco <gap reason="inaudible" extent="5 words"/>
+                la sorella la venne a prendere e la fotocopiò, perché se perdo questa</u>
                 <u who="#PAVONCELLO" xml:id="P26" synch="#TC-255">certo</u>
                 <u who="#SEGRE" xml:id="S72" synch="#TC-256">è finita certo <pause/>io direi allora facciamo così vado a sbobinare 
                 queste cose e scrivere più o meno quello che verrà messo accanto alla fotografia, quando poi l'ho scritto glielo 
                 porto e lei mi dice OK, facciamo così. ecco se per quando io vengo con il testo lei ha delle foto, o questa copiata 
                 o altre magari con sua moglie avrete delle foto di dopo che lei accetta di far pubblicare come testimonianza su di 
-                sè noi la mettiamo, sennò queste</u>
+                sé noi la mettiamo, sennò queste</u>
                 <u who="#PAVONCELLO" xml:id="P27" synch="#TC-257">anche del matrimonio, dopo che ci ha raccontato tutta la storia del matrimonio</u>
                 <u who="#VENEZIA" xml:id="V85" synch="#TC-258">ah si <gap reason="inaudible" extent="3 words"/>facendo così fotocopiare non so se vengono</u>
                 <u who="#PAVONCELLO" xml:id="P28" synch="#TC-259">viene benissimo, ne abbiamo tante di foto vecchie</u>
@@ -1257,11 +1260,11 @@
                 <u who="#SEGRE" xml:id="S73" synch="#TC-261">la fanno anche su carta fotografica su carta Kodak direttamente</u>
                 <u who="#VENEZIA" xml:id="V87" synch="#TC-262">ma questo su carta Kodak non lo fanno su quelle che fanno le fotocopie?</u>
                 <u who="#PAVONCELLO" xml:id="P29" synch="#TC-263">ah no no no, certo c'è un'altra tecnica</u>
-                <u who="#VENEZIA" xml:id="V88" synch="#TC-264"><gap reason="inaudible" extent="4 words"/> perchè io l'ho fatta fare una volta ma l'ho lasciata perchè 
+                <u who="#VENEZIA" xml:id="V88" synch="#TC-264"><gap reason="inaudible" extent="4 words"/> perché io l'ho fatta fare una volta ma l'ho lasciata perché 
                 la dovevano dare a un altro e c'era <gap reason="inaudible" extent="2 words"/></u>
                 <u who="#SEGRE" xml:id="S74" synch="#TC-265">e questo non ci piace, non ci piace <pause/>se si riesce bene se non riesce è bene lo stesso, sarebbe 
-                meglio riuscire perchè questa foto è santa appunto, è bellissima perchè c'ha una storia</u>
-                <u who="#VENEZIA" xml:id="V89" synch="#TC-266">vi faccio vedere sennò<pause/> un manifesto di <placeName ref="#RI"><rs type="place">Rimini</rs></placeName> che c'è questa foto</u>
+                meglio riuscire perché questa foto è santa appunto, è bellissima perché c'ha una storia</u>
+                <u who="#VENEZIA" xml:id="V89" synch="#TC-266">vi faccio vedere sennò<pause/> un manifesto di <placeName ref="#RI">Rimini</placeName> che c'è questa foto</u>
             </div>
         </body>
     </text>

@@ -9,9 +9,6 @@ var btn;
 var btn2;
 var span;
 var span2;
-var btnCerca;
-var ricerca;
-var idR;
 var isEmpty = str => !str.trim().length;
 
 function gestoreLoad() {
@@ -24,11 +21,8 @@ function gestoreLoad() {
         btn2 = document.getElementById("modal2");
         span = document.getElementsByClassName("close")[0];
         span2 = document.getElementsByClassName("close2")[0];
-        btnCerca = document.getElementById("cerca");
-        ricerca = document.getElementById("ricerca");
         nodoFrasi = document.getElementsByClassName("frasi");
         nodoMinuti = document.getElementsByClassName("minutaggio");
-        //idR = nodoMinuti.attr("idR");
         btn.onclick = function() {
             modale.style.display = "block";
         }
@@ -40,14 +34,6 @@ function gestoreLoad() {
         }
         span2.onclick = function() {
             modale2.style.display = "none";
-        }
-        btnCerca.onclick = function() { //funzione che cerca il minutaggio in formato completo più vicino all'input
-            if (isEmpty(ricerca.value)){
-            alert ("inserire i valori correttamente");
-            } else {
-                sendData(ricerca.value);
-                alert("ok");
-            }
         }
         var a = 1;
         for (var i = 0; i < nodoMinuti.length; i++) {
@@ -61,10 +47,6 @@ function gestoreLoad() {
         alert("gestoreLoad" + e);
     }
 }
-//funzione di ricerca
-function sendData (sData) {
-    location.search = sData;
-  }
 //associazione frasi a minuti
 function gestoreAssocia1(a) {
     try {
@@ -81,7 +63,6 @@ function gestoreAssocia1(a) {
         alert("gestoreAssocia" + e);
     }
 }
-
 //De evidenza dopo che si toglie il mouse dai minuti
 function gestoreDecolora1() {
     try {

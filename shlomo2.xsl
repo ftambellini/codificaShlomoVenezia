@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-		xmlns:tei="http://www.tei-c.org/ns/1.0"
-		xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"  
-		xmlns:h="http://www.w3.org/1999/xhtml"
-		xmlns:js="http://saxonica.com/ns/globalJS"
-		xmlns:saxon="http://saxon.sf.net/"
-		xmlns:xs="http://www.w3.org/2001/XMLSchema"
-		xmlns="http://www.w3.org/1999/xhtml"
-		exclude-result-prefixes="h ixsl js saxon xs"
-        >
-
+		xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <xsl:output method="html" encoding="UTF-8" indent="yes" />
     <xsl:template name="main" match="/">
         <html>
         <head>
-            <!--titolo della pagina-->
-            <title><xsl:value-of select="//tei:title"/></title>
         </head>
         <body> 
         <xsl:result-document href="#metadatiAudio">   
@@ -93,13 +83,9 @@
 <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u" >
     <xsl:apply-templates select="//tei:text[@type='source']/tei:body/tei:div/tei:u"/>
 </xsl:template>
-
     <!-- template per output in riga-->
     <xsl:template match="//tei:text[@type='source']/tei:body/tei:div/tei:u">
 		<span class="frasi">
-		<xsl:attribute name="idF">
-        	<xsl:value-of select="@xml:id"/>
-    	</xsl:attribute>
 		<xsl:value-of select="substring-after(@who, '#')"/>
 		<xsl:text>: </xsl:text>
 		<xsl:apply-templates/>
@@ -109,13 +95,6 @@
 	<!-- template per output in riga della timeline-->
     <xsl:template match="//tei:timeline[@origin='1']/tei:when">
 		<span class="minutaggio">
-		<xsl:attribute name="idM">
-        	<xsl:value-of select="substring-after(@synch, '#')"/>
-    	</xsl:attribute>
-        <xsl:attribute name="idR">
-            <xsl:variable name="input" select="@absolute"/>
-        	<xsl:value-of select="translate($input, translate($input,'0123456789',''),'')"/>
-    	</xsl:attribute>
 		<xsl:text> &#8594; </xsl:text>
 		<xsl:value-of select="substring-after(@absolute, '')"/>
 		<xsl:apply-templates/>
@@ -151,7 +130,7 @@
     	<span class="movimenti"><strong style="font-size:25px">&#9834;</strong><xsl:value-of select="."/><strong style="font-size:25px">&#9834;</strong></span>
     </xsl:template>
 	<!--template che prende i riferimenti a luoghi/persone nel discorso nella registrazione e le mette nella relativa classe-->
-    <xsl:template match="//tei:rs[@type='place']">
+    <xsl:template match="//tei:placeName">
     	<span style="border:2px solid red"><xsl:value-of select="."/></span>
     </xsl:template>
 	<xsl:template match="//tei:rs[@type='person']">
