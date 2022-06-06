@@ -9,6 +9,8 @@ var btn;
 var btn2;
 var span;
 var span2;
+var btnCerca;
+var ricerca;
 var isEmpty = str => !str.trim().length;
 
 function gestoreLoad() {
@@ -23,6 +25,11 @@ function gestoreLoad() {
         span2 = document.getElementsByClassName("close2")[0];
         nodoFrasi = document.getElementsByClassName("frasi");
         nodoMinuti = document.getElementsByClassName("minutaggio");
+        btnCerca = document.getElementById("cerca");
+        ricerca = document.getElementById("ricerca");
+        for (var i = 0; i < nodoFrasi.length; i++) {
+            nodoFrasi[i].setAttribute('id', [i]);
+        }
         btn.onclick = function() {
             modale.style.display = "block";
         }
@@ -35,13 +42,27 @@ function gestoreLoad() {
         span2.onclick = function() {
             modale2.style.display = "none";
         }
+        
         var a = 1;
+        var array = [];
         for (var i = 0; i < nodoMinuti.length; i++) {
             nodoMinuti[i].setAttribute('id', [i + "m"]);
+            array.push(nodoMinuti[i]);
             nodoMinuti[i].onmouseover = function(e) {
                 gestoreAssocia1(e.target.id);
             }
             nodoMinuti[i].onmouseout = gestoreDecolora1;
+        }
+        console.log((array[4].outerText).substr(2));
+        btnCerca.onclick = function() {
+            var id = ricerca.value;
+            console.log(id);
+            for (var i = 0; i < array.length; i++) {
+                if (id == (array[i].outerText.substr(2))) {
+                    var minuto = document.getElementById(i);
+                    minuto.style.backgroundColor = "#0dc8e0";
+                }
+            }
         }
     } catch (e) {
         alert("gestoreLoad" + e);
@@ -52,9 +73,6 @@ function gestoreAssocia1(a) {
     try {
         var minuto = document.getElementById(a);
         minuto.style.backgroundColor = "#0dc8e0";
-        for (var i = 0; i < nodoFrasi.length; i++) {
-            nodoFrasi[i].setAttribute('id', [i]);
-        }
         len = a.length;
         identificatore = a.substring(0, len - 1);
         var frase = document.getElementById(identificatore);
