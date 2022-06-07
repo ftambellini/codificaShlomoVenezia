@@ -62,7 +62,7 @@ function gestoreLoad() {
             for (var i = 0; i < array.length; i++) {
                 if (id == (array[i].outerText.substr(2))) {
                     var minuto = document.getElementById(i);
-                    minuto.scrollIntoView({behavior: 'smooth'});
+                    minuto.scrollIntoView({behavior: 'smooth', block: 'center'});
                     minuto.style.backgroundColor = "#0dc8e0";
                 }
             }
