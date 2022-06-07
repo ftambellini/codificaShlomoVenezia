@@ -55,18 +55,23 @@ function gestoreLoad() {
         }
         console.log((array[4].outerText).substr(2));
         btnCerca.onclick = function() {
+            if (isEmpty (ricerca.value)) {
+                alert("inserire i valori correttamente");
+            } else {
             var id = ricerca.value;
             console.log(id);
             for (var i = 0; i < array.length; i++) {
                 if (id == (array[i].outerText.substr(2))) {
                     var minuto = document.getElementById(i);
+                    minuto.scrollIntoView({behavior: 'smooth'});
                     minuto.style.backgroundColor = "#0dc8e0";
                 }
             }
         }
-    } catch (e) {
-        alert("gestoreLoad" + e);
     }
+} catch (e) {
+    alert("gestoreLoad" + e);
+   }
 }
 //associazione frasi a minuti
 function gestoreAssocia1(a) {
