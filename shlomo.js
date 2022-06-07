@@ -59,7 +59,6 @@ function gestoreLoad() {
                 alert("inserire i valori correttamente");
             } else {
             var id = ricerca.value;
-            console.log(id);
             for (var i = 0; i < array.length; i++) {
                 if (id == (array[i].outerText.substr(2))) {
                     var minuto = document.getElementById(i);
